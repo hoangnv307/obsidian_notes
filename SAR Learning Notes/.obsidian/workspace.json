@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d1d2f541a31cfd88",
+        "id": "15bc1d81a8c7c5ac",
         "type": "tabs",
         "children": [
           {
-            "id": "b0ba7b285aa215c4",
+            "id": "f9c148f7281db35d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,14 +169,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b0ba7b285aa215c4",
+  "active": "f9c148f7281db35d",
   "lastOpenFiles": [
-    "Pasted image 20260719213015.png",
-    "Pasted image 20260719213010.png",
-    "Pasted image 20260719212551.png",
-    "Pasted image 20260719210415.png",
-    "Welcome.md",
     "Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+    "Digital Processing of SAR - Cumming/images",
+    "Digital Processing of SAR - Cumming/images/Pasted image 20260719213015.png",
+    "Digital Processing of SAR - Cumming/images/Pasted image 20260719213010.png",
+    "Digital Processing of SAR - Cumming/images/Pasted image 20260719212551.png",
+    "Digital Processing of SAR - Cumming/images/Pasted image 20260719210415.png",
+    "Welcome.md",
     "Digital Processing of SAR - Cumming"
   ]
 }
