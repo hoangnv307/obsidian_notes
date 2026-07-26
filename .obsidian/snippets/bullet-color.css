@@ -1,3 +1,5 @@
-.list-bullet {
+.cm-formatting-list-ul .list-bullet {
+    opacity: 1 !important;
     color: red !important;
+    filter: none !important;
 }
