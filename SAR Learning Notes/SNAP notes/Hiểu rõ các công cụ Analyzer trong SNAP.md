@@ -1,4 +1,5 @@
 - Các công cụ Analyzer được phát triển trong Sentinel Toolbox. 
-- Các công cụ Analyzer bao gồm:
+>==Plot = Đồ thị/Biểu đồ==
+- - Các công cụ Analyzer bao gồm:
 	- Correlative Plot: Đồ thị tương quan 
-	- Scatter Plot: 
+	- Scatter Plot: Đồ thị
