@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
+                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trường hợp sử dụng Correlative Plot"
+              "title": "Hiểu rõ các công cụ Analyzer trong SNAP"
             }
           },
           {
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "36810270d83fd168",
@@ -186,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
+                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trường hợp sử dụng Correlative Plot"
+              "title": "Outline of Hiểu rõ các công cụ Analyzer trong SNAP"
             }
           }
         ],
@@ -217,12 +216,13 @@
   },
   "active": "50814a676ee3c9b0",
   "lastOpenFiles": [
+    "Pasted image 20260726164444.png",
+    "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
+    "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/images",
-    "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260726153955.png",
     "Pasted image 20260726153833.png",
-    "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
     "Template/Dàn ý khi tìm hiểu một bài báo Paper.md",
     "Template",
     "SAR Learning Notes/SNAP notes"
