@@ -18,4 +18,8 @@ Trường hợp thực tế sử dụng Correlative Plot: [[Trường hợp sử
 Đồ thị này cho phép người dùng vẽ đồ thị một nút dữ liệu raster với một nút dữ liệu raster khác. ![[Pasted image 20260726164657.png]]
 Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
 ## Profile Plot
-Công cụ này được kích hoạt chỉ khi sản phẩm có chứa vector data.
+- Công cụ này được kích hoạt chỉ khi sản phẩm có chứa vector data.
+- Đồ thị này hoạt động ở 2 chế độ: 
+	- Chế độ classic: Dựa vào một dạng hình học. 
+	- Chế độ tương quan: Cho phép người dùng so sánh dữ liệu vệ tinh với dữ liệu thực địa.
+### Chế độ classic
