@@ -2,7 +2,5 @@
   "theme": "moonstone",
   "cssTheme": "Minimal",
   "monospaceFontFamily": "JetBrains Mono",
-  "enabledCssSnippets": [
-    "bullet-color"
-  ]
+  "enabledCssSnippets": []
 }
