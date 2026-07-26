@@ -1,7 +1,3 @@
-.markdown-rendered li::marker {
-    color: #ffffff !important;
-}
-
-.markdown-source-view.mod-cm6 li::marker {
-    color: #ffffff !important;
+body {
+  --list-marker-color:purple;
 }
