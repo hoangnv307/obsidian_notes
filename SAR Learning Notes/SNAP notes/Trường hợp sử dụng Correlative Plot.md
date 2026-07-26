@@ -341,4 +341,3 @@ Trong lĩnh vực **SAR** mà bạn đang tìm hiểu, các ứng dụng phổ b
     
 3. So sánh **giá trị backscatter** với số liệu đo thực địa.
     
-4. Đánh giá kết quả **phát hiện mục tiêu** hoặc **phân loại** bằng cách đối chiếu với dữ liệu tham chiếu như AIS, GPS hoặc ground truth.

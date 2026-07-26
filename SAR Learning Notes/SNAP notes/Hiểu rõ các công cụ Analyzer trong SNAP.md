@@ -16,3 +16,4 @@ Sau đây là phân tích chi tiết ý nghĩa, mục đích dùng của các lo
 Trường hợp thực tế sử dụng Correlative Plot: [[Trường hợp sử dụng Correlative Plot]]
 ## Scatter Plot 
 Đồ thị này cho phép người dùng vẽ đồ thị một nút dữ liệu raster với một nút dữ liệu raster khác. ![[Pasted image 20260726164657.png]]
+Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
