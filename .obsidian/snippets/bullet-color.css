@@ -1,10 +1,7 @@
-/* Reading View */
-.markdown-rendered ul > li::marker,
-.markdown-rendered ol > li::marker {
-    color: #000000;
+.markdown-rendered li::marker {
+    color: #ffffff !important;
 }
 
-/* Live Preview */
-.markdown-source-view.mod-cm6 .cm-formatting-list {
-    color: #000000 !important;
-}   
+.markdown-source-view.mod-cm6 li::marker {
+    color: #ffffff !important;
+}
