@@ -18,3 +18,4 @@ Trường hợp thực tế sử dụng Correlative Plot: [[Trường hợp sử
 Đồ thị này cho phép người dùng vẽ đồ thị một nút dữ liệu raster với một nút dữ liệu raster khác. ![[Pasted image 20260726164657.png]]
 Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
 ## Profile Plot
+Công cụ này được kích hoạt chỉ khi sản phẩm có chứa vector data.
