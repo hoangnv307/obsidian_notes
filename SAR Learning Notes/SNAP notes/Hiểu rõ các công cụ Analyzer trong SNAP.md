@@ -19,7 +19,9 @@ Trường hợp thực tế sử dụng Correlative Plot: [[Trường hợp sử
 Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
 ## Profile Plot
 - Công cụ này được kích hoạt chỉ khi sản phẩm có chứa vector data.
-- Đồ thị này hoạt động ở 2 chế độ: 
+- Đồ thị mặt cắt hoạt động ở 2 chế độ: 
 	- Chế độ classic: Dựa vào một dạng hình học. 
 	- Chế độ tương quan: Cho phép người dùng so sánh dữ liệu vệ tinh với dữ liệu thực địa.
 ### Chế độ classic
+Giá trị của trục x được cung cấp bởi giá trị `path length`, v
+![[Pasted image 20260726174933.png]]
