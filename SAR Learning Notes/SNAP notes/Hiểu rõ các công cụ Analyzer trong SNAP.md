@@ -23,5 +23,5 @@ Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
 	- Chế độ classic: Dựa vào một dạng hình học. 
 	- Chế độ tương quan: Cho phép người dùng so sánh dữ liệu vệ tinh với dữ liệu thực địa.
 ### Chế độ classic
-Giá trị của trục x được cung cấp bởi giá trị `path length`, v
+Giá trị của trục x được cung cấp bởi giá trị `path length`, với một path bao gồm 300 pixels thì sẽ bao gồm 300 giá trị. Trục y được xác định bởi band ảnh được chọn. 
 ![[Pasted image 20260726174933.png]]
