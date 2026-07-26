@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "c9f9ebf2f1528143",
+    "type": "split",
+    "children": [
+      {
+        "id": "039478d7131b77f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42a02fbdb992a21e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chương 1 Giới thiệu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d48410732ae7a577",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c80eea05cf2a899",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2a30191a783e478",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8721bee936cf0b20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a3017b17e13a3da1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "36810270d83fd168",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9971c33860c84ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1c8392dccbc11c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chương 1 Giới thiệu"
+            }
+          },
+          {
+            "id": "f63f9a9783094cf1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Chương 1 Giới thiệu"
+            }
+          },
+          {
+            "id": "b9fe909ef949a5be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b75cfbec3f95e285",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1b3ab9c81e6f952f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chương 1 Giới thiệu"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "42a02fbdb992a21e",
+  "lastOpenFiles": []
+}
