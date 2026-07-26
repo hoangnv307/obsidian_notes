@@ -11,3 +11,5 @@
 	- Metadata Plot
 Sau đây là phân tích chi tiết ý nghĩa, mục đích dùng của các loại công cụ trên.
 ## Correlative Plot
+Đây là giao diện của đồ thị tương quan: 
+![[Pasted image 20260726153955.png]]
