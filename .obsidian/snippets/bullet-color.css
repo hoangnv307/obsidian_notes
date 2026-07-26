@@ -1,3 +1,3 @@
-body {
-  --list-marker-color:purple;
+.list-bullet {
+    color: red !important;
 }
