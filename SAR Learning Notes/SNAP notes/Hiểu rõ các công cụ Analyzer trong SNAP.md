@@ -28,5 +28,5 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 Đồ thị Profile còn hỗ trợ mapping vị trí trong band ảnh tới vị trí trong đồ thị (như hình trên).
 Ứng dụng:[[Trường hợp sử dụng Profile Plot Classic Mode]]
 ### Profile Plot for correlative data 
-
+Khác với classic mode vẽ data band ảnh dựa trên mỗi pixel của vector, correlatice mode hiển thị dữ liệu của vector nh
 ![[Pasted image 20260727083908.png]]
