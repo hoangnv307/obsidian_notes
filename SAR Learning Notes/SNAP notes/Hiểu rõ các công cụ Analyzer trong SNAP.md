@@ -47,4 +47,4 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 	- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition](https://sentinels.copernicus.eu/documents/247904/1877131/Sentinel-1-Product-Definition.pdf))
 Kèm theo đó là 2 đồ thị, bên trái là histogram, bên phải hiển thị các ngưỡng của mọi phân vị.
 - Dữ liệu thống kê có thể được tính trên toàn band ảnh hoặc ROI của các vector mask.
-- Lựa chọn ``
+- Lựa chọn `Statistical accuracy` cho phép người dùng lựa chọn độ chính xác tính toán của histogram, cụ thể là cho phép người dùng chọn số bin cells được sử dụng để tính toán ($10^a$ với a là số được nhập, $0\le a \le 6$ ), nếu để auto accuracy, a được set bằng 3. 
