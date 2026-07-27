@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5026054382324
+    "width": 234.500732421875
   },
   "right": {
     "id": "36810270d83fd168",
@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,6 +215,7 @@
   },
   "active": "50814a676ee3c9b0",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/images/Pasted image 20260727145744.png",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Correlative Mode.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",

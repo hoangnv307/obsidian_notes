@@ -35,3 +35,8 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 ## Histogram Plot
 Ứng dụng: [[Trường hợp sử dụng Histogram Plot]]
 ## Statistic Plot
+![[Pasted image 20260727145744.png]]
+Bộ thông tin thống kê được hiển thị bao gồm:
+- Tổng số pixels
+- Giá trị địa vật lý cực đại/cực tiểu
+- Trung bình đại số của các giá trị 
