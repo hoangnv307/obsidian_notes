@@ -29,5 +29,5 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 Ứng dụng:[[Trường hợp sử dụng Profile Plot Classic Mode]]
 ### Profile Plot for correlative data 
 - Khác với classic mode vẽ data band ảnh dựa trên mỗi pixel của vector, correlatice mode hiển thị trường dữ liệu của vector nhập vào (các đỉnh) (màu đỏ trên hình) và giá trị của pixel (màu xanh). 
-- 
 ![[Pasted image 20260727083908.png]]
+Ứng dụng: [[Trường hợp sử dụng Profile Plot Correlative Mode]]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Classic Mode.md",
+                "file": "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Correlative Mode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trường hợp sử dụng Profile Plot Classic Mode"
+              "title": "Trường hợp sử dụng Profile Plot Correlative Mode"
             }
           },
           {
@@ -215,6 +215,7 @@
   },
   "active": "50814a676ee3c9b0",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Correlative Mode.md",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Classic Mode.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260727083908.png",
