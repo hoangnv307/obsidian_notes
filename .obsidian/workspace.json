@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "36810270d83fd168",
@@ -217,11 +216,11 @@
   },
   "active": "50814a676ee3c9b0",
   "lastOpenFiles": [
-    "SAR Learning Notes/SNAP notes/images/Pasted image 20260726174933.png",
     "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+    "SAR Learning Notes/SNAP notes/images/Pasted image 20260726174933.png",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Scatter Plot.md",
-    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260726164657.png",
     "Pasted image 20260726164444.png",
     "SAR Learning Notes/SNAP notes/images",
