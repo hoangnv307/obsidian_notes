@@ -39,4 +39,8 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 Bộ thông tin thống kê được hiển thị bao gồm:
 - Tổng số pixels
 - Giá trị địa vật lý cực đại/cực tiểu
-- Trung bình đại số của các giá trị 
+- Trung bình đại số của các giá trị địa vật lý ([Arithmetic mean](http://en.wikipedia.org/wiki/Arithmetic_mean))
+- Độ lệch chuẩn (sigma) ([Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation#With_sample_standard_deviation))
+- Trung vị của các giá trị địa vật lý ([Median]( http://en.wikipedia.org/wiki/Median))
+- Một số ngưỡng phần trăm ([Percentile](http://en.wikipedia.org/wiki/Percentile))
+- 
