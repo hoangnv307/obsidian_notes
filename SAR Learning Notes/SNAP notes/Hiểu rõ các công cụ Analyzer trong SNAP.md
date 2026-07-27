@@ -16,7 +16,7 @@ Sau đây là phân tích chi tiết ý nghĩa, mục đích dùng của các lo
 Trường hợp thực tế sử dụng Correlative Plot: [[Trường hợp sử dụng Correlative Plot]]
 ## Scatter Plot 
 Đồ thị này cho phép người dùng vẽ đồ thị một nút dữ liệu raster với một nút dữ liệu raster khác. ![[Pasted image 20260726164657.png]]
-Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
+Ứng dụng: [[Trường hợp sử dụng Scatter Plot]]
 ## Profile Plot
 - Công cụ này được kích hoạt chỉ khi sản phẩm có chứa vector data.
 - Đồ thị mặt cắt hoạt động ở 2 chế độ: 
@@ -24,4 +24,9 @@ Trường hợp sử dụng: [[Trường hợp sử dụng Scatter Plot]]
 	- Chế độ tương quan: Cho phép người dùng so sánh dữ liệu vệ tinh với dữ liệu thực địa.
 ### Chế độ classic
 Giá trị của trục x được cung cấp bởi giá trị `path length`, với một path bao gồm 300 pixels thì sẽ bao gồm 300 giá trị. Trục y được xác định bởi band ảnh được chọn. 
-![[Pasted image 20260726174933.png]]
+![[Pasted image 20260726174933.png|637]]
+Đồ thị Profile còn hỗ trợ mapping vị trí trong band ảnh tới vị trí trong đồ thị (như hình trên).
+Ứng dụng:[[Trường hợp sử dụng Profile Plot Classic Mode]]
+### Profile Plot for correlative data 
+
+![[Pasted image 20260727083908.png]]
