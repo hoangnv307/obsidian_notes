@@ -4,11 +4,11 @@
 	- Correlative Plot: Đồ thị tương quan 
 	- Scatter Plot: Đồ thị phát xạ
 	- Profile Plot: Đồ thị mặt cắt
-	- Infomation: Thông tin về băng ảnh
-	- Geo-coding
+	- Infomation: Thông tin về băng ảnh và sản phẩm
+	- Geo-coding: Thông tin về mã hóa địa lý
 	- Histogram
-	- Statistics
-	- Metadata Plot
+	- Statistics: Dữ liệu thống kê
+	- Metadata Plot: Đồ thị metadata
 Sau đây là phân tích chi tiết ý nghĩa, mục đích dùng của các loại công cụ trên.
 ## Correlative Plot
 Đây là giao diện của đồ thị tương quan: 
