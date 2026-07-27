@@ -36,13 +36,15 @@ Giá trị của trục x được cung cấp bởi giá trị `path length`, v�
 Ứng dụng: [[Trường hợp sử dụng Histogram Plot]]
 ## Statistic Plot
 ![[Pasted image 20260727145744.png]]
-Bộ thông tin thống kê được hiển thị bao gồm:
-- Tổng số pixels
-- Giá trị địa vật lý cực đại/cực tiểu
-- Trung bình đại số của các giá trị địa vật lý ([Arithmetic mean](http://en.wikipedia.org/wiki/Arithmetic_mean))
-- Độ lệch chuẩn (sigma) ([Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation#With_sample_standard_deviation))
-- Trung vị của các giá trị địa vật lý ([Median]( http://en.wikipedia.org/wiki/Median))
-- Một số ngưỡng phần trăm ([Percentile](http://en.wikipedia.org/wiki/Percentile))
-- Hệ số biến thiên (CV) ([Coefficient_of_variation](https://en.wikipedia.org/wiki/Coefficient_of_variation))
-- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition](https://sentinels.copernicus.eu/documents/247904/1877131/Sentinel-1-Product-Definition.pdf))
+- Bộ thông tin thống kê được hiển thị bao gồm:
+	- Tổng số pixels
+	- Giá trị địa vật lý cực đại/cực tiểu
+	- Trung bình đại số của các giá trị địa vật lý ([Arithmetic mean](http://en.wikipedia.org/wiki/Arithmetic_mean))
+	- Độ lệch chuẩn (sigma) ([Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation#With_sample_standard_deviation))
+	- Trung vị của các giá trị địa vật lý ([Median]( http://en.wikipedia.org/wiki/Median))
+	- Một số ngưỡng phần trăm ([Percentile](http://en.wikipedia.org/wiki/Percentile))
+	- Hệ số biến thiên (CV) ([Coefficient_of_variation](https://en.wikipedia.org/wiki/Coefficient_of_variation))
+	- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition](https://sentinels.copernicus.eu/documents/247904/1877131/Sentinel-1-Product-Definition.pdf))
 Kèm theo đó là 2 đồ thị, bên trái là histogram, bên phải hiển thị các ngưỡng của mọi phân vị.
+- Dữ liệu thống kê có thể được tính trên toàn band ảnh hoặc ROI của các vector mask.
+- Lựa chọn ``
