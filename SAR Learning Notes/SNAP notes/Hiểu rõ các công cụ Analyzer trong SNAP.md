@@ -44,4 +44,5 @@ Bộ thông tin thống kê được hiển thị bao gồm:
 - Trung vị của các giá trị địa vật lý ([Median]( http://en.wikipedia.org/wiki/Median))
 - Một số ngưỡng phần trăm ([Percentile](http://en.wikipedia.org/wiki/Percentile))
 - Hệ số biến thiên (CV) ([Coefficient_of_variation](https://en.wikipedia.org/wiki/Coefficient_of_variation))
-- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition]() )
+- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition](https://sentinels.copernicus.eu/documents/247904/1877131/Sentinel-1-Product-Definition.pdf))
+Kèm theo đó là 2 đồ thị, bên trái là histogram, bên phải là các ngưỡng của mọi phân vị
