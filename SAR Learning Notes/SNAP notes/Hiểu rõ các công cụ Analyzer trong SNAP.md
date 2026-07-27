@@ -43,4 +43,5 @@ Bộ thông tin thống kê được hiển thị bao gồm:
 - Độ lệch chuẩn (sigma) ([Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation#With_sample_standard_deviation))
 - Trung vị của các giá trị địa vật lý ([Median]( http://en.wikipedia.org/wiki/Median))
 - Một số ngưỡng phần trăm ([Percentile](http://en.wikipedia.org/wiki/Percentile))
-- 
+- Hệ số biến thiên (CV) ([Coefficient_of_variation](https://en.wikipedia.org/wiki/Coefficient_of_variation))
+- Số lần nhìn tương đương (ENL) được định nghĩa trong ảnh SAR (Section A1.1.7 trong [Sentinel-1 Product Definition]() )
