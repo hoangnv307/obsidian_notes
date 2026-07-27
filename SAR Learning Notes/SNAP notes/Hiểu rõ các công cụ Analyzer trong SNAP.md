@@ -4,7 +4,7 @@
 	- Correlative Plot: Đồ thị tương quan 
 	- Scatter Plot: Đồ thị phát xạ
 	- Profile Plot: Đồ thị mặt cắt
-	- Infomation
+	- Infomation: Thông tin về băng ảnh
 	- Geo-coding
 	- Histogram
 	- Statistics
