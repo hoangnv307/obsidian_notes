@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+                "file": "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "SNAP Color Scheme Reference"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+                "file": "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "Outline of SNAP Color Scheme Reference"
             }
           }
         ],
@@ -186,11 +186,11 @@
   },
   "active": "63462f97a143b1e5",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/Untitled.md",
     "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
     "SAR Learning Notes/SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "SAR Learning Notes/SNAP notes/Những câu hỏi cần trả lời.md",
-    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
     "SAR Learning Notes/SNAP notes/Tham chiếu danh sách Palette SNAP.md",
     "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
