@@ -1,7 +1,4 @@
-
-
 Nguồn: `color_palettes_schemes.txt` của SNAP.
-
 ## 1. Ý nghĩa các trường trong file SNAP
 
 | Trường | Ý nghĩa |
@@ -16,16 +13,16 @@ Nguồn: `color_palettes_schemes.txt` của SNAP.
 ---
 # 2. Ocean Optical Properties
 
-| ID | Đại lượng | Palette | Scale | Ứng dụng |
-|---|---|---|---|---|
-| absorption | Absorption coefficient | oceancolor_standard.cpd | Log | Hấp thụ ánh sáng trong nước |
-| adg_s | Gelbstoff and detrital absorption spectral slope | oceancolor_standard.cpd | Linear | Phân tích chất hữu cơ hòa tan |
-| angstrom | Angstrom coefficient | oceancolor_standard.cpd | Linear | Đặc tính aerosol/khí quyển |
-| aot | Aerosol optical thickness | oceancolor_standard.cpd | Linear | Giám sát aerosol |
-| bb | Total backscatter | oceancolor_standard.cpd | Log | Tán xạ tổng trong nước |
-| bbp | Particle backscatter | oceancolor_standard.cpd | Log | Hạt lơ lửng trong nước |
-| bbp_giop | Particle backscatter GIOP | oceancolor_standard.cpd | Log | Mô hình quang học biển |
-| bbw | Water backscatter coefficient | oceancolor_standard.cpd | Log | Tính chất quang học nước biển |
+| ID         | Đại lượng                                        | Palette                 | Scale  | Ứng dụng                      |
+| ---------- | ------------------------------------------------ | ----------------------- | ------ | ----------------------------- |
+| absorption | Absorption coefficient                           | oceancolor_standard.cpd | Log    | Hấp thụ ánh sáng trong nước   |
+| adg_s      | Gelbstoff and detrital absorption spectral slope | oceancolor_standard.cpd | Linear | Phân tích chất hữu cơ hòa tan |
+| angstrom   | Angstrom coefficient                             | oceancolor_standard.cpd | Linear | Đặc tính aerosol/khí quyển    |
+| aot        | Aerosol optical thickness                        | oceancolor_standard.cpd | Linear | Giám sát aerosol              |
+| bb         | Total backscatter                                | oceancolor_standard.cpd | Log    | Tán xạ tổng trong nước        |
+| bbp        | Particle backscatter                             | oceancolor_standard.cpd | Log    | Hạt lơ lửng trong nước        |
+| bbp_giop   | Particle backscatter GIOP                        | oceancolor_standard.cpd | Log    | Mô hình quang học biển        |
+| bbw        | Water backscatter coefficient                    | oceancolor_standard.cpd | Log    | Tính chất quang học nước biển |
 
 ---
 

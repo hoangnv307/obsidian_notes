@@ -5,7 +5,8 @@ Bài viết này sẽ đề cập về định nghĩa của Scheme, Palette tron
 
 ## Định nghĩa
 ### Palette
-Là một tệp thông tin quy định các màu và vị trí các điểm màu
+Là một tệp thông tin quy định các màu và vị trí các điểm màu.
 ### Scheme 
-Là một bộ thông tin hoàn chỉnh bao gồm bảng màu (palette), dải màu (range, min/max), scaling (Linear/Log)
+Là một bộ thông tin hoàn chỉnh bao gồm bảng màu (palette), dải màu (range, min/max), scaling (Linear/Log).
+Thông tin về các scheme được SNAP sử dụng và ứng dụng của nó: [[SNAP Color Scheme Reference]]
 
