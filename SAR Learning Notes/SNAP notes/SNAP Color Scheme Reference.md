@@ -1,4 +1,4 @@
-# SNAP Color Scheme Reference
+
 
 Nguồn runtime đã đối chiếu:
 
@@ -43,15 +43,15 @@ không phải giới hạn kỹ thuật của giao diện.
 > `COLORBAR_TITLE` và `COLORBAR_LABELS` được SNAP nạp vào `ColorSchemeInfo`,
 > nhưng mã Java hiện tại chưa sử dụng chúng để vẽ color bar.
 
-## 3. Quy ước cột “Loại ảnh/cảm biến”
+## 3. Quy ước cột “Sensor / satellite data”
 
 | Giá trị | Ý nghĩa |
 |---|---|
-| **Quang học** | Đại lượng đo hoặc suy ra từ bức xạ/phản xạ quang học |
-| **Quang học nhiệt** | Đại lượng chủ yếu lấy từ kênh hồng ngoại nhiệt |
-| **Vi ba thụ động (không SAR)** | Radiometer; không phải ảnh radar khẩu độ tổng hợp |
-| **Vi ba chủ động (không SAR)** | Scatterometer; là radar nhưng không phải imaging SAR |
-| **SAR & quang học** | Raster phụ trợ/sản phẩm dẫn xuất có thể dùng cùng cả hai |
+| **Optical** | Đại lượng đo hoặc suy ra từ ảnh quang học |
+| **Thermal optical** | Đại lượng chủ yếu lấy từ kênh hồng ngoại nhiệt |
+| **Microwave radiometer (not SAR)** | Dữ liệu từ radiometer vi ba; không phải ảnh SAR |
+| **Scatterometer radar (not SAR)** | Dữ liệu radar đo gió diện rộng; không phải imaging SAR |
+| **SAR & Optical** | Raster phụ trợ/sản phẩm dẫn xuất có thể dùng cùng cả hai |
 
 > [!IMPORTANT]
 > SNAP mặc định **không có Scheme chuyên cho band SAR** như `Intensity_HV`,
@@ -59,82 +59,82 @@ không phải giới hạn kỹ thuật của giao diện.
 
 ## 4. Ocean optical properties, atmosphere and biology
 
-| ID | Đại lượng / ứng dụng | Palette | Scale | Loại ảnh/cảm biến |
+| ID | Đại lượng / ứng dụng | Palette | Scale | Sensor / satellite data |
 |---|---|---|---|---|
-| `absorption` | Hệ số hấp thụ trong nước | `oceancolor_standard.cpd` | Log | Quang học |
-| `adg_s` | Độ dốc phổ hấp thụ gelbstoff và detritus | `oceancolor_standard.cpd` | Linear | Quang học |
-| `angstrom` | Hệ số Ångström của aerosol | `oceancolor_standard.cpd` | Linear | Quang học |
-| `aot` | Aerosol optical thickness | `oceancolor_standard.cpd` | Linear | Quang học |
-| `bb` | Tổng hệ số tán xạ ngược trong nước | `oceancolor_standard.cpd` | Log | Quang học |
-| `bbp` | Tán xạ ngược bởi hạt | `oceancolor_standard.cpd` | Log | Quang học |
-| `bbp_s` | Độ dốc phổ tán xạ ngược bởi hạt | `oceancolor_standard.cpd` | Linear | Quang học |
-| `bbp_giop` | Tán xạ ngược bởi hạt từ mô hình GIOP | `oceancolor_standard.cpd` | Log | Quang học |
-| `bbw` | Tán xạ ngược của nước biển | `oceancolor_standard.cpd` | Log | Quang học |
-| `BSi` | Biogenic silica | `oceancolor_standard.cpd` | Log | Quang học |
-| `calcite` | Nồng độ calcite | `oceancolor_standard.cpd` | Log | Quang học |
-| `cdom_index` | Chỉ số CDOM | `oceancolor_standard.cpd` | Linear | Quang học |
-| `chlor_a` | Nồng độ chlorophyll-a | `oceancolor_standard.cpd` | Log | Quang học |
-| `chlor_a_owterr` | Sai số tương đối chlorophyll-a của thuật toán OWT | `oceancolor_standard.cpd` | Linear | Quang học |
-| `chlor_a_bluegreen` | Chlorophyll với palette xanh lam–xanh lục | `chlor_blue_green.cpd` | Log | Quang học |
-| `chlor_a_uni` | Chlorophyll với palette universal xanh lam–đỏ | `universal_bluered.cpd` | Log | Quang học |
-| `chlor_a_uni_bg` | Chlorophyll với palette universal xanh lam–xanh lục | `universal_bluegreen.cpd` | Log | Quang học |
-| `CI` | Cyanobacteria Index | `oceancolor_standard.cpd` | Log | Quang học |
-| `epsilon` | Epsilon của hiệu chỉnh khí quyển/aerosol | `oceancolor_standard.cpd` | Linear | Quang học |
-| `flh` | Fluorescence Line Height | `oceancolor_standard.cpd` | Linear | Quang học |
-| `fqy` | Fluorescence Quantum Yield | `oceancolor_standard.cpd` | Linear | Quang học |
-| `ipar` | Instantaneous Photosynthetically Available Radiation | `oceancolor_standard.cpd` | Linear | Quang học |
-| `Kd_lee` | Hệ số suy giảm ánh sáng khuếch tán | `oceancolor_standard.cpd` | Log | Quang học |
-| `Kd_490` | Hệ số suy giảm ánh sáng tại 490 nm | `oceancolor_standard.cpd` | Log | Quang học |
-| `nLw_lt_430` | Water-leaving radiance chuẩn hóa, dưới 430 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `nLw_430_479` | Water-leaving radiance chuẩn hóa, 430–479 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `nLw_480_529` | Water-leaving radiance chuẩn hóa, 480–529 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `nLw_530_599` | Water-leaving radiance chuẩn hóa, 530–599 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `nLw_ge_600` | Water-leaving radiance chuẩn hóa, từ 600 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `nw` | Chiết suất nước biển | `oceancolor_standard.cpd` | Linear | Quang học |
-| `owt` | Optical Water Type chuẩn hóa | `oceancolor_standard.cpd` | Linear | Quang học |
-| `owtd` | Optical Water Type chiếm ưu thế | `oceancolor_standard.cpd` | Linear | Quang học |
-| `par` | Photosynthetically Available Radiation | `oceancolor_standard.cpd` | Linear | Quang học |
-| `pic` | Particulate Inorganic Carbon | `oceancolor_standard.cpd` | Log | Quang học |
-| `poc` | Particulate Organic Carbon | `oceancolor_standard.cpd` | Log | Quang học |
-| `rhos` | Phản xạ bề mặt | `gray_scale.cpd` | Log | Quang học |
-| `rhos_red` | Phản xạ bề mặt kênh đỏ | `standard_red.cpd` | Log | Quang học |
-| `rhos_green` | Phản xạ bề mặt kênh xanh lục | `standard_green.cpd` | Log | Quang học |
-| `rhos_blue` | Phản xạ bề mặt kênh xanh lam | `standard_blue.cpd` | Log | Quang học |
-| `Rrs_lt_430` | Remote-sensing reflectance dưới 430 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `Rrs_430_459` | Remote-sensing reflectance 430–459 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `Rrs_460_499` | Remote-sensing reflectance 460–499 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `Rrs_ge_500` | Remote-sensing reflectance từ 500 nm | `oceancolor_standard.cpd` | Linear | Quang học |
-| `rrsdiff_giop` | Sai khác tương đối Rrs của mô hình GIOP | `oceancolor_standard.cpd` | Linear | Quang học |
-| `solz` | Góc thiên đỉnh Mặt Trời | `oceancolor_standard.cpd` | Linear | Quang học |
-| `Zeu` | Độ sâu tầng ưu quang | `oceancolor_zphotic.cpd` | Linear | Quang học |
-| `Zhl_morel` | Độ sâu heated layer theo Morel | `oceancolor_zphotic.cpd` | Linear | Quang học |
-| `Zhl` | Độ sâu heated layer | `oceancolor_zphotic.cpd` | Linear | Quang học |
-| `Zp_10_lee` | Độ sâu còn 10% ánh sáng theo Lee | `oceancolor_zphotic.cpd` | Linear | Quang học |
-| `Zp_50_lee` | Độ sâu còn 50% ánh sáng theo Lee | `oceancolor_zphotic.cpd` | Linear | Quang học |
-| `Zsd` | Độ sâu Secchi | `oceancolor_zphotic.cpd` | Linear | Quang học |
+| `absorption` | Hệ số hấp thụ trong nước | `oceancolor_standard.cpd` | Log | Optical |
+| `adg_s` | Độ dốc phổ hấp thụ gelbstoff và detritus | `oceancolor_standard.cpd` | Linear | Optical |
+| `angstrom` | Hệ số Ångström của aerosol | `oceancolor_standard.cpd` | Linear | Optical |
+| `aot` | Aerosol optical thickness | `oceancolor_standard.cpd` | Linear | Optical |
+| `bb` | Tổng hệ số tán xạ ngược trong nước | `oceancolor_standard.cpd` | Log | Optical |
+| `bbp` | Tán xạ ngược bởi hạt | `oceancolor_standard.cpd` | Log | Optical |
+| `bbp_s` | Độ dốc phổ tán xạ ngược bởi hạt | `oceancolor_standard.cpd` | Linear | Optical |
+| `bbp_giop` | Tán xạ ngược bởi hạt từ mô hình GIOP | `oceancolor_standard.cpd` | Log | Optical |
+| `bbw` | Tán xạ ngược của nước biển | `oceancolor_standard.cpd` | Log | Optical |
+| `BSi` | Biogenic silica | `oceancolor_standard.cpd` | Log | Optical |
+| `calcite` | Nồng độ calcite | `oceancolor_standard.cpd` | Log | Optical |
+| `cdom_index` | Chỉ số CDOM | `oceancolor_standard.cpd` | Linear | Optical |
+| `chlor_a` | Nồng độ chlorophyll-a | `oceancolor_standard.cpd` | Log | Optical |
+| `chlor_a_owterr` | Sai số tương đối chlorophyll-a của thuật toán OWT | `oceancolor_standard.cpd` | Linear | Optical |
+| `chlor_a_bluegreen` | Chlorophyll với palette xanh lam–xanh lục | `chlor_blue_green.cpd` | Log | Optical |
+| `chlor_a_uni` | Chlorophyll với palette universal xanh lam–đỏ | `universal_bluered.cpd` | Log | Optical |
+| `chlor_a_uni_bg` | Chlorophyll với palette universal xanh lam–xanh lục | `universal_bluegreen.cpd` | Log | Optical |
+| `CI` | Cyanobacteria Index | `oceancolor_standard.cpd` | Log | Optical |
+| `epsilon` | Epsilon của hiệu chỉnh khí quyển/aerosol | `oceancolor_standard.cpd` | Linear | Optical |
+| `flh` | Fluorescence Line Height | `oceancolor_standard.cpd` | Linear | Optical |
+| `fqy` | Fluorescence Quantum Yield | `oceancolor_standard.cpd` | Linear | Optical |
+| `ipar` | Instantaneous Photosynthetically Available Radiation | `oceancolor_standard.cpd` | Linear | Optical |
+| `Kd_lee` | Hệ số suy giảm ánh sáng khuếch tán | `oceancolor_standard.cpd` | Log | Optical |
+| `Kd_490` | Hệ số suy giảm ánh sáng tại 490 nm | `oceancolor_standard.cpd` | Log | Optical |
+| `nLw_lt_430` | Water-leaving radiance chuẩn hóa, dưới 430 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `nLw_430_479` | Water-leaving radiance chuẩn hóa, 430–479 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `nLw_480_529` | Water-leaving radiance chuẩn hóa, 480–529 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `nLw_530_599` | Water-leaving radiance chuẩn hóa, 530–599 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `nLw_ge_600` | Water-leaving radiance chuẩn hóa, từ 600 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `nw` | Chiết suất nước biển | `oceancolor_standard.cpd` | Linear | Optical |
+| `owt` | Optical Water Type chuẩn hóa | `oceancolor_standard.cpd` | Linear | Optical |
+| `owtd` | Optical Water Type chiếm ưu thế | `oceancolor_standard.cpd` | Linear | Optical |
+| `par` | Photosynthetically Available Radiation | `oceancolor_standard.cpd` | Linear | Optical |
+| `pic` | Particulate Inorganic Carbon | `oceancolor_standard.cpd` | Log | Optical |
+| `poc` | Particulate Organic Carbon | `oceancolor_standard.cpd` | Log | Optical |
+| `rhos` | Phản xạ bề mặt | `gray_scale.cpd` | Log | Optical |
+| `rhos_red` | Phản xạ bề mặt kênh đỏ | `standard_red.cpd` | Log | Optical |
+| `rhos_green` | Phản xạ bề mặt kênh xanh lục | `standard_green.cpd` | Log | Optical |
+| `rhos_blue` | Phản xạ bề mặt kênh xanh lam | `standard_blue.cpd` | Log | Optical |
+| `Rrs_lt_430` | Remote-sensing reflectance dưới 430 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `Rrs_430_459` | Remote-sensing reflectance 430–459 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `Rrs_460_499` | Remote-sensing reflectance 460–499 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `Rrs_ge_500` | Remote-sensing reflectance từ 500 nm | `oceancolor_standard.cpd` | Linear | Optical |
+| `rrsdiff_giop` | Sai khác tương đối Rrs của mô hình GIOP | `oceancolor_standard.cpd` | Linear | Optical |
+| `solz` | Góc thiên đỉnh Mặt Trời | `oceancolor_standard.cpd` | Linear | Optical |
+| `Zeu` | Độ sâu tầng ưu quang | `oceancolor_zphotic.cpd` | Linear | Optical |
+| `Zhl_morel` | Độ sâu heated layer theo Morel | `oceancolor_zphotic.cpd` | Linear | Optical |
+| `Zhl` | Độ sâu heated layer | `oceancolor_zphotic.cpd` | Linear | Optical |
+| `Zp_10_lee` | Độ sâu còn 10% ánh sáng theo Lee | `oceancolor_zphotic.cpd` | Linear | Optical |
+| `Zp_50_lee` | Độ sâu còn 50% ánh sáng theo Lee | `oceancolor_zphotic.cpd` | Linear | Optical |
+| `Zsd` | Độ sâu Secchi | `oceancolor_zphotic.cpd` | Linear | Optical |
 
 ## 5. Vegetation indices
 
-| ID | Đại lượng / ứng dụng | Palette | Scale | Loại ảnh/cảm biến |
+| ID | Đại lượng / ứng dụng | Palette | Scale | Sensor / satellite data |
 |---|---|---|---|---|
-| `NDVI` | Normalized Difference Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Quang học |
-| `ndvi` | Normalized Difference Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Quang học |
-| `EVI` | Enhanced Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Quang học |
-| `evi` | Enhanced Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Quang học |
+| `NDVI` | Normalized Difference Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Optical |
+| `ndvi` | Normalized Difference Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Optical |
+| `EVI` | Enhanced Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Optical |
+| `evi` | Enhanced Vegetation Index | `oceancolor_ndvi.cpd` | Linear | Optical |
 
 Các cặp viết hoa/viết thường có range hơi khác nhau trong cấu hình SNAP; vì
 vậy chúng được giữ thành các ID riêng thay vì gộp.
 
 ## 6. Ocean physical and microwave-derived parameters
 
-| ID | Đại lượng / ứng dụng | Palette | Scale | Loại ảnh/cảm biến |
+| ID | Đại lượng / ứng dụng | Palette | Scale | Sensor / satellite data |
 |---|---|---|---|---|
-| `BulkSST` | Nhiệt độ bề mặt biển VIIRS-N | `oceancolor_sst.cpd` | Linear | Quang học nhiệt |
-| `sst` | Nhiệt độ bề mặt biển | `oceancolor_sst.cpd` | Linear | Chủ yếu quang học nhiệt |
-| `SSS` | Độ mặn bề mặt biển | `oceancolor_sss.cpd` | Linear | Vi ba thụ động (không SAR) |
-| `anc_SSS` | SSS tham chiếu/phụ trợ | `oceancolor_sss.cpd` | Linear | Vi ba thụ động / dữ liệu phụ |
-| `rad_sm` | Soil moisture | `sm.cpd` | Linear | Vi ba thụ động (không SAR) |
-| `scat_wind_speed` | Tốc độ gió từ scatterometer | `oceancolor_standard.cpd` | Linear | Vi ba chủ động (không SAR) |
+| `BulkSST` | Nhiệt độ bề mặt biển VIIRS-N | `oceancolor_sst.cpd` | Linear | Thermal optical |
+| `sst` | Nhiệt độ bề mặt biển | `oceancolor_sst.cpd` | Linear | Mainly thermal optical |
+| `SSS` | Độ mặn bề mặt biển | `oceancolor_sss.cpd` | Linear | Microwave radiometer (not SAR) |
+| `anc_SSS` | SSS tham chiếu/phụ trợ | `oceancolor_sss.cpd` | Linear | Auxiliary / microwave radiometer |
+| `rad_sm` | Soil moisture | `sm.cpd` | Linear | Microwave radiometer (not SAR) |
+| `scat_wind_speed` | Tốc độ gió từ scatterometer | `oceancolor_standard.cpd` | Linear | Scatterometer radar (not SAR) |
 
 `rad_sm` không nên được mô tả mặc định là “SAR soil moisture inversion”:
 tên và nguồn Scheme hướng tới sản phẩm radiometer soil moisture. Một raster
@@ -142,14 +142,14 @@ soil-moisture suy ra từ SAR vẫn có thể dùng palette này nếu đơn v�
 
 ## 7. Terrain, elevation and bathymetry
 
-| ID | Đại lượng / ứng dụng | Palette | Scale | Loại ảnh/cảm biến |
+| ID | Đại lượng / ứng dụng | Palette | Scale | Sensor / satellite data |
 |---|---|---|---|---|
-| `elev` | Cao độ | `oceancolor_standard.cpd` | Linear | SAR & quang học (DEM/sản phẩm dẫn xuất) |
-| `elevation` | Cao độ so với mực nước biển | `gray_scale.cpdthe` ⚠️ | Linear | SAR & quang học (DEM/sản phẩm dẫn xuất) |
-| `bathymetry` | Độ sâu đáy biển | `smooth_inv_blue.cpd` | Log | SAR & quang học (sản phẩm phụ trợ/dẫn xuất) |
-| `bathymetry_deep` | Độ sâu đáy biển, palette CPT | `deep.cpt` | Log | SAR & quang học (sản phẩm phụ trợ/dẫn xuất) |
-| `topography` | Địa hình mặt đất | `smooth_green.cpd` | Log | SAR & quang học (DEM/sản phẩm dẫn xuất) |
-| `topography_ETOP` | Địa hình theo ETOPO1 | `topography.cpd` | Linear | SAR & quang học (DEM/sản phẩm dẫn xuất) |
+| `elev` | Cao độ | `oceancolor_standard.cpd` | Linear | SAR & Optical (DEM/derived) |
+| `elevation` | Cao độ so với mực nước biển | `gray_scale.cpdthe` ⚠️ | Linear | SAR & Optical (DEM/derived) |
+| `bathymetry` | Độ sâu đáy biển | `smooth_inv_blue.cpd` | Log | SAR & Optical (auxiliary/derived) |
+| `bathymetry_deep` | Độ sâu đáy biển, palette CPT | `deep.cpt` | Log | SAR & Optical (auxiliary/derived) |
+| `topography` | Địa hình mặt đất | `smooth_green.cpd` | Log | SAR & Optical (DEM/derived) |
+| `topography_ETOP` | Địa hình theo ETOPO1 | `topography.cpd` | Linear | SAR & Optical (DEM/derived) |
 
 > [!WARNING]
 > `elevation` trong XML thực sự trỏ tới `gray_scale.cpdthe`. File này không
@@ -159,12 +159,12 @@ soil-moisture suy ra từ SAR vẫn có thể dùng palette này nếu đơn v�
 
 ## 8. Quality, diagnostic and binned-product metadata
 
-| ID | Đại lượng / ứng dụng | Palette | Scale | Loại ảnh/cảm biến |
+| ID | Đại lượng / ứng dụng | Palette | Scale | Sensor / satellite data |
 |---|---|---|---|---|
-| `flag` | Quality flags | `oceancolor_standard.cpd` | Linear | Chủ yếu sản phẩm quang học |
-| `chisqr_giop` | Chi-square trên mỗi bậc tự do của GIOP | `oceancolor_standard.cpd` | Linear | Quang học |
-| `pixels` | Số pixel trong mỗi bin | `oceancolor_standard.cpd` | Linear | Chủ yếu sản phẩm quang học binned |
-| `scenes` | Số scene trong mỗi bin | `oceancolor_standard.cpd` | Linear | Chủ yếu sản phẩm quang học binned |
+| `flag` | Quality flags | `oceancolor_standard.cpd` | Linear | Mainly optical products |
+| `chisqr_giop` | Chi-square trên mỗi bậc tự do của GIOP | `oceancolor_standard.cpd` | Linear | Optical |
+| `pixels` | Số pixel trong mỗi bin | `oceancolor_standard.cpd` | Linear | Mainly optical binned products |
+| `scenes` | Số scene trong mỗi bin | `oceancolor_standard.cpd` | Linear | Mainly optical binned products |
 
 > [!WARNING]
 > Cấu hình SNAP đặt chuỗi `Aerosol optical thickness` vào
