@@ -1,7 +1,4 @@
 
-
-
-
 Trong xử lý ảnh SAR, **Sigma nought (σ⁰), Beta nought (β⁰), Gamma nought (γ⁰)** là ba dạng **chuẩn hóa cường độ phản xạ radar (radiometric calibration)** thường gặp. Chúng đều biểu diễn "độ mạnh tín hiệu radar phản xạ từ mặt đất", nhưng **khác nhau ở cách chuẩn hóa theo hình học chiếu xạ của radar**.
 
 Đây là một chủ đề rất quan trọng khi làm việc với Sentinel-1, TerraSAR-X, COSMO-SkyMed, v.v.
@@ -43,18 +40,17 @@ Nói đơn giản:
 > β⁰ biểu diễn công suất phản xạ radar trên một đơn vị diện tích trong mặt phẳng nhìn thấy bởi radar.
 
 Công thức:
-
-\[
+$$
 \beta^0 =
 \frac{P_r}{P_t}
 \frac{4\pi R^4}{\lambda^2 G^2 A_{slant}}
-\]
+$$
 
 Trong thực tế xử lý SAR thường:
 
-\[
+$$
 \beta^0 = \frac{|DN|^2}{K}
-\]
+$$
 
 với:
 
@@ -82,9 +78,9 @@ Diện tích pixel được tính trên mặt phẳng nghiêng này.
 
 Do đó:
 
-\[
+$$
 A_{pixel}= \Delta r \times \Delta az
-\]
+$$
 
 với:
 
@@ -106,9 +102,9 @@ Ví dụ:
 
 Trong Sentinel-1 GRD:
 
-\[
+$$
 DN \rightarrow \beta^0
-\]
+$$
 
 thường là bước đầu tiên.
 
@@ -126,31 +122,31 @@ Sigma nought là backscatter chuẩn hóa theo:
 
 Nói cách khác:
 
-\[
+$$
 \sigma^0 =
 \frac{\text{backscatter power}}
 {\text{ground area}}
-\]
+$$
 
 ---
 
 Quan hệ giữa β⁰ và σ⁰:
 
-\[
+$$
 \sigma^0 = \beta^0 \sin(\theta_i)
-\]
+$$
 
 hoặc:
 
-\[
+$$
 \beta^0 = \frac{\sigma^0}{\sin(\theta_i)}
-\]
+$$
 
 trong đó:
 
-\[
+$$
 \theta_i
-\]
+$$
 
 là **incidence angle**.
 
@@ -175,28 +171,28 @@ Radar chiếu xiên nên diện tích nhìn thấy trong slant range lớn hơn 
 
 Quan hệ:
 
-\[
+$$
 A_{ground}
 =
 \frac{A_{slant}}
 {\sin(\theta)}
-\]
+$$
 
 
 Vì:
 
-\[
+$$
 \sigma^0 =
 \frac{P}{A_{ground}}
-\]
+$$
 
 nên:
 
-\[
+$$
 \sigma^0
 =
 \beta^0 \sin(\theta)
-\]
+$$
 
 
 ---
@@ -205,29 +201,29 @@ nên:
 
 Giả sử:
 
-\[
+$$
 \beta^0=-10dB
-\]
+$$
 
 Incidence angle:
 
-\[
+$$
 \theta=30^\circ
-\]
+$$
 
 Ta có:
 
-\[
+$$
 10\log_{10}(\sin30^\circ)
 =
 -3dB
-\]
+$$
 
 nên:
 
-\[
+$$
 \sigma^0=-13dB
-\]
+$$
 
 
 ---
@@ -263,9 +259,9 @@ Sigma0
 
 thì thường đang tạo:
 
-\[
+$$
 \sigma^0
-\]
+$$
 
 ---
 
@@ -275,17 +271,17 @@ Gamma nought là dạng chuẩn hóa theo **bề mặt vuông góc với tia rad
 
 Định nghĩa:
 
-\[
+$$
 \gamma^0 =
 \frac{\sigma^0}{\cos(\theta)}
-\]
+$$
 
 
 Hay:
 
-\[
+$$
 \sigma^0=\gamma^0\cos(\theta)
-\]
+$$
 
 
 ---
@@ -319,25 +315,25 @@ Gamma nought cố gắng loại bỏ ảnh hưởng này.
 
 Quan hệ cơ bản:
 
-\[
+$$
 \boxed{
 \sigma^0 = \beta^0 \sin(\theta)
 }
-\]
+$$
 
-\[
+$$
 \boxed{
 \gamma^0=\frac{\sigma^0}{\cos(\theta)}
 }
-\]
+$$
 
 Suy ra:
 
-\[
+$$
 \boxed{
 \gamma^0=\beta^0\tan(\theta)
 }
-\]
+$$
 
 
 ---
@@ -444,9 +440,9 @@ Khi đó người ta dùng:
 
 để tạo:
 
-\[
+$$
 \gamma^0_{terrain}
-\]
+$$
 
 Đây là lý do trong các sản phẩm như Sentinel-1 Analysis Ready Data (ARD), người ta thường cung cấp **γ⁰ terrain corrected**.
 
@@ -460,7 +456,7 @@ Tóm lại:
 
 Nếu làm **SAR processor từ L0 → L1** như dự án của bạn, thì chuỗi logic thường là:
 
-\[
+$$
 L0
 \rightarrow
 SLC
@@ -470,6 +466,6 @@ SLC
 \sigma^0
 \rightarrow
 \gamma^0_{RTC}
-\]
+$$
 
 trong đó calibration radiometric là bước chuyển từ biên độ phức sang các đại lượng vật lý có ý nghĩa.
