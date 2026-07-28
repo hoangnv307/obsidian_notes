@@ -2,6 +2,8 @@
 Trong xử lý ảnh SAR, **Sigma nought (σ⁰), Beta nought (β⁰), Gamma nought (γ⁰)** là ba dạng **chuẩn hóa cường độ phản xạ radar (radiometric calibration)** thường gặp. Chúng đều biểu diễn "độ mạnh tín hiệu radar phản xạ từ mặt đất", nhưng **khác nhau ở cách chuẩn hóa theo hình học chiếu xạ của radar**.
 
 Đây là một chủ đề rất quan trọng khi làm việc với Sentinel-1, TerraSAR-X, COSMO-SkyMed, v.v.
+## 0. Tóm tắt nhanh
+![[Pasted image 20260728170947.png]]
 
 ---
 
@@ -17,18 +19,14 @@ SAR đo được **backscatter power** (công suất tín hiệu phản xạ qua
 - địa hình
 
 Ví dụ:
-
 Hai pixel có cùng một loại đất:
-
 - Pixel A ở gần radar (near range)
 - Pixel B ở xa radar (far range)
 
 Nếu chỉ nhìn DN intensity, chúng có thể khác nhau do hình học chứ không phải do bề mặt khác nhau.
-
 Vì vậy cần chuyển sang các đại lượng chuẩn hóa.
 
 ---
-
 # 2. Beta nought (β⁰)
 
 ## Định nghĩa
@@ -345,51 +343,6 @@ $$
 | β⁰ | Slant range area | \(β^0\) | Radar nhìn thấy gì |
 | σ⁰ | Ground area | \(β^0\sinθ\) | Backscatter trên mặt đất |
 | γ⁰ | Radar-normal area | \(σ^0/\cosθ\) | Ít phụ thuộc góc hơn |
-
----
-
-# 6. Hình dung trực quan
-
-Giả sử một vùng rừng:
-
-### β⁰
-
-Radar thấy:
-
-```
-Satellite
-
-   /
-  /
- /
-████████
-```
-
-diện tích bị kéo nghiêng.
-
----
-
-### σ⁰
-
-Chiếu xuống đất:
-
-```
-████████
-ground area
-```
-
----
-
-### γ⁰
-
-Xét mặt phẳng vuông góc với tia radar:
-
-```
-      /
-     /
-    /
-   ███
-```
 
 ---
 
