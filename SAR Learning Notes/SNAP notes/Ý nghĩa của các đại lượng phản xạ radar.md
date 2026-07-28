@@ -108,58 +108,7 @@ $$
 \beta^0 = \frac{\sigma^0}{\sin(\theta_i)}
 $$
 
-trong đó:
-
-$$
-\theta_i
-$$
-
-là **incidence angle**.
-
----
-
-## Vì sao có sin(theta)?
-
-Hãy nhìn hình:
-
-```
-              Radar
-                *
-               /
-              /
-             /
-------------/-------------- Ground
-          θ
-
-```
-
-Radar chiếu xiên nên diện tích nhìn thấy trong slant range lớn hơn diện tích mặt đất.
-
-Quan hệ:
-
-$$
-A_{ground}
-=
-\frac{A_{slant}}
-{\sin(\theta)}
-$$
-
-
-Vì:
-
-$$
-\sigma^0 =
-\frac{P}{A_{ground}}
-$$
-
-nên:
-
-$$
-\sigma^0
-=
-\beta^0 \sin(\theta)
-$$
-
+trong đó: $\theta_i$ là **incidence angle**.
 
 ---
 
@@ -199,14 +148,13 @@ $$
 Đây là dạng được dùng nhiều nhất:
 
 ### Phân loại lớp phủ
-
 Ví dụ:
 
-| Đối tượng | σ⁰ |
-|-|-|
-| Biển | -20 đến -5 dB |
-| Rừng | -15 đến -5 dB |
-| Thành phố | -5 đến +5 dB |
+| Đối tượng       | σ⁰            |
+| --------------- | ------------- |
+| Biển            | -20 đến -5 dB |
+| Rừng            | -15 đến -5 dB |
+| Thành phố       | -5 đến +5 dB  |
 | Đất nông nghiệp | -15 đến -7 dB |
 
 ---
