@@ -30,11 +30,8 @@ Vì vậy cần chuyển sang các đại lượng chuẩn hóa.
 # 2. Beta nought (β⁰)
 
 ## Định nghĩa
-
 Beta nought là backscatter được chuẩn hóa theo **diện tích trên mặt phẳng slant range**.
-
 Nói đơn giản:
-
 > β⁰ biểu diễn công suất phản xạ radar trên một đơn vị diện tích trong mặt phẳng nhìn thấy bởi radar.
 
 Công thức:
@@ -45,11 +42,9 @@ $$
 $$
 
 Trong thực tế xử lý SAR thường:
-
 $$
 \beta^0 = \frac{|DN|^2}{K}
 $$
-
 với:
 
 - \(DN\): giá trị ảnh SAR

@@ -35,8 +35,7 @@
               "title": "Các câu hỏi cần giải thích"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
+                "file": "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Các câu hỏi cần giải thích"
+              "title": "Outline of Ý nghĩa của các đại lượng phản xạ radar"
             }
           }
         ],
@@ -199,12 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "705fcd63e6f0cc68",
+  "active": "63462f97a143b1e5",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260728170947.png",
     "SAR Learning Notes/SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
-    "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "SAR Learning Notes/SNAP notes/Những câu hỏi cần trả lời.md",
     "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
