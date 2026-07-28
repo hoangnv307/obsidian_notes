@@ -1,0 +1,1 @@
+Bài viết này sẽ đề cập về định nghĩa của Scheme, Palette trong công cụ Colour Manipulation trong SNAP và ý nghĩa sử dụng của chúng trong phân tích ảnh SAR nói riêng và phần mềm xử lý ảnh remote sensi
