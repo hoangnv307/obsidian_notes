@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+                "file": "SAR Learning Notes/SNAP notes/SNAP_Color_Scheme_Reference_Full.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "SNAP_Color_Scheme_Reference_Full"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+                "file": "SAR Learning Notes/SNAP notes/SNAP_Color_Scheme_Reference_Full.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "Outline of SNAP_Color_Scheme_Reference_Full"
             }
           }
         ],
@@ -187,9 +187,9 @@
   },
   "active": "e2bd032a20ad7b9e",
   "lastOpenFiles": [
-    "SAR Learning Notes/SNAP notes/SNAP_Color_Scheme_Reference_Full.md",
     "SAR Learning Notes/SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+    "SAR Learning Notes/SNAP notes/SNAP_Color_Scheme_Reference_Full.md",
     "SAR Learning Notes/SNAP notes/Tham chiếu danh sách Palette SNAP.md",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
     "SAR Learning Notes/SNAP notes/().md",
