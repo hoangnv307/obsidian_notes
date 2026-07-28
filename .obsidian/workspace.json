@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 556.5026054382324
+    "width": 419.5026054382324
   },
   "right": {
     "id": "36810270d83fd168",
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +187,8 @@
   "active": "e2bd032a20ad7b9e",
   "lastOpenFiles": [
     "SAR Learning Notes/SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
-    "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Correlative Mode.md",
     "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
+    "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Profile Plot Correlative Mode.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/Tham chiếu danh sách Palette SNAP.md",
     "SAR Learning Notes/SNAP notes/Trường hợp sử dụng Correlative Plot.md",
