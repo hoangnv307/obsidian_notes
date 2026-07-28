@@ -1,1 +1,1 @@
-- [ ] Ý nghĩa $\sigma $
+- [ ] Ý nghĩa $\sigma_0, \beta_0, \gamma_0$ 

@@ -1,4 +1,5 @@
 {
   "minimal-style@@h1-size": "1.75em",
-  "minimal-style@@h2-size": "1.5em"
+  "minimal-style@@h2-size": "1.5em",
+  "minimal-style@@checkbox-shape": "checkbox-square"
 }
