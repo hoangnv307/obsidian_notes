@@ -3,7 +3,7 @@ Trong xử lý ảnh SAR, **Sigma nought (σ⁰), Beta nought (β⁰), Gamma nou
 
 Đây là một chủ đề rất quan trọng khi làm việc với Sentinel-1, TerraSAR-X, COSMO-SkyMed, v.v.
 ## 0. Tóm tắt nhanh
-- Beta nought (β⁰) là backscatter được chuẩn hóa theo **diện tích trên mặt phẳng slant range
+- Beta nought (β⁰) là backscatter được chuẩn hóa theo **diện tích trên mặt phẳng slant range**.
 - Sigma nought ($\sigma^0$) là backscatter chuẩn hóa theo **diện tích thật trên mặt đất chiếu vuông góc với phương thẳng đứng**.
 - Gamma nought ($\gamma^0$) là dạng chuẩn hóa theo **bề mặt vuông góc với tia radar**.
 ![[Pasted image 20260728170947.png]]
