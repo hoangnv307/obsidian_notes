@@ -3,3 +3,4 @@ Bài viết này sẽ đề cập về định nghĩa của Scheme, Palette tron
 ## Một số tài liệu tham khảo hữu ích: 
 - Color Brewer ([Link](https://colorbrewer2.org/?utm_source=chatgpt.com#type=sequential&scheme=BuGn&n=3)): Trang web trực quan hóa các bảng màu lên địa hình, giúp người dùng nhận biết được các trường hợp sử dụng tương ứng. 
 
+## Định nghĩa
