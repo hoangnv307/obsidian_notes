@@ -55,36 +55,6 @@ với:
 
 ---
 
-## Hình học của β⁰
-
-Radar nhìn thấy mặt đất theo **slant range**:
-
-```
-          Satellite
-              *
-             /
-            /
-           /
-----------/-------------- Ground
-
-       slant range
-```
-
-Diện tích pixel được tính trên mặt phẳng nghiêng này.
-
-Do đó:
-
-$$
-A_{pixel}= \Delta r \times \Delta az
-$$
-
-với:
-
-- Δr: khoảng cách trong slant range
-- Δaz: azimuth spacing
-
----
-
 ## Khi nào dùng β⁰?
 
 β⁰ thường là sản phẩm trung gian.
