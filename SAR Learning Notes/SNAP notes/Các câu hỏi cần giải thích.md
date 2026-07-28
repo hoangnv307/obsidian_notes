@@ -1,1 +1,1 @@
-- [ ] Ý nghĩa $\sigma_0, \beta_0, \gamma_0$ 
+- [ ] Ý nghĩa $\sigma_0, \beta_0, \gamma_0$ -> Tham chiếu [[]]
