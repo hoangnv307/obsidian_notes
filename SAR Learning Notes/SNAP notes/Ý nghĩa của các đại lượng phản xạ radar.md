@@ -263,18 +263,17 @@ $$
 ---
 
 # 7. Trong Sentinel-1 nên dùng cái nào?
-
 Với Sentinel-1:
 
-| Mục đích | Nên dùng |
-|-|-|
-| Hiển thị ảnh SAR thông thường | σ⁰ |
-| Land cover classification | σ⁰ |
-| Crop monitoring | σ⁰ hoặc γ⁰ |
-| Terrain correction | γ⁰ |
-| Mountain area | γ⁰ + RTC |
-| Interferometry | β⁰ hoặc σ⁰ |
-| Radiometric analysis | σ⁰ |
+| Mục đích                      | Nên dùng   |
+| ----------------------------- | ---------- |
+| Hiển thị ảnh SAR thông thường | σ⁰         |
+| Land cover classification     | σ⁰         |
+| Crop monitoring               | σ⁰ hoặc γ⁰ |
+| Terrain correction            | γ⁰         |
+| Mountain area                 | γ⁰ + RTC   |
+| Interferometry                | β⁰ hoặc σ⁰ |
+| Radiometric analysis          | σ⁰         |
 
 ---
 
