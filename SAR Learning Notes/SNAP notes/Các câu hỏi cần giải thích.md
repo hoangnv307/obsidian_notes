@@ -2,6 +2,3 @@
 - [ ] Trong tính statistic SNAP, ngoài min, max, histogram, các đại lượng còn lại không dùng à? 
 
 
-| Tên | Giá trị |
-| --- | --- |
-| A | 10 |
