@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
-                "mode": "preview",
+                "file": "2026-07-29.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "2026-07-29"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+                "file": "2026-07-29.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hiểu rõ các công cụ Analyzer trong SNAP"
+              "title": "Outline of 2026-07-29"
             }
           }
         ],
@@ -186,13 +186,14 @@
   },
   "active": "705fcd63e6f0cc68",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
+    "2026-07-29.md",
     "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260728170947.png",
     "SAR Learning Notes/SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "SAR Learning Notes/SNAP notes/Những câu hỏi cần trả lời.md",
     "SAR Learning Notes/SNAP notes/SNAP Color Scheme Reference.md",
-    "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
     "SAR Learning Notes/SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
     "SAR Learning Notes/SNAP notes/Tham chiếu danh sách Palette SNAP.md",
