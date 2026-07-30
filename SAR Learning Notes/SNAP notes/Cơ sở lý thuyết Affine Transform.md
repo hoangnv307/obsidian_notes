@@ -380,4 +380,5 @@ Lưu ý rằng với **ảnh SAR được geocode hoặc orthorectify**, mối q
 ---
 # 9. Để ảnh SAR dùng affine transform
 
-Để ảnh SAR sử dụng affine transform, với ví dụ cụ thể như ở sản phẩm Sentinel-1 L1 SLC hoặc GRD, ta cần phải tiến hành bước terrain corrected sản phẩm đấy lên phần mềm, 
+- Để ảnh SAR sử dụng affine transform, với ví dụ cụ thể như ở sản phẩm Sentinel-1 L1 SLC hoặc GRD, ta cần phải tiến hành bước terrain corrected ảnh đấy, hay nói cách khác là chiếu ảnh SAR đó lên lưới bản đồ đều (ví dụ UTM). Trước khi tiến hành bước `terrain corrected`, ảnh L1 muốn tìm tọa độ địa lý của một pixel, ta phải tiến hành nội suy từ lưới thưa tọa độ địa lý đi kèm với sản phẩm, bởi vì quan hệ giữa pixel và vị  trí địa lý không tuyến tính. 
+- 
