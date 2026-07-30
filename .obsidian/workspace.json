@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
-                "mode": "preview",
+                "file": "2026-07-30.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ý nghĩa của các đại lượng phản xạ radar"
+              "title": "2026-07-30"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
+                "file": "2026-07-30.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ý nghĩa của các đại lượng phản xạ radar"
+              "title": "Outline of 2026-07-30"
             }
           }
         ],
@@ -201,13 +201,15 @@
   },
   "active": "460d4dde2f1c2666",
   "lastOpenFiles": [
+    "images/Pasted image 20260730111536.png",
+    "images/Pasted image 20260730111526.png",
+    "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SAR Learning Notes/SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "2026-07-30.md",
     "images/Pasted image 20260730105658.png",
     "images",
-    "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "2026-07-29.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260728170947.png",
     "SAR Learning Notes/SNAP notes/Những câu hỏi cần trả lời.md",
