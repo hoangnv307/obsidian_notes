@@ -378,15 +378,6 @@ Affine transform xuất hiện rất thường xuyên trong GIS và xử lý SAR
 Lưu ý rằng với **ảnh SAR được geocode hoặc orthorectify**, mối quan hệ giữa tọa độ pixel và tọa độ địa lý trên toàn ảnh thường **không hoàn toàn là affine** do ảnh hưởng của địa hình, mô hình cảm biến và phép chiếu bản đồ. Trong nhiều trường hợp, affine chỉ là một xấp xỉ cục bộ; các phép biến đổi chính xác hơn sẽ dùng mô hình cảm biến, đa thức hoặc lưới biến dạng (warp grid).
 
 ---
+# 9. Để ảnh SAR dùng affine transform
 
-## So sánh nhanh
-
-| Phép biến đổi | Bảo toàn song song | Bảo toàn góc | Bảo toàn khoảng cách | Ví dụ |
-|---------------|--------------------|--------------|----------------------|--------|
-| Translation | ✔ | ✔ | ✔ | Di chuyển ảnh |
-| Rotation | ✔ | ✔ | ✔ | Quay ảnh |
-| Similarity | ✔ | ✔ | ✖ (chỉ thay đổi theo cùng một tỉ lệ) | Zoom + quay |
-| **Affine** | ✔ | ✖ | ✖ | Zoom không đều, shear, registration |
-| Projective (Homography) | ✖ | ✖ | ✖ | Phối cảnh, ảnh chụp nghiêng |
-
-Có thể coi **Affine Transform là lớp biến đổi tổng quát hơn phép quay, tịnh tiến và co giãn, nhưng đơn giản hơn Projective Transform (Homography)**. Đây là mô hình được sử dụng rất rộng rãi vì vừa đủ linh hoạt để mô tả nhiều biến dạng thực tế, vừa có chi phí tính toán thấp.
+Để ảnh SAR sử dụng affine transform, với ví dụ cụ thể như ở sản phẩm Sentinel-1 L1 SLC hoặc GRD, ta cần phải tiến hành bước terrain corrected sản phẩm đấy lên phần mềm, 
