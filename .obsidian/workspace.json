@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
+                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Các câu hỏi cần giải thích"
+              "title": "Hiểu rõ các công cụ Analyzer trong SNAP"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
+                "file": "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Các câu hỏi cần giải thích"
+              "title": "Outline of Hiểu rõ các công cụ Analyzer trong SNAP"
             }
           }
         ],
@@ -186,9 +187,9 @@
   },
   "active": "705fcd63e6f0cc68",
   "lastOpenFiles": [
+    "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "2026-07-29.md",
     "SAR Learning Notes/SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
-    "SAR Learning Notes/SNAP notes/Các câu hỏi cần giải thích.md",
     "SAR Learning Notes/SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SAR Learning Notes/SNAP notes/images/Pasted image 20260728170947.png",
     "SAR Learning Notes/SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
