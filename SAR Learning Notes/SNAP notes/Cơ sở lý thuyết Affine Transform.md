@@ -307,7 +307,9 @@ $$
 P=(3,2)
 $$
 Scale x2
+
 Rotate 90°
+
 Translate (5,1)
 ### Bước 1
 Scale
