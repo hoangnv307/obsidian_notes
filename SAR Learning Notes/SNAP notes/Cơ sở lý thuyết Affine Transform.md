@@ -210,7 +210,6 @@ A'B' : B'C' = 2 : 4
 vẫn không đổi.
 
 ---
-
 # 4. Những gì không được bảo toàn
 
 Ví dụ một hình vuông
@@ -307,43 +306,30 @@ Cho điểm
 $$
 P=(3,2)
 $$
-
 Scale x2
-
 Rotate 90°
-
 Translate (5,1)
-
 ### Bước 1
-
 Scale
-
 $$
 (3,2)
 \rightarrow
 (6,4)
 $$
-
 ### Bước 2
-
 Rotate
-
 $$
 (6,4)
 \rightarrow
 (-4,6)
 $$
-
 ### Bước 3
-
 Translate
-
 $$
 (-4,6)
 \rightarrow
 (1,7)
 $$
-
 ---
 
 # 7. Ứng dụng trong xử lý ảnh
