@@ -1,5 +1,4 @@
 
-
 Nguồn runtime đã đối chiếu:
 
 - `snap-ui/src/main/resources/auxdata/color_schemes/color_palette_schemes.xml`
