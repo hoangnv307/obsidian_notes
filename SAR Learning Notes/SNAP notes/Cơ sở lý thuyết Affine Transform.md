@@ -388,4 +388,10 @@ Lưu ý rằng với **ảnh SAR được geocode hoặc orthorectify**, mối q
 	- DEM
 	- Ellipsoid
 	để tính chính xác vị trí địa lý của từng pixel.
-- 
+- Sau quá  trình Terrain Correction, kết quả sẽ được nội suy lên một lưới bản đồ đều, ví dụ (UTM), sau đó chỉ cần: 
+$$
+X = X_0 + j\Delta X
+$$
+$$Y = Y_0 - i \Delta Y$$
+	Đây chính là Affine Transform
+
