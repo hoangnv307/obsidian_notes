@@ -6,5 +6,5 @@
 	3. Kết hợp mô hình thống kê với ISAR target database có thể mô phỏng ảnh SAR với các tham số như góc nhìn, loại định hình, vị trí vùng, SCR (signal to clutter ratio).
 ## Model Classification and Research Contents
 - Mô hình thống kê ảnh SAR được chia làm 2 loại: 
-	- Parametric models
-	- Nonparametric models
+	- Parametric models: Mô hình tham số 
+	- Nonparametric models: Mô hình phi tham số
