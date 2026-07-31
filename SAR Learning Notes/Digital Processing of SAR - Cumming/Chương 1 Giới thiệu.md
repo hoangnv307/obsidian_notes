@@ -38,3 +38,4 @@ với $p_r, p_a$ là độ phân dải theo chiều range và chiều azimuth, $
 ### Spaceborne SAR Sensor
 - Sách tập trung vào spaceborne SAR. Sensor tập trung là SEASAT.
 - SEASAT: L-Band(1.27 GHz), góc incidence là 23$\degree$  
+- Hoafng d

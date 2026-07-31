@@ -8,7 +8,5 @@
 - Mô hình thống kê ảnh SAR được chia làm 2 loại: 
 	- Parametric models: Mô hình tham số 
 	- Nonparametric models: Mô hình phi tham số
-
-
-	>Nonparametric models làm cho quá trình mô hình thống kê linh hoạt hơn và làm cho mô hình khớp với dữ liệu thực tế hơn. 
-- 
+>[!note]
+>Nonparametric models làm cho quá trình mô hình thống kê linh hoạt hơn và làm cho mô hình khớp với dữ liệu thực tế hơn, nhưng đổi lại yêu cầu tính toán phức tạp, cũng như nhiều dữ liệu. 
