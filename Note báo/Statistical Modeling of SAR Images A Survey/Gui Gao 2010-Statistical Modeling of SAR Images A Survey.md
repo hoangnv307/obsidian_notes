@@ -38,4 +38,9 @@
 	- Parzen window technique
 	- Artificial neural network (ANN)
 	- Support vector machine (SVM) method, etc.
-- Các mô hình phi tham số có tính chất là mô
+- Các mô hình phi tham số có tính chất là một mô hình phụ thuộc dữ liệu, phù hợp để ước lượng những hàm PDF phức tạp.
+- Mô hình phi tham số có độ chính xác cao, tuy nhiên nó cần một tập dữ liệu mẫu lớn, cũng như những tính toán phức tạp và là một task tốn thời gian. 
+>[!note]
+>Các mô hình phi tham số hiếm khi được sử dụng (được tác giả nói (báo 2010)), ngoại trừ một số báo cáo tập trung vào vấn đề ship target dection in SAR images with simple sea background [44]
+
+## 3.1 Phân loại các mô hình tham số
