@@ -10,3 +10,7 @@
 	- Nonparametric models: Mô hình phi tham số
 >[!note]
 >Nonparametric models làm cho quá trình mô hình thống kê linh hoạt hơn và làm cho mô hình khớp với dữ liệu thực tế hơn, nhưng đổi lại yêu cầu tính toán phức tạp, cũng như nhiều dữ liệu. 
+- Quá trình mô hình tham số bao gồm các bước sau: 
+	1. Phân tích các mô hình phân bố thống kê đã biết
+	2. Ước lượng tham số: ước lượng các bộ tham số của các distribution 
+	3. Go
