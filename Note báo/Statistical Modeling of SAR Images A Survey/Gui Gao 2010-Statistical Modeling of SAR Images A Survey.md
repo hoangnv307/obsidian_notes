@@ -21,5 +21,12 @@
 	- Maximum-likelihood (ML) 
 - Ở thời gian gần đây, phương pháp ==method of log-cummulants  (MoLC== cũng là một phương pháp được sử dụng phổ biến. 
 ## 2.2 Goodneses-of-Fit Tests
-- [[Phương pháp test chung]]
-- 
+- [[Phương pháp test mô hình fit chung]]
+- Nhìn chung, các rules chính để kiểm tra độ chính xác của mô hình bao gồm: 
+	- $\chi^2$ matching test
+	- AIC (Akaike information criteria) rule
+	- K-S (Kolmogorov-Smirnov) test
+	- K-L distance measurement
+	- D' Agostino-Pearson test
+	- Kuiper tests
+# 3. Statistical Models
