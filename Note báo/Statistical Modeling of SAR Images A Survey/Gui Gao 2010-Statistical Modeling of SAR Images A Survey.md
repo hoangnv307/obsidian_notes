@@ -52,3 +52,7 @@
 ![[Pasted image 20260731135548.png]]
 
 ## 4.1 Các mô hình thống kê phát triển từ the Product Model
+-  Product model được sử dụng rộng rãi trong phân tích, xử lý và mô hình ảnh SAR. Hầu hết các mô hình phổ biến được phát triển từ *product model*.
+- Product model có nguồn gốc từ speckle model. 
+- Quá trình phát triển các mô hình thống kê cụ thể từ mô hình speckle được shown ở hình 3: 
+![[Pasted image 20260731163837.png]]
