@@ -1,2 +1,2 @@
 ## Introduction 
-- Bayesian Theory là gì? [[]]
+- Bayesian Theory là gì? [[Giải thích Bayesian Theory]]
