@@ -43,10 +43,12 @@
 >[!note]
 >Các mô hình phi tham số hiếm khi được sử dụng (được tác giả nói (báo 2010)), ngoại trừ một số báo cáo tập trung vào vấn đề ship target dection in SAR images with simple sea background [44]
 
-## 3.1 Phân loại các mô hình tham số
+# 4.1 Phân loại các mô hình tham số
 - Các mô hình tham số được phân loại theo 4 idea chính:
 	1. The empirical distributions: các phân phối thực nghiệm
 	2. The models developed form the product model (PM)
 	3. The models developed from the generalized central limit theorem (GCLT): Các mô hình được phát triển từ định lý giới hạn trung tâm tổng quát hóa
 	4. Other models.
 ![[Pasted image 20260731135548.png]]
+
+## 4.1 Các mô hình thống kê phát triển từ the Product Model
