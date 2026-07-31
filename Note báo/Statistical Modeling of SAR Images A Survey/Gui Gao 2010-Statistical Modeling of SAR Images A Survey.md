@@ -33,4 +33,9 @@
 - Mô hình thống kê của ảnh SAR đơn cực có thể mở rộng để mô tả ảnh SAR đa phân cực (==các tính chất thống kê của ảnh phân cực không khác biệt so với ảnh đơn cực==).
 ## 3.1 Nonparametric Models
 - Nonparametric models là những loại mô hình có thể ước lượng một cách hiệu quả hàm mật độ xác xuất (PDF) của ảnh SAR dựa trên các phương pháp không dùng tham số. 
-- Ý tưởng cơ bản là sử dụng tổng có trọng số $$
+- Ý tưởng cơ bản là sử dụng tổng có trọng số ($\sum_{i=1}^n w_i x_i$) của các hàm kernel khác nhau để tính ước lượng của mô hình thống kê. 
+- Các phương pháp thông dụng bao gồm: 
+	- Parzen window technique
+	- Artificial neural network (ANN)
+	- Support vector machine (SVM) method, etc.
+- Các mô hình phi tham số có tính chất là mô
