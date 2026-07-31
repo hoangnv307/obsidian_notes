@@ -1,6 +1,7 @@
 {
   "theme": "moonstone",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "monospaceFontFamily": "JetBrains Mono",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": "#f55c5c"
 }
