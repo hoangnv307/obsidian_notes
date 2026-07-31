@@ -30,3 +30,5 @@
 	- D' Agostino-Pearson test
 	- Kuiper tests
 # 3. Statistical Models
+- Mô hình thống kê của ảnh SAR đơn cực có thể mở rộng để mô tả ảnh SAR đa phân cực (==các tính chất thống kê của ảnh phân cực không khác biệt so với ảnh đơn cực==).
+- 
