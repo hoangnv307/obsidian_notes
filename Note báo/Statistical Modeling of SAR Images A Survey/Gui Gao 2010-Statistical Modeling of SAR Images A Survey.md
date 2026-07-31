@@ -21,3 +21,5 @@
 	- Maximum-likelihood (ML) 
 - Ở thời gian gần đây, phương pháp ==method of log-cummulants  (MoLC== cũng là một phương pháp được sử dụng phổ biến. 
 ## 2.2 Goodneses-of-Fit Tests
+- [[Phương pháp test chung]]
+- 
