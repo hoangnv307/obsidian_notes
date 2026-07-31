@@ -31,4 +31,6 @@
 	- Kuiper tests
 # 3. Statistical Models
 - Mô hình thống kê của ảnh SAR đơn cực có thể mở rộng để mô tả ảnh SAR đa phân cực (==các tính chất thống kê của ảnh phân cực không khác biệt so với ảnh đơn cực==).
-## 3.1 Nonparametric M
+## 3.1 Nonparametric Models
+- Nonparametric models là những loại mô hình có thể ước lượng một cách hiệu quả hàm mật độ xác xuất (PDF) của ảnh SAR dựa trên các phương pháp không dùng tham số. 
+- Ý tưởng cơ bản là sử dụng tổng có trọng số $$
