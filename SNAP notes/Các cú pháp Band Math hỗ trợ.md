@@ -34,6 +34,7 @@ Toán tử này reture true hoặc false
 - Y: Tọa độ y của pixel hiện tại
 - LAT: Giá trị của vĩ độ pixel hiện tại
 - LON: Giá trị của kinh độ pixel hiện tại
+- TIME: [[Ý nghĩa và ứng dụng của biến TIME]]
 ## Mathematical Functions
 - sqrt(X)
 - pow(X, Y): X mũ Y
