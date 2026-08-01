@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNAP notes/Các cú pháp Band Math hỗ trợ.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,8 +49,7 @@
               "title": "Ý nghĩa và ứng dụng của biến TIME"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SNAP notes/Các cú pháp Band Math hỗ trợ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8eb8a300b307d5b8",
+  "active": "1860e3d72e6619e4",
   "lastOpenFiles": [
-    "SNAP notes/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
+    "SNAP notes/Các cú pháp Band Math hỗ trợ.md",
     "2026-08-01.md",
     "SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "2026-07-31.md",

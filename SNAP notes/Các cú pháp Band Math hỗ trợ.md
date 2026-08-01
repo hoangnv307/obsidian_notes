@@ -22,8 +22,8 @@ Toán tử này reture true hoặc false
 - X / Y
 - X % Y
 ## Unary Operators
-- + X
-- - X
+- \+ X
+- \- X
 - !X hoặc not X: Logical NOT of boolean argument X
 - ~X: bitwise NOT of 
 ## Mathematical Constants
