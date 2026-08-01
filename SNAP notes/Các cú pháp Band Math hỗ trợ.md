@@ -85,3 +85,43 @@ Toán tử này reture true hoặc false
 - inrange_deriv()
 - inrange_integ()
 - sq()
+
+## Một số gợi ý thêm từ codex
+Có. Parser hiện không tắt built-in của ExprTk, nên các hàm dưới đây có thể gõ trực tiếp dù chưa xuất hiện trong menu Functions.
+
+  Những hàm đáng bổ sung nhất:
+
+  - clamp(min, X, max): giới hạn backscatter, cường độ hoặc giá trị dB vào một khoảng; rất hữu ích để loại ảnh hưởng của outlier trước khi hiển thị.
+  - asinh(X): nén dải động nhưng vẫn xử lý tốt giá trị gần 0 hoặc âm; phù hợp dữ liệu SAR hơn log(X) trong một số trường hợp.
+  - hypot(X, Y): tính sqrt(X² + Y²) ổn định hơn; dùng cho biên độ từ hai thành phần I/Q. Chức năng gần giống ampl(R, I).
+  - log1p(X): tính log(1 + X) chính xác hơn khi X rất nhỏ; hữu ích với dữ liệu cường độ đã chuẩn hóa.
+  - expm1(X): tính exp(X) - 1 chính xác hơn gần 0.
+  - sum(X, Y, ...): tổng nhiều band hoặc nhiều kênh phân cực.
+  - mul(X, Y, ...): tích nhiều đầu vào.
+  - roundn(X, N): làm tròn đến N chữ số thập phân.
+  - trunc(X) và frac(X): lấy phần nguyên và phần thập phân; hữu ích cho chỉ số chu kỳ hoặc xử lý pha.
+  - log2(X), logn(X, N) và root(X, N): logarithm cơ số tùy ý và căn bậc N.
+  - erf(X), erfc(X), ncdf(X): hữu ích cho ngưỡng xác suất, phát hiện bất thường hoặc mô hình thống kê nhiễu.
+  - sinc(X): có ích trong mô phỏng đáp ứng xung range/azimuth và nghiên cứu xử lý tín hiệu SAR.
+
+  Ít cần đưa vào menu phổ thông hơn:
+
+  - cot, sec, csc: ít được dùng trực tiếp trong Band Maths.
+  - iclamp: hành vi khó hiểu với người dùng phổ thông.
+  - equal, not_equal: đã gần tương đương feq, fneq.
+  - deg2rad, rad2deg: đã có rad và deg.
+
+  Nếu giữ menu gọn, tôi đề xuất thêm trước:
+
+  clamp(@, @, @)
+  asinh(@)
+  hypot(@, @)
+  log1p(@)
+  expm1(@)
+  sum(@, @, ...)
+  mul(@, @, ...)
+  roundn(@, @)
+  trunc(@)
+  frac(@)
+
+  Nhóm erf, erfc, ncdf, sinc có thể thêm sau vì chuyên biệt hơn.
