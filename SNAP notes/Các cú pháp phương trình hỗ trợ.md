@@ -61,5 +61,5 @@ Toán tử này reture true hoặc false
 - sign(X): trả về dấu của A, bao gồm {-1, 0,+1}
 - min(X, Y)
 - max(X, Y)
-- floor(X): 
-- 
+- floor(X): Trả về số double lớn nhất (gần nhất với $+\infty$), bé hơn hoặc bằng X và là 1 số nguyên, giả sử nếu X = 45.56 thì trả về 45, X = -45.67 thì trả về -46.
+- round(X): Trả về số kiểu long gần nhất với X. Giá trị được làm tròn tới một giá trị nguyên 
