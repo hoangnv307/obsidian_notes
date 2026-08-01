@@ -38,4 +38,18 @@ Toán tử này reture true hoặc false
 - sqrt(X)
 - pow(X, Y): X mũ Y
 - exp(X)
-- exp()
+- exp10(X)
+- log(X)
+- log10(X)
+- sin(X): X ở radians
+- sinh(X)
+- cos(X)
+- cosh(X)
+- tan(X)
+- tanh(X)
+- asin(X): arcsine
+- acos(X)
+- atan(X)
+- atan2(Y, X): trả về góc trên tọa độ cực của X, Y
+- sech(X): Trả về hyperbolic secant của góc X
+- cosech(): Trả về 
