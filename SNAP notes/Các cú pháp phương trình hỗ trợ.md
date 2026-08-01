@@ -73,4 +73,6 @@ Toán tử này reture true hoặc false
 - inf(X): Trả về true nếu X là infinity large
 - random_uniform(): trả về pseudo-random, phân phối chuẩn từ 0.0 đến 1.0
 - random_gaussian(): Trả về pseudo-random, phân phối Gaussian ("normally)
-- stddev(X, Y, ...): Trả về độ lệch chuẩn của các phần tử 
+- stddev(X, Y, ...): Trả về độ lệch chuẩn của các phần tử được tách nhau bởi dấu ",". 
+- coef_var(X, Y, ...): Trả về hệ số biến thiên (CV) của các phần tử được tách nhau bởi dấu ","
+- bit_set(X, N): Trả về true hoặc falase dựa vào bit thứ N của giá trị X. 
