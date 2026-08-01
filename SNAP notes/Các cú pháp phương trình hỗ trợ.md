@@ -1,1 +1,2 @@
-## Toán tử điều kiện 
+## Toán tử ba ngôi
+
