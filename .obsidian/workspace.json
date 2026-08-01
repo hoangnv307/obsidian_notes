@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNAP notes/Các cú pháp phương trình hỗ trợ.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,7 +35,8 @@
               "title": "2026-08-01"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,13 +91,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 419.5026054382324,
-    "collapsed": true
+    "width": 419.5026054382324
   },
   "right": {
     "id": "36810270d83fd168",
@@ -174,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note báo/Statistical Modeling of SAR Images A Survey/Gui Gao 2010-Statistical Modeling of SAR Images A Survey.md",
+                "file": "2026-08-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gui Gao 2010-Statistical Modeling of SAR Images A Survey"
+              "title": "Outline"
             }
           }
         ],
@@ -203,11 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1860e3d72e6619e4",
+  "active": "8eb8a300b307d5b8",
   "lastOpenFiles": [
-    "SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
-    "2026-08-01.md",
     "SNAP notes/Các cú pháp phương trình hỗ trợ.md",
+    "2026-08-01.md",
+    "SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "2026-07-31.md",
     "2026-07-30.md",
     "Note báo/Statistical Modeling of SAR Images A Survey/Gui Gao 2010-Statistical Modeling of SAR Images A Survey.md",
