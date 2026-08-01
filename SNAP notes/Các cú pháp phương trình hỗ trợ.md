@@ -11,4 +11,13 @@ Toán tử này reture true hoặc false
 - `X<=Y`
 - `X > Y`
 - `X >= Y`
-
+## Binary Bitwise Operators
+- X | Y
+- X ^ Y
+- X & Y
+## Arithmetic Operators
+- X + Y
+- X - Y
+- X * Y
+- X/Y
+- *
