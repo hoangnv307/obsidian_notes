@@ -64,4 +64,5 @@ Toán tử này reture true hoặc false
 - floor(X): Trả về số double lớn nhất (gần nhất với $+\infty$), bé hơn hoặc bằng X và là 1 số nguyên, giả sử nếu X = 45.56 thì trả về 45, X = -45.67 thì trả về -46.
 - round(X): Trả về số kiểu long gần nhất với X. Giá trị được làm tròn tới một giá trị nguyên bằng cách cộng 1/2, lấy floor của kết quả, và cast kết quả về kiểu long. 
 - ceil(X): Trả về số double nhỏ nhất (gần nhất với $-\infty$), lớn hơn hoặc bằng X và bằng với một số nguyên
-- rint(X): Trả về giá trị double gần với giá trị của X nhất và bằng với một số nguyên. Nếu 2 giá trị double  
+- rint(X): Trả về giá trị double gần với giá trị của X nhất và bằng với một số nguyên. Nếu 2 giá trị double đều là 2 số nguyên có khoảng cách tới X bằng nhau, kết quả là  số nguyên chẵn (ví dụ X = 51.5 thì rint(X) = 52). 
+- feq(X, Y): 
