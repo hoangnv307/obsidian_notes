@@ -52,4 +52,14 @@ Toán tử này reture true hoặc false
 - atan(X)
 - atan2(Y, X): trả về góc trên tọa độ cực của X, Y
 - sech(X): Trả về hyperbolic secant của góc X
-- cosech(): Trả về 
+- cosech(): Trả về hyperbolic cosecant của góc X
+- ampl(R, I): Trả về hàm biên độ của số phức, tương đương với sqrt(R* R + I * I)
+- phase(R, I): Trả về hàm pha của số phức, tương đương với atan2(I,R)
+- rad(X): chuyển X từ độ sang radian
+- deg(X): chuyển X từ radian sang độ
+- abs(X)
+- sign(X): trả về dấu của A, bao gồm {-1, 0,+1}
+- min(X, Y)
+- max(X, Y)
+- floor(X): 
+- 
