@@ -5,5 +5,10 @@
 - `X && Y` hoặc `X and Y` Logical AND
 ## Binary Comparison Operator
 Toán tử này reture true hoặc false
-
+- `X == Y`
+- `X!= Y`
+- `X < Y`
+- `X<=Y`
+- `X > Y`
+- `X >= Y`
 
