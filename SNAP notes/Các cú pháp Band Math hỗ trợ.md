@@ -77,3 +77,6 @@ Toán tử này reture true hoặc false
 - stddev(X, Y, ...): Trả về độ lệch chuẩn của các phần tử được tách nhau bởi dấu ",". 
 - coef_var(X, Y, ...): Trả về hệ số biến thiên (CV) của các phần tử được tách nhau bởi dấu ","
 - bit_set(X, N): Trả về true hoặc falase dựa vào bit thứ N của giá trị X. 
+- avg()
+- distance()
+- 
