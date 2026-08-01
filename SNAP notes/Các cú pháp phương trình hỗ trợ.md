@@ -19,5 +19,12 @@ Toán tử này reture true hoặc false
 - X + Y
 - X - Y
 - X * Y
-- X/Y
-- *
+- X / Y
+- X % Y
+## Unary Operators
+- + X
+- - X
+- !X hoặc not X
+- ~X 
+## Mathematical Constants
+- 
