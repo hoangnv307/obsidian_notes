@@ -79,4 +79,9 @@ Toán tử này reture true hoặc false
 - bit_set(X, N): Trả về true hoặc falase dựa vào bit thứ N của giá trị X. 
 - avg()
 - distance()
-- 
+- distance_deriv()
+- distance_integ()
+- inrange()
+- inrange_deriv()
+- inrange_integ()
+- sq()
