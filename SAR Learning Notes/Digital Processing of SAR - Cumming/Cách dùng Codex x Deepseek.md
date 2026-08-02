@@ -57,3 +57,20 @@ Không commit.
 Hiện tại chỉ `deepseek-v4-flash` được tài liệu DeepSeek liệt kê là hỗ trợ Responses API; `deepseek-v4-pro` chưa hỗ trợ trực tiếp. ([DeepSeek model capabilities](https://api-docs.deepseek.com/quick_start/pricing))
 
 Lưu ý: runtime của cuộc chat hiện tại chỉ cho mình spawn OpenAI subagents. Setup trên áp dụng cho **Codex local sau khi restart**. Nếu model DeepSeek bạn dùng không hỗ trợ Responses API, lúc đó mới cần MCP wrapper hoặc script orchestrator riêng.
+
+## Sau khi bảo codex thực hiện
+• Đã cấu hình:
+
+  - /home/xiaoxin/.codex/config.toml
+  - /home/xiaoxin/.codex/agents/deepseek_implementer.toml
+
+  Bạn cần mở terminal và chạy:
+
+  read -rsp "DeepSeek API key: " DEEPSEEK_API_KEY &&
+  export DEEPSEEK_API_KEY &&
+  echo &&
+  codex -C /home/xiaoxin/code/sar_application
+
+  Không gửi API key vào chat. Trong phiên Codex mới, chỉ cần nói:
+
+  Lập plan, giao deepseek_implementer implement tuần tự, sau đó review git diff.
