@@ -23,3 +23,4 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [x] Các các nút thao tác + nút tắt đã hoạt động ổn định chưa? Check xem số lần lưu lịch sử là bao nhiêu? Lưu vào đâu? 
 - [x] Check xem có những trường hợp cảnh báo nào? [[Những cảnh báo trạng thái band math editor]]
 
+## 
