@@ -17,9 +17,9 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [x] Nút `Save...` đặt tên file mặc định là `myExpression.txt`, nếu save file có cùng tên với file đã có sẵn, cửa sổ hiện lên hỏi người dùng có muốn overwrite file đã có hay không? 
 
 # Các bài test cho modal window Band Maths Expression Editor
-- [ ] Test các bài test kết hợp biểu thức
+- [x] Test các bài test kết hợp biểu thức
 - [ ] Thêm một vài các biểu thức ngoài SNAP hữu ích
-- [ ] Check xem các hàm fuzzy 2 tham số lấy epsilon bằng bao nhiêu. 
+- [x] Check xem các hàm fuzzy 2 tham số lấy epsilon bằng bao nhiêu. 
 - [ ] Các các nút thao tác + nút tắt đã hoạt động ổn định chưa? Check xem số lần lưu lịch sử là bao nhiêu? Lưu vào đâu? 
 - [x] Check xem có những trường hợp cảnh báo nào? [[Những cảnh báo trạng thái band math editor]]
 
