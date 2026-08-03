@@ -4,6 +4,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 2. Test band math expression editor
 # Todo 
 - [ ] Xóa các icon thừa trên các buttons
+- [ ] Giảm size chữ cảnh báo xuống.
 # Các bài test cho modal window Band Maths
 - [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
 - [x] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
