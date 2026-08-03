@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
-                "mode": "preview",
+                "file": "SNAP notes/Band Math/Các bài test dành cho module band math.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Các cú pháp Band Math hỗ trợ"
+              "title": "Các bài test dành cho module band math"
             }
           },
           {
@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "8eb8a300b307d5b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Band Math/Các bài test dành cho module band math.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Các bài test dành cho module band math"
-            }
-          },
-          {
             "id": "da0e4f01a03458c4",
             "type": "leaf",
             "state": {
@@ -63,8 +49,7 @@
               "title": "Ý nghĩa và ứng dụng của biến TIME"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,12 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8eb8a300b307d5b8",
+  "active": "1860e3d72e6619e4",
   "lastOpenFiles": [
-    "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
-    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
-    "SNAP notes/Band Math/Cách SNAP render band math.md",
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
+    "SNAP notes/Band Math/Cách SNAP render band math.md",
+    "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
+    "SNAP notes/Band Math/Những cảnh báo  trạng thái band math editor.md",
+    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
+    "SNAP notes/Band Math/Những cảnh báo trạng thái band math editor.md",
     "SNAP notes/Cơ sở lý thuyết Affine Transform.md",
     "SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
     "SNAP notes/Các câu hỏi cần giải thích.md",
@@ -266,13 +253,11 @@
     "SNAP notes/SNAP Color Scheme Reference.md",
     "SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
-    "SNAP notes/Trường hợp sử dụng Histogram Plot.md",
     "images/Pasted image 20260730111536.png",
     "images/Pasted image 20260730111526.png",
     "images/Pasted image 20260730105658.png",
     "images",
     "SNAP notes/images/Pasted image 20260728170947.png",
-    "SAR Learning Notes/SNAP notes/Những câu hỏi cần trả lời.md",
     "SNAP notes/images/Pasted image 20260727145744.png",
     "SNAP notes/images/Pasted image 20260727083908.png",
     "SNAP notes/images/Pasted image 20260726174933.png",
