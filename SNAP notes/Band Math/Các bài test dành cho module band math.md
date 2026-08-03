@@ -7,4 +7,4 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [ ] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
 - [ ] Trường `Name` phải không cho nhập giá trị rỗng, không cho nhập trùng tên band, mask, TPG đã tồn tại của target product.
 - [ ] Kiểm tra lại tính logic của checkbox `Virtual`, đảm bảo chương trình không dùng nhiều CPU usage hơn SNAP.
-- [ ] Check các trường hợp biên của trường `Replace NaN and infinity `
+- [ ] Check các trường hợp biên của trường `Replace NaN and infinity results by`, mặc định sẽ là 
