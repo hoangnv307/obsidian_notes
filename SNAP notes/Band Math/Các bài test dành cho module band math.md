@@ -5,6 +5,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 # Todo 
 - [x] Xóa các icon thừa trên các buttons
 - [x] Giảm size chữ cảnh báo xuống.
+- [ ] Sửa bug QT_SCALE_FACTOR=1.25 thì menu chọn từ menu bar bị lỗi hiển thị
 # Các bài test cho modal window Band Maths
 - [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
 - [x] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
