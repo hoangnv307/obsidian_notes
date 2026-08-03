@@ -23,4 +23,9 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [x] Các các nút thao tác + nút tắt đã hoạt động ổn định chưa? Check xem số lần lưu lịch sử là bao nhiêu? Lưu vào đâu? 
 - [x] Check xem có những trường hợp cảnh báo nào? [[Những cảnh báo trạng thái band math editor]]
 
-## 
+# Outline slide trình bày về module Band Maths
+Slide nên đề cập các nội dung sau:
+- Giới thiệu cơ chế tính toán của ExprTk
+- Phải trình bày một số ứng dụng của Band Maths
+- Trình bày về các tính năng con của module
+- Nhớ trình bày về lựa chọn Virtual 
