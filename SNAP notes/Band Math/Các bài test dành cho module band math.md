@@ -5,7 +5,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 # Todo 
 - [x] Xóa các icon thừa trên các buttons
 - [x] Giảm size chữ cảnh báo xuống.
-- [ ] Xác định tại sao khi pan/zoom ảnh, phần mềm lại  dùng đến gần 50% usage của CPU, trong khi SNAP thì thao tác pan/zoom đều không vượt quá 10% CPU.
+- [ ] Xác định tại sao khi pan/zoom ảnh, phần mềm lại  dùng đến gần 50% usage của CPU, trong khi SNAP thì thao tác pan/zoom đều không vượt quá 10% CPU [[]].
 
 # Các bài test cho modal window Band Maths
 - [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
