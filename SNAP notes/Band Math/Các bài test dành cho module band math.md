@@ -8,7 +8,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [ ] Xác định tại sao khi pan/zoom ảnh, phần mềm lại  dùng đến gần 50% usage của CPU, trong khi SNAP thì thao tác pan/zoom đều không vượt quá 10% CPU [[]].
 
 # Các bài test cho modal window Band Maths
-- [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
+- [x] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
 - [x] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
 - [x] Trường `Name` phải không cho nhập giá trị rỗng, không cho nhập trùng tên band, mask, TPG đã tồn tại của target product.
 - [ ] Kiểm tra lại tính logic của checkbox `Virtual`, đảm bảo chương trình không dùng nhiều CPU usage hơn SNAP.
