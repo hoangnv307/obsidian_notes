@@ -16,3 +16,5 @@ Các phần test sẽ bao gồm 2 phần test chính:
 # Các bài test cho modal window Band Maths Expression Editor
 - [ ] Test các bài test kết hợp biểu thức
 - [ ] Thêm một vài các biểu thức ngoài SNAP hữu ích
+- [ ] Check xem các hàm fuzzy 2 tham số lấy epsilon bằng bao nhiêu. 
+- [ ] Các các nút thao tác + nút tắt đã hoạt động ổn định chưa? Check xem số lần lưu lịch sử là bao nhiêu? Lưu vào đâu? 
