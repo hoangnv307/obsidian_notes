@@ -11,7 +11,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [x] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
 - [x] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
 - [x] Trường `Name` phải không cho nhập giá trị rỗng, không cho nhập trùng tên band, mask, TPG đã tồn tại của target product.
-- [ ] Kiểm tra lại tính logic của checkbox `Virtual`, đảm bảo chương trình không dùng nhiều CPU usage hơn SNAP.
+- [x] Kiểm tra lại tính logic của checkbox `Virtual`
 - [x] Check các trường hợp biên của trường `Replace NaN and infinity results by`, mặc định sẽ là `NaN`, xác định xem như nào là infinity? Có phải 1.0/0.0 là infty không? Check xem các gái trị như kiểu max của data DN xem có phải là infty không? Nhập thử giá trị như Hoang, 10e100 xem có được không? -> Kết quả là nếu vượt quá max,min double thì sẽ chuyển sang Infinity, nếu không parse được sang double thì sẽ cảnh báo, nhập (+)Infinity/-Infinity, không quan tâm viết hoa hay thường. 
 - [x] Nút `Load...` chỉ hiển thị filter cho .txt, kiểm tra xem file được parse đúng. 
 - [x] Nút `Save...` đặt tên file mặc định là `myExpression.txt`, nếu save file có cùng tên với file đã có sẵn, cửa sổ hiện lên hỏi người dùng có muốn overwrite file đã có hay không? 
