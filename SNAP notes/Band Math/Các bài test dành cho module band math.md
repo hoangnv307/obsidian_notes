@@ -6,7 +6,7 @@ Các phần test sẽ bao gồm 2 phần test chính:
 - [ ] Xóa các icon thừa trên các buttons
 # Các bài test cho modal window Band Maths
 - [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X (kiểm tra trên VM Linux)
-- [ ] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
+- [x] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
 - [ ] Trường `Name` phải không cho nhập giá trị rỗng, không cho nhập trùng tên band, mask, TPG đã tồn tại của target product.
 - [ ] Kiểm tra lại tính logic của checkbox `Virtual`, đảm bảo chương trình không dùng nhiều CPU usage hơn SNAP.
 - [ ] Check các trường hợp biên của trường `Replace NaN and infinity results by`, mặc định sẽ là `NaN`, xác định xem như nào là infinity? Có phải 1.0/0.0 là infty không? Check xem các gái trị như kiểu max của data DN xem có phải là infty không? Nhập thử giá trị như Hoang, 10e100 xem có được không?
