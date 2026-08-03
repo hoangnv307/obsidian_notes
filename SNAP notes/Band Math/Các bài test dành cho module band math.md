@@ -4,4 +4,6 @@ Các phần test sẽ bao gồm 2 phần test chính:
 2. Test band math expression editor
 # Các bài test cho modal window Band Maths
 - [ ] Cửa sổ modal này và mọi cửa sổ modal khác không được có nút minimum, maximum, chỉ có nút X
-- [ ] Drop-down list Target product hiển thị được sản phẩm 
+- [ ] Drop-down list `Target product` tự scale độ rộng, tùy theo tên sản phẩm dài nhất mà product explorer chứa. 
+- [ ] Trường `Name` phải không cho nhập giá trị rỗng, không cho nhập trùng tên band, mask, TPG đã tồn tại của target product.
+- [ ] Kiểm tra lại tính logic 
