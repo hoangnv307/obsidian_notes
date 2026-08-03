@@ -1,0 +1,1 @@
+Đoạn note sau đây sẽ dựa trên tài liệu SRD để liệt kê ra các bài test về chức năng band 
