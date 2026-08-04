@@ -30,3 +30,8 @@ sea_mask || coastal_mask
 ```
 sea_mask && Sigma0_VV_dB < -18.0
 ```
+- Tìm vật thể sáng trên biển
+```
+sea_mask && Sigma0_VV_dB > -5.0
+```
+Đây có thể là bước tạo ứng viên tàu, nhưng còn cần kiểm tra kích thước, vùng lân cận, CFAR và nhiễu đốm.
