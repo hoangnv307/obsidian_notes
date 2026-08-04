@@ -26,6 +26,6 @@ Các phần test sẽ bao gồm 2 phần test chính:
 
 # Outline slide trình bày về module Band Maths
 Slide nên đề cập các nội dung sau:
-- [ ] Giới thiệu cơ chế tính toán của ExprTk [[Cơ chế, cấu trúc của thư viện ExprTk]], ưu điểm của nó so với lựa chọn mXParser, muParser, trình bày về lựa chọn Virtual Band.
+- [ ] Giới thiệu cơ chế tính toán của ExprTk [[Cơ chế, cấu trúc của thư viện ExprTk]], ưu điểm của nó so với lựa chọn mXParser, muParser. [[Benchmark giữa ExprTk và muParser]] trình bày về lựa chọn Virtual Band.
 - [ ] Phải trình bày một số ứng dụng của Band Maths
 - [x]  Trình bày về các tính năng con của module
