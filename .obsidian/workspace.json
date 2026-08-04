@@ -35,7 +35,8 @@
               "title": "Ví dụ cho các biểu thức Band Math"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SNAP notes/Band Math/Ví dụ cho các biểu thức Band Math.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,12 +202,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1860e3d72e6619e4",
+  "active": "966cfc4ebdf07064",
   "lastOpenFiles": [
+    "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Band Math/Ví dụ cho các biểu thức Band Math.md",
     "SNAP notes/Band Math/Các bài test dành cho module band math.md",
-    "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
     "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
     "2026-08-04.md",
     "SNAP notes/Band Math/Benchmark giữa ExprTk và muParser.md",
