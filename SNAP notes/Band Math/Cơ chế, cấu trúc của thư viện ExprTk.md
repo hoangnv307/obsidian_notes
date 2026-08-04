@@ -136,7 +136,7 @@ là token định danh, và:
 
 là token toán tử.
 
-ExprTk có các bước tiền xử lý token như thay thế token, ghép toán tử nhiều ký tự, kiểm tra số, kiểm tra ngoặc và kiểm tra chuỗi token hợp lệ. Ví dụ hai token `>` và `=` có thể được ghép thành toán tử `>=`; cú pháp nhân ngầm như `2x` có thể được chuyển thành `2 * x`. citeturn640461view1turn640461view3
+ExprTk có các bước tiền xử lý token như thay thế token, ghép toán tử nhiều ký tự, kiểm tra số, kiểm tra ngoặc và kiểm tra chuỗi token hợp lệ. Ví dụ hai token `>` và `=` có thể được ghép thành toán tử `>=`; cú pháp nhân ngầm như `2x` có thể được chuyển thành `2 * x`. 
 
 ---
 
@@ -162,7 +162,7 @@ chứ không phải:
 (2 + 3) * x
 ```
 
-Tài liệu ExprTk cho biết nó sử dụng **recursive descent parser**, tức là parser đệ quy đi qua các quy tắc ngữ pháp theo từng mức ưu tiên. citeturn640461view3
+Tài liệu ExprTk cho biết nó sử dụng **recursive descent parser**, tức là parser đệ quy đi qua các quy tắc ngữ pháp theo từng mức ưu tiên. 
 
 Có thể hình dung các hàm parser tương tự:
 
@@ -563,7 +563,7 @@ Tài liệu ExprTk đưa ví dụ dạng:
 5 - x / y
 ```
 
-khi có thể áp dụng constant folding. citeturn256653view2
+khi có thể áp dụng constant folding. 
 
 ---
 
@@ -595,7 +595,7 @@ thành:
 6 * (x * y)
 ```
 
-ExprTk lưu ý rằng một số phép biến đổi đại số có thể ảnh hưởng đến độ chính xác số hoặc nguy cơ tràn số ở gần giới hạn kiểu dữ liệu. Do đó tùy chọn strength reduction có thể được tắt. citeturn640461view3
+ExprTk lưu ý rằng một số phép biến đổi đại số có thể ảnh hưởng đến độ chính xác số hoặc nguy cơ tràn số ở gần giới hạn kiểu dữ liệu. Do đó tùy chọn strength reduction có thể được tắt. 
 
 ---
 

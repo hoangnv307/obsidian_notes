@@ -49,7 +49,8 @@
               "title": "Cơ chế, cấu trúc của thư viện ExprTk"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "citeturn640461view3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,12 +105,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 419.5026054382324,
-    "collapsed": true
+    "width": 419.5026054382324
   },
   "right": {
     "id": "36810270d83fd168",
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Các bài test dành cho module band math.md",
+                "file": "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,15 +217,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1860e3d72e6619e4",
+  "active": "8721bee936cf0b20",
   "lastOpenFiles": [
+    "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
+    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "2026-08-04.md",
     "SNAP notes/Band Math/Benchmark giữa ExprTk và muParser.md",
-    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "SNAP notes/Band Math/Cách SNAP render band math.md",
     "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
     "SNAP notes/Band Math/Khả năng ban đầu dẫn đến ngốn CPU.md",
-    "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Band Math/Những cảnh báo trạng thái band math editor.md",
     "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
     "SNAP notes/Hiểu rõ các công cụ Analyzer trong SNAP.md",
