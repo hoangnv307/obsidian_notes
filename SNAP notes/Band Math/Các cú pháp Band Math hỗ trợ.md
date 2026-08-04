@@ -1,3 +1,4 @@
+[[ Ví dụ cho các biểu thức Band Math]]
 ## Toán tử ba ngôi 
 `A ? B : C`
 ## Toán tử logic 
