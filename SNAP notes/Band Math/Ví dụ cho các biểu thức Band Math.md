@@ -37,4 +37,13 @@ sea_mask && Sigma0_VV_dB > -5.0
 Đây có thể là bước tạo ứng viên tàu, nhưng còn cần kiểm tra kích thước, vùng lân cận, CFAR và nhiễu đốm.
 
 # 3. Hằng số
-- TIME [[]]
+- TIME [[Ý nghĩa và ứng dụng của biến TIME]],
+```
+first_line_time = 04-MAY-2025 17:24:41.961933
+last_line_time  = 04-MAY-2025 17:24:59.903458
+```
+  ví dụ chỉ giữa các dòng ảnh từ 17:24:50 trở đi
+- TIME chuẩn hóa về giây:
+```
+(TIME - 9255.72548567052) * 86400.0
+```
