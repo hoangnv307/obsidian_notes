@@ -1,6 +1,6 @@
 ## Toán tử ba ngôi 
 `A ? B : C`
-## Toán tử bit 
+## Toán tử logic 
 - `X || Y` hoặc `X or Y` Logical OR
 - `X && Y` hoặc `X and Y` Logical AND
 ## Binary Comparison Operator

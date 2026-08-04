@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "citeturn640461view3",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
+                "file": "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,14 +217,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8721bee936cf0b20",
+  "active": "da0e4f01a03458c4",
   "lastOpenFiles": [
+    "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "2026-08-04.md",
     "SNAP notes/Band Math/Benchmark giữa ExprTk và muParser.md",
     "SNAP notes/Band Math/Cách SNAP render band math.md",
-    "SNAP notes/Band Math/Cơ chế, cấu trúc của thư viện ExprTk.md",
     "SNAP notes/Band Math/Khả năng ban đầu dẫn đến ngốn CPU.md",
     "SNAP notes/Band Math/Những cảnh báo trạng thái band math editor.md",
     "SNAP notes/Ý nghĩa và ứng dụng của biến TIME.md",
