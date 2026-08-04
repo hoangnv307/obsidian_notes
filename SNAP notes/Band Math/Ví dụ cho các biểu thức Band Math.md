@@ -35,3 +35,4 @@ sea_mask && Sigma0_VV_dB < -18.0
 sea_mask && Sigma0_VV_dB > -5.0
 ```
 Đây có thể là bước tạo ứng viên tàu, nhưng còn cần kiểm tra kích thước, vùng lân cận, CFAR và nhiễu đốm.
+# 3. Toán tử đại số
