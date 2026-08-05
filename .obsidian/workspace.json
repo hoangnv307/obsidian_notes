@@ -140,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5026054382324
+    "width": 419.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "36810270d83fd168",

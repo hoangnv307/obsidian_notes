@@ -211,5 +211,89 @@ del ecef_vels
 ```
 - Sau đó tác giả tính cosine của góc squint tức thời $D(f\eta, V_r)$, với
 $$
-D(f\eta, V_r) = \sqrt(1- \frac{c^2 f_\eta ^2}{4V_r^2f_0^2})
+D(f\eta, V_r) = \sqrt( 1- \frac{c^2 f_\eta ^2}{4V_r^2f_0^2} )
 $$
+giá trị này phụ thuộc vào cả azimuth và range, và vì thế là một mảng 2 chiều có kích thước bằng với data radar của chúng ta. Nếu lưu thêm 1 array đó thì sẽ rất tốn bộ nhớ. Vì thế, tác giả tạo một vòng lặp trả về các chunks nhỏ hơn của array. 
+```python
+# The ephemeris is provided at a much lower rate than the rate we receive packets
+# Therefore, we're using interpolation to get the spacecraft position along the azimuth axis
+x_interp = interp1d(l0file.ephemeris["POD Solution Data Timestamp"].unique(), l0file.ephemeris["X-axis position ECEF"].unique(), fill_value="extrapolate")
+y_interp = interp1d(l0file.ephemeris["POD Solution Data Timestamp"].unique(), l0file.ephemeris["Y-axis position ECEF"].unique(), fill_value="extrapolate")
+z_interp = interp1d(l0file.ephemeris["POD Solution Data Timestamp"].unique(), l0file.ephemeris["Z-axis position ECEF"].unique(), fill_value="extrapolate")
+x_positions = selection.apply(lambda x: x_interp(x["Coarse Time"] + x["Fine Time"]), axis=1).to_numpy().astype(float)
+y_positions = selection.apply(lambda x: y_interp(x["Coarse Time"] + x["Fine Time"]), axis=1).to_numpy().astype(float)
+z_positions = selection.apply(lambda x: z_interp(x["Coarse Time"] + x["Fine Time"]), axis=1).to_numpy().astype(float)
+position_array = np.transpose(np.vstack((x_positions, y_positions, z_positions)))
+
+wgs84_semi_major_axis_m = sentinel1decoder.constants.WGS84_SEMI_MAJOR_AXIS_M
+wgs84_semi_minor_axis_m = sentinel1decoder.constants.WGS84_SEMI_MINOR_AXIS_M
+satellite_distance_from_center_m = np.linalg.norm(position_array, axis=1)
+satellite_angular_velocity_rps = np.divide(space_velocities_mps, satellite_distance_from_center_m)
+satellite_latitude_rad = np.arctan(np.divide(position_array[:, 2], position_array[:, 0]))
+local_earth_rad_m = np.sqrt(
+    np.divide(
+        (np.square(wgs84_semi_major_axis_m**2 * np.cos(satellite_latitude_rad)) + np.square(wgs84_semi_minor_axis_m**2 * np.sin(satellite_latitude_rad))),
+        (np.square(wgs84_semi_major_axis_m * np.cos(satellite_latitude_rad)) + np.square(wgs84_semi_minor_axis_m * np.sin(satellite_latitude_rad)))
+    )
+)
+
+# Delete variables we no longer need
+del x_interp
+del y_interp
+del z_interp
+del satellite_angular_velocity_rps
+del satellite_latitude_rad
+del position_array
+del x_positions
+del y_positions
+del z_positions
+gc.collect()
+
+def compute_D_chunks(local_earth_rad_m, satellite_distance_from_center_m, space_velocities_mps, slant_range_vec_m, 
+                     az_freq_vals_hz, wavelength_m, chunk_size=512):
+    """
+    Generator that yields chunks of D on demand.
+    Each chunk computes intermediate arrays only for that chunk's rows.
+    This avoids storing the full 2D D array in memory.
+    
+    Yields:
+        (start_idx, end_idx, D_chunk) tuples where:
+        - start_idx, end_idx: slice indices for this chunk
+        - D_chunk: 2D array of D values for this chunk, shape (chunk_size, len_range_line)
+    """
+    len_az_line = len(local_earth_rad_m)
+    
+    for start_idx in range(0, len_az_line, chunk_size):
+        end_idx = min(start_idx + chunk_size, len_az_line)
+        
+        # Extract chunk of 1D arrays
+        local_earth_rad_chunk_m = local_earth_rad_m[start_idx:end_idx]
+        satellite_distance_chunk_m = satellite_distance_from_center_m[start_idx:end_idx]
+        space_velocities_chunk_mps = space_velocities_mps[start_idx:end_idx]
+        az_freq_vals_chunk_hz = az_freq_vals_hz[start_idx:end_idx]
+        
+        # Compute angular velocity for this chunk (angular_velocity = space_velocities / distance_from_center)
+        satellite_angular_velocity_chunk_rps = np.divide(space_velocities_chunk_mps, satellite_distance_chunk_m)
+        
+        # Compute 2D intermediate arrays for this chunk only
+        cos_beta_chunk = (np.divide(
+            np.square(local_earth_rad_chunk_m[:, np.newaxis]) + 
+            np.square(satellite_distance_chunk_m[:, np.newaxis]) - 
+            np.square(slant_range_vec_m), 
+            2 * local_earth_rad_chunk_m[:, np.newaxis] * satellite_distance_chunk_m[:, np.newaxis]
+        ))
+        ground_velocities_chunk_mps = (local_earth_rad_chunk_m[:, np.newaxis] * 
+                                   satellite_angular_velocity_chunk_rps[:, np.newaxis] * cos_beta_chunk)
+        effective_velocities_chunk_mps = np.sqrt(space_velocities_chunk_mps[:, np.newaxis] * 
+                                            ground_velocities_chunk_mps)
+        
+        # Compute D chunk
+        D_chunk = np.sqrt(1 - np.divide(
+            wavelength_m**2 * np.square(az_freq_vals_chunk_hz[:, np.newaxis]),
+            4 * np.square(effective_velocities_chunk_mps)
+        ))
+        
+        yield start_idx, end_idx, D_chunk
+        # Chunk is automatically garbage collected after yield
+
+```
