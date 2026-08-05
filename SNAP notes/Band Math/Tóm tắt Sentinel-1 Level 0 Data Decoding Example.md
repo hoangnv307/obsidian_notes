@@ -83,4 +83,5 @@ Tổng cộng 15 trường với 762 hàng (số quỹ đạo được đính k�
 
 # 3. Extract data
 ## 3.1 Select Packets to Process
-- Nhắc lại về khái niệm `Acquistion chunk`, một acquistion chunk là một đoạn
+- Nhắc lại về khái niệm `Acquistion chunk`, một acquistition chunk là một single continuous segment của SAR acquistition (echoes, noise, calibration, etc.),  where the instrument configuration is fixed and the radar records one uninterrupted sequence.  ==It is one stable, coherent block of data for a given signal type that can be processed as a unit.==
+- 
