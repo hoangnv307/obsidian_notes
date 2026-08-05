@@ -211,7 +211,7 @@ del ecef_vels
 ```
 - Sau đó tác giả tính cosine của góc squint tức thời $D(f\eta, V_r)$, với
 $$
-D(f\eta, V_r) = \sqrt( 1- \frac{c^2 f_\eta ^2}{4V_r^2f_0^2} )
+D(f_\eta, V_r) = \sqrt{ 1 - \frac{c^2 f_\eta ^2}{4V_r^2f_0^2} }
 $$
 giá trị này phụ thuộc vào cả azimuth và range, và vì thế là một mảng 2 chiều có kích thước bằng với data radar của chúng ta. Nếu lưu thêm 1 array đó thì sẽ rất tốn bộ nhớ. Vì thế, tác giả tạo một vòng lặp trả về các chunks nhỏ hơn của array. 
 ```python
@@ -296,4 +296,9 @@ def compute_D_chunks(local_earth_rad_m, satellite_distance_from_center_m, space_
         yield start_idx, end_idx, D_chunk
         # Chunk is automatically garbage collected after yield
 
+```
+
+## 4.2 Convert data to 2D frequency domain
+- Ở bước này, tác giả FFT theo cả 2 trục azimuth và range.
+```
 ```
