@@ -317,5 +317,33 @@ assert radar_data.dtype == np.complex64
 - Tác giả dùng bản sao xung Tx được lấy thông số từ gói bản tin metadata. Vì chúng ta đang ở miền tần số, chúng ta cũng phải chuyển bản sao xung sang miền tần số để dùng matched filter, sau đó lấy liên hợp phức. Cuối cùng, nhân từng range line với bộ lọc khớp. 
 - Bản sao xung Tx có dạng:
 $$
-TxPulse = exp{2i\pi((TXPSF + \frac{TXPRR \times TXPL}{2})\tau + \frac{TXPRR}{2}\tau^2)}
+TxPulse = exp\left\{2i\pi((TXPSF + \frac{TXPRR \times TXPL}{2})\tau + \frac{TXPRR}{2}\tau^2)\right\}
 $$
+với TXPSF là tần số bắt đầu của xung Tx, TXPRRR là ramp rate của xung Tx, TXPL là độ dài xung Tx. 
+```python
+# Create replica pulse
+TXPSF = selection["Tx Pulse Start Frequency"].unique()[0]
+TXPRR = selection["Tx Ramp Rate"].unique()[0]
+TXPL = selection["Tx Pulse Length"].unique()[0]
+num_tx_vals = int(TXPL*range_sample_freq)
+tx_replica_time_vals = np.linspace(-TXPL/2, TXPL/2, num=num_tx_vals)
+phi1 = TXPSF + TXPRR*TXPL/2
+phi2 = TXPRR/2
+tx_replica = np.exp(2.0j * np.pi * (phi1*tx_replica_time_vals + phi2*tx_replica_time_vals**2)).astype(np.complex64)
+
+# Create range filter from replica pulse, padded to range_fft_size for linear convolution
+range_filter = np.zeros(range_fft_size, dtype=np.complex64)
+index_start = np.ceil((range_fft_size-num_tx_vals)/2)-1
+index_end = num_tx_vals+np.ceil((range_fft_size-num_tx_vals)/2)-2
+range_filter[int(index_start):int(index_end+1)] = tx_replica
+range_filter = np.conjugate(fft(range_filter, n=range_fft_size, overwrite_x=True))
+
+# Apply filter
+radar_data = np.multiply(radar_data, range_filter)
+
+del range_filter
+del tx_replica
+gc.collect()
+
+assert radar_data.dtype == np.complex64
+```
