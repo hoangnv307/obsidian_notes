@@ -125,3 +125,11 @@ Kết quả in ra packet gồm 46 trường dữ liệu như ở trên, với b�
 
 ## 3.2 Extract Raw I/Q Sensor Data
 - Tác giả tiến hành trích dữ liệu IQ thành một ma trận dữ liệu 2 chiều, với chiều ngang là fast time $\tau$ và chiều dọc là slow time $\eta$ .
+```python
+# Decode the IQ data
+radar_data = l0file.get_acquisition_chunk_data(selected_chunk)
+assert radar_data.dtype == np.complex64
+
+# Cache this data so we can retreive it more quickly next time we want it
+l0file.save_acquisition_chunk_data(selected_chunk)
+```
