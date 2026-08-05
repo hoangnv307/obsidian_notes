@@ -4,9 +4,12 @@ Tài liệu tham khảo:
 [2] ESA2022_Sentinel-1 Level 1 Detailed Algorithm Definition
 [3] SAR Space Packet Protocol Data Unit
 [4] Các tài liệu của Sentinel-1: [Link](https://sentiwiki.copernicus.eu/web/document-library#DocumentLibrary-SENTINEL-1DocumentsLibrary-S1-Documents)
-# Imports và setup 
-- Sản phẩm được xét trong bài:
+# 1. Imports và setup 
+- Sản phẩm được xét trong bài, chế độ stripmap:
 `sao_paulo/s1a-s6-raw-s-vv-20251226t214356-20251226t214427-062491-07d496.dat`
 
-- Lưu lại đường dẫn tới file .dat (file chứa gói bản tin gửi xuống mặt đất)
-# Extra
+- Lưu lại đường dẫn tới file .dat (file chứa các gói bản tin gửi xuống mặt đất)
+# 2. Extract File Metadata
+- Một packet thông thường sẽ ba gồm đầu ra của radar instrument tương ứng của một radar echo. 
+- Các packets cũng có thể bao gồm các loại dữ liệu khác, ví dụ background noise measurements for instrument calibration. 
+- 
