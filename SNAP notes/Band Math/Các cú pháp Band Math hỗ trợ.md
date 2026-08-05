@@ -83,7 +83,7 @@ Toán tử này reture true hoặc false
 - distance() [[Giải thích họ hàm distance()]]
 - distance_deriv()
 - distance_integ()
-- inrange()
+- inrange() [[Giải thích họ hàm inrange()]]
 - inrange_deriv()
 - inrange_integ()
 - sq()
