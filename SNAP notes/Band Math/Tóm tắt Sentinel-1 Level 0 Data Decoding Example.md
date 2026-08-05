@@ -159,4 +159,5 @@ plt.show()
 	- Kích thước ảnh 
 	- Các tham số của xung truyền sử dụng để tổng hợp một xung replica Tx
 	- Sample rates theo chiều range và azimuth 
-	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một 
+	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
+	- Giá trị tần số theo trục range $f_\tau$ 
