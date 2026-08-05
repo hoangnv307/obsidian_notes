@@ -209,4 +209,7 @@ range_fft_size = int(2**np.ceil(np.log2(required_fft_size)))
 del velocity_interp
 del ecef_vels
 ```
-- 
+- Sau đó tác giả tính cosine của góc squint tức thời $D(f\eta, V_r)$, với
+$$
+D(f\eta, V_r) = \sqrt(1- \frac{c^2 f_\eta ^2}{4V_r^2f_0^2})
+$$
