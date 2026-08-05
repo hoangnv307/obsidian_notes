@@ -1,6 +1,7 @@
 [[ Ví dụ cho các biểu thức Band Math]]
 ## Toán tử ba ngôi 
 `A ? B : C`
+`if A then B else C`
 ## Toán tử logic 
 - `X || Y` hoặc `X or Y` Logical OR
 - `X && Y` hoặc `X and Y` Logical AND
