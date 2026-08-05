@@ -149,3 +149,10 @@ plt.show()
 # 4. Image Processing
 - Ở phần này, tác giả sẽ thực thi các bước của thuật toán Range-Doppler:
 	1. Range Compression
+	2. Transform to Range-Doppler domain 
+	3. Range Cell Migration Correction (RCMC)
+	4. Azimuth compression
+	5. Transform to time domain
+	6. Image formation
+## 4.1 Define auxiliary parameters
+- Tác giả định nghĩa 
