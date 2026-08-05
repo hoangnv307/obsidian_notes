@@ -300,5 +300,17 @@ def compute_D_chunks(local_earth_rad_m, satellite_distance_from_center_m, space_
 
 ## 4.2 Convert data to 2D frequency domain
 - Ở bước này, tác giả FFT theo cả 2 trục azimuth và range.
+```python
+# Zero-pad along range axis to enable linear convolution
+radar_data = np.pad(radar_data, ((0, 0), (0, range_fft_size - len_range_line)), mode='constant', constant_values=0)
+
+# FFT each range line with explicit size for linear convolution
+radar_data = fft(radar_data, n=range_fft_size, axis=1, overwrite_x=True)
+
+# FFT each azimuth line
+radar_data = fftshift(fft(radar_data, axis=0, overwrite_x=True), axes=0)
+
+assert radar_data.dtype == np.complex64
 ```
-```
+
+## 4.3 Range compression - create and apply matched filter
