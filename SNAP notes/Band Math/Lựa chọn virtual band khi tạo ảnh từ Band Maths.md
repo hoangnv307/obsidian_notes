@@ -1,0 +1,2 @@
+- Nếu được tick: Khi lưu sản phẩm, không tạo riêng 1 file dữ liệu độc lập mà chỉ lưu phương trình tạo nên nút dữ liệu đó.
+- Nếu không được tick: Khi lưu sản phẩm, tạo riêng 1 file dữ liệu độc lập, không phụ thuộc vào data source
