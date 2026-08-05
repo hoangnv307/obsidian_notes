@@ -45,3 +45,58 @@ Số tham số phải chẵn và tối thiểu là 2; nếu lẻ, chương trìn
   ```
 
 `deriv` ở đây là sai phân rời rạc, còn `integ` chỉ là tổng tích lũy, không sử dụng khoảng cách bước lấy mẫu. Công thức hiện tại giống SNAP khi truyền đúng số lượng tham số chẵn. Nguồn: [band_maths_expression.cpp](/home/hoangnv307/code/sar_application/src/engine/core/datamodel/raster/band_maths_expression.cpp:891).
+
+# Ứng dụng
+Có. Với ảnh SAR, ứng dụng dễ hiểu nhất là phát hiện thay đổi đa thời gian.
+
+Giả sử đã đồng đăng ký ảnh trước và sau sự kiện, có các band:
+
+```text
+VV_before, VH_before
+VV_after,  VH_after
+```
+
+Biểu thức:
+
+```text
+distance(VV_before, VH_before,
+         VV_after,  VH_after)
+```
+
+tương đương:
+
+```text
+√[(VV_after−VV_before)² + (VH_after−VH_before)²]
+```
+
+Ví dụ dữ liệu dB:
+
+```text
+Trước: VV = -10, VH = -17
+Sau:   VV =  -5, VH = -12
+
+distance = √(5² + 5²) ≈ 7.07
+```
+
+Khoảng cách lớn cho biết đặc trưng tán xạ đã thay đổi mạnh. Có thể tạo mask:
+
+```text
+distance(VV_before, VH_before,
+         VV_after,  VH_after) > 4.0
+```
+
+Ứng dụng gồm:
+
+- Phát hiện ngập lụt, phá rừng, cháy rừng hoặc xây dựng mới.
+- So sánh đặc trưng phân cực `VV/VH`, `HH/HV` với mẫu của một loại bề mặt.
+- Tìm pixel bất thường trong chuỗi ảnh SAR nhiều thời điểm.
+- `distance_deriv`: so sánh xu hướng thay đổi theo thời gian, ít nhạy với độ lệch nền cố định.
+- `distance_integ`: nhấn mạnh thay đổi nhỏ nhưng kéo dài qua nhiều thời điểm; ít phổ biến hơn.
+
+Trước khi dùng nên:
+
+- Hiệu chỉnh radiometric về `Sigma0` hoặc `Gamma0`.
+- Đồng đăng ký chính xác các ảnh.
+- Dùng cùng miền giá trị, không trộn band tuyến tính với band dB.
+- Giảm speckle hoặc tính trên dữ liệu đã làm trơn; khoảng cách trực tiếp từng pixel thường khá nhiễu.
+- Không dùng các hàm này thay cho coherence hoặc phase trong bài toán giao thoa SAR. Chúng chỉ so sánh các giá trị band dạng số.

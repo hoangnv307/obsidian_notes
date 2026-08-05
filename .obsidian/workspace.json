@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNAP notes/Band Math/Giải thích họ hàm distance().md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c6c5f50794e53e3",
+  "active": "966cfc4ebdf07064",
   "lastOpenFiles": [
     "SNAP notes/Band Math/Giải thích họ hàm distance().md",
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
