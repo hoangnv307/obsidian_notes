@@ -121,4 +121,7 @@ selected_chunk = 13
 selection = l0file.get_acquisition_chunk_metadata(selected_chunk)
 selection
 ```
-Kết quả in ra packet 
+Kết quả in ra packet gồm 46 trường dữ liệu như ở trên, với bản tin từ 408 đến 30341, tổng cộng 29934 bản tin echoes.
+
+## 3.2 Extract Raw I/Q Sensor Data
+- Tác giả tiến hành trích dữ liệu IQ thành một ma trận dữ liệu 2 chiều, với chiều ngang là fast time $\tau$
