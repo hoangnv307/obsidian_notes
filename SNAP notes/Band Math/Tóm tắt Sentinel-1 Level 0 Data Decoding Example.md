@@ -155,4 +155,8 @@ plt.show()
 	5. Transform to time domain
 	6. Image formation
 ## 4.1 Define auxiliary parameters
-- Tác giả định nghĩa 
+- Tác giả định nghĩa các tham số cần cho quá trình lấy nét ảnh như sau: 
+	- Kích thước ảnh 
+	- Các tham số của xung truyền sử dụng để tổng hợp một xung replica Tx
+	- Sample rates theo chiều range và azimuth 
+	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một 
