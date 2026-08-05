@@ -161,3 +161,4 @@ plt.show()
 	- Sample rates theo chiều range và azimuth 
 	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
 	- Giá trị tần số theo trục range $f_\tau$ và aizmuth $f_\eta$  sau khi dữ liệu được chuyển qua miền tần số
+	- Vận tốc vệ tinh hiệu dụng ($V_r$), 
