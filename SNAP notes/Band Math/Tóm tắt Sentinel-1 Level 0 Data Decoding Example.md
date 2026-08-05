@@ -314,3 +314,8 @@ assert radar_data.dtype == np.complex64
 ```
 
 ## 4.3 Range compression - create and apply matched filter
+- Tác giả dùng bản sao xung Tx được lấy thông số từ gói bản tin metadata. Vì chúng ta đang ở miền tần số, chúng ta cũng phải chuyển bản sao xung sang miền tần số để dùng matched filter, sau đó lấy liên hợp phức. Cuối cùng, nhân từng range line với bộ lọc khớp. 
+- Bản sao xung Tx có dạng:
+$$
+TxPulse = exp{2i\pi((TXPSF + \frac{TXPRR \times TXPL}{2})\tau + \frac{TXPRR}{2}\tau^2)}
+$$
