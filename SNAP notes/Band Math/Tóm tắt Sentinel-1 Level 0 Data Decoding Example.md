@@ -135,5 +135,17 @@ l0file.save_acquisition_chunk_data(selected_chunk)
 ```
 - Sau khi vẽ amplitude của dữ liệu IQ tho, ta thấy dữ liệu cũng có một cấu trúc cụ thể, nhưng ta chưa thể phân biệt/nhận dạng được các vật thể. 
 ```python
-
+# Plot the raw IQ data extracted from the data file
+plt.figure(figsize=(12, 12))
+plt.title("Sentinel-1 Raw I/Q Sensor Output")
+# We're just going to plot every 20th row/col value for speed here
+plt.imshow(abs(radar_data[::20,::20]), vmin=0, vmax=15, origin='lower')
+plt.xlabel("Fast Time (down range)")
+plt.ylabel("Slow Time (cross range)")
+plt.show()
 ```
+![[Pasted image 20260805181828.png]]
+
+# 4. Image Processing
+- Ở phần này, tác giả sẽ thực thi các bước của thuật toán Range-Doppler:
+	1. Range Compression
