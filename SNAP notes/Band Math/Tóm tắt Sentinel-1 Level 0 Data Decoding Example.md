@@ -161,4 +161,51 @@ plt.show()
 	- Sample rates theo chiều range và azimuth 
 	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
 	- Giá trị tần số theo trục range $f_\tau$ và aizmuth $f_\eta$  sau khi dữ liệu được chuyển qua miền tần số
-	- Vận tốc vệ tinh hiệu dụng ($V_r$), với $V_r \approx \sqrt(V_s Vg)$, với 
+	- Vận tốc vệ tinh hiệu dụng ($V_r$), với $V_r \approx \sqrt(V_s Vg)$, với $V_s$ giá trị vector vận tốc vệ tinh định mức, $V_g$ là vận tốc búp sóng ăng ten trên mặt đất. Công thức này dựa trên báo [link](https://iopscience.iop.org/article/10.1088/1757-899X/1172/1/012012/pdf), lưu ý là $V_g$ và vì thế là $V_r$ sẽ thay đổi theo slant range. 
+```
+# Image sizes
+len_range_line = radar_data.shape[1]
+len_az_line = radar_data.shape[0]
+
+# Tx pulse parameters
+c = sentinel1decoder.constants.SPEED_OF_LIGHT_MPS
+RGDEC = selection["Range Decimation"].unique()[0]
+PRI = selection["PRI"].unique()[0]
+rank = selection["Rank"].unique()[0]
+suppressed_data_time = 320/(8*sentinel1decoder.constants.F_REF)
+range_start_time = selection["SWST"].unique()[0] + suppressed_data_time
+wavelength_m = sentinel1decoder.constants.TX_WAVELENGTH_M
+
+# Sample rates
+range_sample_freq = sentinel1decoder.utilities.range_dec_to_sample_rate(RGDEC)
+range_sample_period = 1/range_sample_freq
+az_sample_freq = 1 / PRI
+az_sample_period = PRI
+
+# Fast time vector - defines the time axis along the fast time direction
+sample_num_along_range_line = np.arange(0, len_range_line, 1)
+fast_time_vec = range_start_time + (range_sample_period * sample_num_along_range_line)
+
+# Slant range vector - defines R0, the range of closest approach, for each range cell
+slant_range_vec_m = ((rank * PRI) + fast_time_vec) * c/2
+    
+# Axes - defines the frequency axes in each direction after FFT
+az_freq_vals_hz = np.arange(-az_sample_freq/2, az_sample_freq/2, 1/(PRI*len_az_line))
+ 
+# Spacecraft velocity - numerical calculation of the effective spacecraft velocity
+ecef_vels = l0file.ephemeris.apply(lambda x: math.sqrt(x["X-axis velocity ECEF"]**2 + x["Y-axis velocity ECEF"]**2 +x["Z-axis velocity ECEF"]**2), axis=1)
+velocity_interp = interp1d(l0file.ephemeris["POD Solution Data Timestamp"].unique(), ecef_vels.unique(), fill_value="extrapolate")
+space_velocities_mps = selection.apply(lambda x: velocity_interp(x["Coarse Time"] + x["Fine Time"]), axis=1).to_numpy().astype(float)
+
+# Calculate required FFT size for linear convolution in range compression
+# This ensures N >= L + M - 1, where L is signal length and M is filter length
+TXPL = selection["Tx Pulse Length"].unique()[0]
+num_tx_vals = int(TXPL*range_sample_freq)
+required_fft_size = len_range_line + num_tx_vals - 1
+# Round up to next power of 2 for FFT efficiency
+range_fft_size = int(2**np.ceil(np.log2(required_fft_size)))
+
+# Delete arrays we no longer need
+del velocity_interp
+del ecef_vels
+```
