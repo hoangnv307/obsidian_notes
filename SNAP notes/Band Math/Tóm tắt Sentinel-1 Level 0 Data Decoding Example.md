@@ -124,4 +124,4 @@ selection
 Kết quả in ra packet gồm 46 trường dữ liệu như ở trên, với bản tin từ 408 đến 30341, tổng cộng 29934 bản tin echoes.
 
 ## 3.2 Extract Raw I/Q Sensor Data
-- Tác giả tiến hành trích dữ liệu IQ thành một ma trận dữ liệu 2 chiều, với chiều ngang là fast time $\tau$
+- Tác giả tiến hành trích dữ liệu IQ thành một ma trận dữ liệu 2 chiều, với chiều ngang là fast time $\tau$ và chiều dọc là slow time $\eta$ .
