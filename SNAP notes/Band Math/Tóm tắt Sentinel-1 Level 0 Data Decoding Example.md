@@ -79,4 +79,8 @@ Tổng cộng ma trận được trích có 46 cột, 50706 hàng tương ứng 
 	- Omega-Y Angular Rate
 	- Omega-Z Angular Rate
 	- Attitude Data Timestamp
-Tổng cộng 15 trường với 762 hàng tương ứng với lu.
+Tổng cộng 15 trường với 762 hàng (số quỹ đạo được đính kèm bản tin) tương ứng.
+
+# 3. Extract data
+## 3.1 Select Packets to Process
+- Nhắc lại về khái niệm `Acquistion chunk`, một acquistion chunk là một đoạn

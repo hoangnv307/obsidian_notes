@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chương 1 Giới thiệu"
+              "title": "Backlinks"
             }
           },
           {
@@ -214,12 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
+                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Chương 1 Giới thiệu"
+              "title": "Outgoing links"
             }
           },
           {
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Ví dụ cho các biểu thức Band Math.md",
+                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -267,12 +267,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,7 +285,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "391afa124bc8d899",
+  "active": "1b3ab9c81e6f952f",
   "lastOpenFiles": [
     "SNAP notes/Band Math/Giải thích họ hàm inrange().md",
     "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
