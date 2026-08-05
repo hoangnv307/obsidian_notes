@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -244,10 +244,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98a76db5b2cf7cc6",
+  "active": "aa9b2c74a73aecc6",
   "lastOpenFiles": [
-    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "SNAP notes/Band Math/Lựa chọn virtual band khi tạo ảnh từ Band Maths.md",
+    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "SNAP notes/Band Math/Các trạng thái của thanh check hợp lệ biểu thức.md",
     "SNAP notes/Cơ sở lý thuyết Affine Transform.md",
     "SNAP notes/Band Math/Ví dụ cho các biểu thức Band Math.md",
