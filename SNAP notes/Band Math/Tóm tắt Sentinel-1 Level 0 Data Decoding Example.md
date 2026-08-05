@@ -14,6 +14,8 @@ Tài liệu tham khảo:
 - Các packets cũng có thể bao gồm các loại dữ liệu khác, ví dụ background noise measurements for instrument calibration. 
 - Tác giả sẽ trích metadata từ mỗi packet trên một subset (vì thao tác trên cả ảnh sẽ tốn thời gian).
 - Một packet sẽ bao gồm các trường như sau:
+	- Acquistion chunk
+	- Packet Number: Index của mỗi packet
 	- Packet Version Number
 	- Packet Type
 	- Secondary Header Flag
@@ -56,5 +58,9 @@ Tài liệu tham khảo:
 	- Calibration Beam Address
 	- Calibration Mode
 	- Tx Pulse Number
-	- Signal Type|Swap Flag|Swath Number|Number of Quads|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+	- Signal Type
+	- Swap Flag
+	- Swath Number
+	- Number of Quads
+Tổng cộng ma trận được trích có 46 cột, 50706 hàng tương ứng với số bản tin.
+- Ngoài ra, thông tin về quỹ đạo của vệ tinh còn được 
