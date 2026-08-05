@@ -85,4 +85,40 @@ Tổng cộng 15 trường với 762 hàng (số quỹ đạo được đính k�
 ## 3.1 Select Packets to Process
 - Tác giả ở dây chỉ muốn trích xuất những bản tin mang thông tin về radar echoes (dựa vào trường dữ liệu `Signal Type.
 - Nhắc lại về khái niệm `Acquistion chunk`, một acquistition chunk là một single continuous segment của SAR acquistition (echoes, noise, calibration, etc.),  where the instrument configuration is fixed and the radar records one uninterrupted sequence.  ==It is one stable, coherent block of data for a given signal type that can be processed as a unit.==
-- 
+```python
+# iter_chunks_matching can be passed any constant param you see in the below lists.
+# Here, we're using it to iterate over all the chunks which have an echo signal type (as opposed to a noise measurement or a calibration operation)
+for chunk in l0file.iter_chunks_matching(signal_type=sentinel1decoder.enums.SignalType.ECHO):
+    print(f"Chunk {chunk}:")
+    for key, val in l0file.get_acquisition_chunk_constants(chunk).items():
+        print(f"\t{key}: {val}")
+```
+
+```txt
+Chunk 13:
+	signal_type: Echo
+	swath_num: 6
+	num_quads: 9975
+	baq_mode: FDBAQ MODE 0
+	swst: 8.333617017329499e-05
+	swl: 0.00042669824216607814
+	pri: 0.000601150045968743
+	elevation_beam_address: 5
+Chunk 14:
+	signal_type: Echo
+	swath_num: 6
+	num_quads: 9993
+	baq_mode: FDBAQ MODE 0
+	swst: 8.160444029437422e-05
+	swl: 0.00042744421811392094
+	pri: 0.000601150045968743
+	elevation_beam_address: 5
+```
+
+- Trong ví dụ này, tác giả sẽ tập trung vào vùng bờ biển quanh cảng Santos.
+```python
+selected_chunk = 13
+selection = l0file.get_acquisition_chunk_metadata(selected_chunk)
+selection
+```
+Kết quả in ra packet 
