@@ -13,5 +13,48 @@ Tài liệu tham khảo:
 - Một packet thông thường sẽ ba gồm đầu ra của radar instrument tương ứng của một radar echo. 
 - Các packets cũng có thể bao gồm các loại dữ liệu khác, ví dụ background noise measurements for instrument calibration. 
 - Tác giả sẽ trích metadata từ mỗi packet trên một subset (vì thao tác trên cả ảnh sẽ tốn thời gian).
-- |Packet Version Number|Packet Type|Secondary Header Flag|PID|PCAT|Sequence Flags|Packet Sequence Count|Packet Data Length|Coarse Time|Fine Time|Sync|Data Take ID|ECC Number|Test Mode|Rx Channel ID|Instrument Configuration ID|Sub-commutated Ancilliary Data Word Index|Sub-commutated Ancilliary Data Word|Space Packet Count|PRI Count|Error Flag|BAQ Mode|BAQ Block Length|Range Decimation|Rx Gain|Tx Ramp Rate|Tx Pulse Start Frequency|Tx Pulse Length|Rank|PRI|SWST|SWL|SAS SSB Flag|Polarisation|Temperature Compensation|Elevation Beam Address|Azimuth Beam Address|SAS Test Mode|Cal Type|Calibration Beam Address|Calibration Mode|Tx Pulse Number|Signal Type|Swap Flag|Swath Number|Number of Quads|
+- Một packet sẽ bao gồm các trường như sau:
+	- Packet Version Number
+	- Packet Type
+	- Secondary Header Flag
+	- PID
+	- PCAT
+	- Sequence Flags
+	- Packet Sequence Count
+	- Packet Data Length
+	- Coarse Time
+	- Fine Time
+	- Sync
+	- Data Take ID
+	- ECC Number
+	- Test Mode
+	- Rx Channel ID
+	- Instrument Configuration ID
+	- Sub-commutated Ancilliary Data Word Index
+	- Sub-commutated Ancilliary Data Word
+	- Space Packet Count
+	- PRI Count
+	- Error Flag
+	- BAQ Mode
+	- BAQ Block Length
+	- Range Decimation
+	- Rx Gain
+	- Tx Ramp Rate
+	- Tx Pulse Start Frequency
+	- Tx Pulse Length
+	- Rank
+	- PRI
+	- SWST
+	- SWL
+	- SAS SSB Flag
+	- Polarisation
+	- Temperature Compensation
+	- Elevation Beam Address
+	- Azimuth Beam Address
+	- SAS Test Mode
+	- Cal Type
+	- Calibration Beam Address
+	- Calibration Mode
+	- Tx Pulse Number
+	- Signal Type|Swap Flag|Swath Number|Number of Quads|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
