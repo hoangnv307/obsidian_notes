@@ -449,3 +449,15 @@ plt.ylabel("Cross Range (samples)")
 plt.show()
 ```
 ![[Pasted image 20260806085858.png]]
+- Zoom in: 
+```python
+# Plot final image - detail
+plt.figure(figsize=(12, 12))
+plt.title("Sentinel-1 Processed SAR Image - detail")
+plt.imshow(abs(radar_data[9000:11000, 6000:8000]), origin='lower', norm=colors.LogNorm(vmin=300, vmax=10000))
+plt.xlabel("Down Range (samples)")
+plt.ylabel("Cross Range (samples)")
+plt.show()
+```
+![[Pasted image 20260806090115.png]]
+- Kết quả ảnh vẫn chưa phải là perfectly. Ở bài test này, tác giả đang giả sử rằng Doppler Controid bằng 0Hz, cũng như chưa áp dụng một số bước bổ sung mà ESA đã sử dụng để tạo ảnh L1, ví dụng Secondary Range Compression (SRC). 

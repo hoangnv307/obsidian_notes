@@ -48,65 +48,9 @@
               "icon": "lucide-file",
               "title": "Ý nghĩa và ứng dụng của biến TIME"
             }
-          },
-          {
-            "id": "cffff8175d3c9136",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Band Math/Giải thích họ hàm inrange().md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Giải thích họ hàm inrange()"
-            }
-          },
-          {
-            "id": "7c6c5f50794e53e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tóm tắt Sentinel-1 Level 0 Data Decoding Example"
-            }
-          },
-          {
-            "id": "0c220434fda38bcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Band Math/Cơ chế thực hiện random_uniform().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cơ chế thực hiện random_uniform()"
-            }
-          },
-          {
-            "id": "fe860034fd600955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Band Math/Các bài test dành cho module band math.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Các bài test dành cho module band math"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,13 +105,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 419.5026054382324,
-    "collapsed": true
+    "width": 419.5026054382324
   },
   "right": {
     "id": "36810270d83fd168",
@@ -183,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -245,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,21 +215,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c6c5f50794e53e3",
+  "active": "cded1637d03e55e4",
   "lastOpenFiles": [
+    "SNAP notes/Band Math/Giải thích họ hàm inrange().md",
+    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
+    "SNAP notes/Band Math/Cơ chế thực hiện random_uniform().md",
+    "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+    "SNAP notes/Band Math/images/Pasted image 20260806090115.png",
     "SNAP notes/Band Math/images/Pasted image 20260806085858.png",
     "SNAP notes/Band Math/images/Pasted image 20260805181828.png",
     "SNAP notes/Band Math/images",
     "SNAP notes/Band Math/Giải thích họ hàm distance().md",
-    "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
-    "SNAP notes/Band Math/Giải thích họ hàm inrange().md",
     "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example",
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
     "SNAP notes/Band Math/Ví dụ cho các biểu thức Band Math.md",
     "SNAP notes/Band Math/Khả năng ban đầu dẫn đến ngốn CPU.md",
-    "SNAP notes/Band Math/Cơ chế thực hiện random_uniform().md",
-    "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "SNAP notes/Band Math/Các trạng thái của thanh check hợp lệ biểu thức.md",
     "SNAP notes/Band Math/Lựa chọn virtual band khi tạo ảnh từ Band Maths.md",
     "SNAP notes/Cơ sở lý thuyết Affine Transform.md",
@@ -318,8 +261,6 @@
     "images/Pasted image 20260730111526.png",
     "images/Pasted image 20260730105658.png",
     "images",
-    "SNAP notes/images/Pasted image 20260728170947.png",
-    "SNAP notes/images/Pasted image 20260727145744.png",
-    "SNAP notes/images/Pasted image 20260727083908.png"
+    "SNAP notes/images/Pasted image 20260728170947.png"
   ]
 }
