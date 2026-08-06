@@ -350,4 +350,9 @@ assert radar_data.dtype == np.complex64
 
 ## 4.4 Range cell migration corection 
 - Vì chuyển động của bộ thu có liên quan đến rằng buộc giữa thông tin range và azimuth, các mục tiêu điểm sẽ có xu hướng trải dài theo hình vòng cung qua những range bins cũng như theo chiều azimuth. 
-- Vì vậy ta cần a
+- Vì vậy ta cần áp dụng một phép dịch chuyển để xếp đều phase history liên quan của each pointlike target thành một range bin, để ta có thể thao tác trên 1 chiều dọc theo trục azimuth để thực hiện azimuth compression. 
+- The RCMC shift được định nghĩa như sau: 
+$$
+RCMC\; shift = R_0(\frac{1}{D} -1)
+$$
+với D là cosine của góc squint tức thời và $$
