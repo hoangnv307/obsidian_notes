@@ -21,3 +21,6 @@ Những tính năng người dùng tương tác:
 	- Các công cụ giúp chỉnh sửa biểu thức: chọn tất cả, xóa tất cả, redo, undo, history back, history forward. 
 	- Thanh trạng thái hợp lệ của biểu thức
 	- Ok/Cancel/Help
+- Biểu đồ ca chốt: 
+![[Pasted image 20260806104614.png]]
+Cấu hình băng ảnh đích bao gồm 2 chức năng luôn được thực hiện
