@@ -355,4 +355,8 @@ assert radar_data.dtype == np.complex64
 $$
 RCMC\; shift = R_0(\frac{1}{D} -1)
 $$
-với D là cosine của góc squint tức thời và $$
+với D là cosine của góc squint tức thời và $R_0$ là the range of closest approach (được đề cập ở mục 4.1). Vì chúng ta đang thực hiện trên miền tần số, ta cần áp dụng một bộ lọc dưới dạng:
+$$
+RCMC \; filter = exp\left\{4i\pi\frac{f_\tau}{c}(RCMC\; shift)\right\}
+$$
+- Bộ lọc này cần được nhân với mọi range line trong d
