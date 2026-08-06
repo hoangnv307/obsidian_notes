@@ -400,3 +400,32 @@ radar_data = radar_data[:, :len_range_line]
 
 assert radar_data.dtype == np.complex64
 ```
+
+## 4.6 Azimuth compression - create and apply matched filter.
+- Bộ lọc theo chiều aizmuth được định nghĩa dưới dạng: 
+$$
+Azimuth \; filter = exp\left\{4i\pi\frac{R_0D(f_\eta,V_r)}{\lambda}\right\}
+$$
+```python
+# Process azimuth filter in chunks to avoid storing full D array
+for start_idx, end_idx, D_chunk in compute_D_chunks(local_earth_rad_m, satellite_distance_from_center_m, space_velocities_mps, 
+                                                     slant_range_vec_m, az_freq_vals_hz, wavelength_m):
+    # Compute azimuth filter for this chunk
+    az_filter_chunk = np.exp(4.0j * np.pi * slant_range_vec_m * D_chunk / wavelength_m).astype(np.complex64)
+    
+    # Apply filter to this chunk
+    radar_data[start_idx:end_idx, :] *= az_filter_chunk
+
+# Clean up arrays we no longer need
+del D_chunk
+del az_filter_chunk
+del local_earth_rad_m
+del satellite_distance_from_center_m
+del space_velocities_mps
+del slant_range_vec_m
+del az_freq_vals_hz
+del fast_time_vec
+gc.collect()
+
+assert radar_data.dtype == np.complex64
+```
