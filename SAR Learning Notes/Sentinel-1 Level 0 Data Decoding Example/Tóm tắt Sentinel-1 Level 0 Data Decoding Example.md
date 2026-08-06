@@ -13,7 +13,7 @@ Tài liệu tham khảo:
 - Một packet thông thường sẽ ba gồm đầu ra của radar instrument tương ứng của một radar echo. 
 - Các packets cũng có thể bao gồm các loại dữ liệu khác, ví dụ background noise measurements for instrument calibration. 
 - Tác giả sẽ trích metadata từ mỗi packet trên một subset (vì thao tác trên cả ảnh sẽ tốn thời gian).
-- Một packet sẽ bao gồm các trường như sau:
+- Một packet sẽ bao gồm các trường như sau [[Các trường trong một bản tin Sentinel-1]]:
 	- Acquistion chunk
 	- Packet Number: Index của mỗi packet
 	- Packet Version Number
@@ -63,7 +63,7 @@ Tài liệu tham khảo:
 	- Swath Number
 	- Number of Quads
 Tổng cộng ma trận được trích có 46 cột, 50706 hàng tương ứng với số bản tin.
-- Ngoài ra, thông tin về quỹ đạo của vệ tinh còn được đính kèm vào các bản tin với tần số thấp hơn, vì vậy tác giả cần thêm một bước để trích xuất trường thông tin này :
+- Ngoài ra, thông tin về quỹ đạo của vệ tinh còn được đính kèm vào các bản tin với tần số thấp hơn, vì vậy tác giả cần thêm một bước để trích xuất trường thông tin này [[Thông tin về quỹ đạo vệ tinh Sentinel-1 được đóng gói trong bản tin]]:
 	- X-axis position ECEF
 	- Y-axis position ECEF
 	- Z-axis position ECEF
