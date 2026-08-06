@@ -163,6 +163,9 @@ plt.show()
 	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
 	- Giá trị tần số theo trục range $f_\tau$ và aizmuth $f_\eta$  sau khi dữ liệu được chuyển qua miền tần số
 	- Vận tốc vệ tinh hiệu dụng ($V_r$), với $V_r \approx \sqrt{V_s Vg}$, với $V_s$ giá trị vector vận tốc vệ tinh định mức, $V_g$ là vận tốc búp sóng ăng ten trên mặt đất. Công thức này dựa trên báo [link](https://iopscience.iop.org/article/10.1088/1757-899X/1172/1/012012/pdf), lưu ý là $V_g$ và vì thế là $V_r$ sẽ thay đổi theo slant range. 
+Ý nghĩa một vài trường: 
+- Range Decimation (RGDEC) [[Các trường trong một bản tin Sentinel-1#Range Decimation Chi tiết về Range Decimation]]
+- Rank [[Các trường trong một bản tin Sentinel-1#Rank]]
 ```python
 # Image sizes
 len_range_line = radar_data.shape[1]
