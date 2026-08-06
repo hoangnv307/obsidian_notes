@@ -14,4 +14,7 @@ Những tính năng người dùng tương tác:
 	- Lựa chọn thay thế các pixel có giá trị NaN/Infinity
 	- Trường nhập biểu thức
 	- Load/save biểu thức toán học
-- Trình soạn thảo biểu thức
+- Trình soạn thảo biểu thức:
+	- Chọn nguồn dữ liệu nhập nhanh, hiển thị nguồn dữ liệu nhập nhanh
+	- Chọn biểu thức nhập nhanh
+	- 
