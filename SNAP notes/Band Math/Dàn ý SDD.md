@@ -25,4 +25,7 @@ Những tính năng người dùng tương tác:
 ![[Pasted image 20260806104614.png]]
 - Cấu hình băng ảnh đích bao gồm 2 chức năng luôn được thực hiện bao gồm: 
 	- Cấu hình thông tin băng ảnh: tên băng, mô tả về băng, tên đơn vị pixel của băng, sản phẩm đích chứa nó. 
-	- Cấu hình tính chất băng: băng là băng virtual hay non virtual, các pixel NaN/i
+	- Cấu hình tính chất băng: băng là băng virtual hay non virtual, các pixel NaN/infinity được thế bởi giá trị nào?
+- Soạn thảo biểu thức toán học, chức năng này bao gồm:
+	- Bộ biên dịch cú pháp đầu vào (vùng nhập biểu thức) từ người dùng
+	- Các công cụ hỗ trợ thao tác, bao gồm: 
