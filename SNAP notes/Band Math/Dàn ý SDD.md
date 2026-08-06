@@ -13,5 +13,5 @@ Những tính năng người dùng tương tác:
 	- Chọn loại băng ảnh: Virtual/Nonvirtual 
 	- Lựa chọn thay thế các pixel có giá trị NaN/Infinity
 	- Trường nhập biểu thức
-	- 
+	- Load/save biểu thức toán học
 - Trình soạn thảo biểu thức
