@@ -28,4 +28,4 @@ Những tính năng người dùng tương tác:
 	- Cấu hình tính chất băng: băng là băng virtual hay non virtual, các pixel NaN/infinity được thế bởi giá trị nào?
 - Soạn thảo biểu thức toán học, chức năng này bao gồm:
 	- Bộ biên dịch cú pháp đầu vào (vùng nhập biểu thức) từ người dùng
-	- Các công cụ hỗ trợ thao tác, bao gồm: 
+	- Các công cụ hỗ trợ thao tác, bao gồm: lưu thành file, load file, 
