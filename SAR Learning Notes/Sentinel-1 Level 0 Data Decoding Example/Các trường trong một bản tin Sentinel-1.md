@@ -1,6 +1,6 @@
 
 
-Danh sách bạn đưa ra **khớp với metadata của gói SAR Space Packet của Sentinel-1A/B**. Với Sentinel-1C/D, ESA ban hành tài liệu SPPDU riêng nên không nên mặc định vị trí bit và bảng mã hoàn toàn giống A/B. 
+Với Sentinel-1C/D, ESA ban hành tài liệu SPPDU riêng nên không nên mặc định vị trí bit và bảng mã hoàn toàn giống A/B. 
 
 Về tổng thể, một packet gồm:
 
