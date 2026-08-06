@@ -431,3 +431,21 @@ assert radar_data.dtype == np.complex64
 ```
 
 ## 4.7 Transform back to range-azimuth domain
+- Cuối cùng, tác giả chuyển đổi miền frequency bằng cách lấy IFFT each azimuth line. 
+```python
+radar_data = ifft(radar_data, axis=0, overwrite_x=True) 
+assert radar_data.dtype == np.complex64
+```
+
+# 5. Plot Results
+- Kết quả của chúng ta sau xử lý: 
+```python
+# Plot final image
+plt.figure(figsize=(12, 12))
+plt.title("Sentinel-1 Processed SAR Image")
+plt.imshow(abs(radar_data[::20, ::20]), origin='lower', norm=colors.LogNorm(vmin=300, vmax=10000))
+plt.xlabel("Down Range (samples)")
+plt.ylabel("Cross Range (samples)")
+plt.show()
+```
+![[Pasted image 20260806085858.png]]
