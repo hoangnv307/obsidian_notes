@@ -440,13 +440,11 @@ SWST quyết định vị trí gần của cửa sổ range.
 `Sampling Window Length`.
 
 Độ dài thời gian của cửa sổ lấy mẫu. Nó ảnh hưởng đến số mẫu range:
-
 $$
 N_{\text{sample}}
 \approx
 f_s\,SWL
 $$
-
 trong đó $f_s$ là tần số lấy mẫu sau range decimation. 
 
 ---
@@ -574,16 +572,16 @@ $$
 
 Cho biết loại tín hiệu thực sự của PRI hiện tại.
 
-| Mã | Loại tín hiệu |
-|---:|---|
-| 0 | Echo |
-| 1 | Noise |
-| 8 | Tx Calibration |
-| 9 | Rx Calibration |
-| 10 | EPDN Calibration |
-| 11 | TA Calibration |
-| 12 | APDN Calibration |
-| 15 | Tx H Calibration Isolation |
+|  Mã | Loại tín hiệu              |
+| --: | -------------------------- |
+|   0 | Echo                       |
+|   1 | Noise                      |
+|   8 | Tx Calibration             |
+|   9 | Rx Calibration             |
+|  10 | EPDN Calibration           |
+|  11 | TA Calibration             |
+|  12 | APDN Calibration           |
+|  15 | Tx H Calibration Isolation |
 
 Đây là trường quan trọng để không nhầm dữ liệu echo với noise hoặc calibration pulse.
 
