@@ -391,3 +391,12 @@ assert radar_data.dtype == np.complex64
 ```
 
 ## 4.5 Convert to Range-Doppler domain
+- Ta đã thực hiện xong việc xử lý dữ liệu trên miền range, vậy nên ta có thể inverse FFT lại miền range dọc theo trục range. Dữ liệu vẫn ở miền tần số ở chiều azimuth.
+```python
+radar_data = ifftshift(ifft(radar_data, axis=1, overwrite_x=True), axes=1)
+
+# Truncate back to original range line length after linear convolution
+radar_data = radar_data[:, :len_range_line]
+
+assert radar_data.dtype == np.complex64
+```

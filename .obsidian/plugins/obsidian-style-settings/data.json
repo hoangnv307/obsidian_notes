@@ -3,5 +3,6 @@
   "minimal-style@@h2-size": "1.5em",
   "minimal-style@@checkbox-shape": "checkbox-square",
   "minimal-style@@p-spacing": "1.75 rem",
-  "minimal-style@@list-spacing": 0.1
+  "minimal-style@@list-spacing": 0.1,
+  "minimal-style@@code-size": "0.75em"
 }
