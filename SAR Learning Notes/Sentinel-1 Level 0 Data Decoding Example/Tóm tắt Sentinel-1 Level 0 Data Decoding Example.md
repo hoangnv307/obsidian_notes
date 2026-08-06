@@ -134,7 +134,7 @@ assert radar_data.dtype == np.complex64
 # Cache this data so we can retreive it more quickly next time we want it
 l0file.save_acquisition_chunk_data(selected_chunk)
 ```
-- Sau khi vẽ amplitude của dữ liệu IQ tho, ta thấy dữ liệu cũng có một cấu trúc cụ thể, nhưng ta chưa thể phân biệt/nhận dạng được các vật thể. 
+- Sau khi vẽ amplitude của dữ liệu IQ thô, ta thấy dữ liệu cũng đã tạo nên một cấu trúc địa hình cụ thể, nhưng ta chưa thể phân biệt/nhận dạng được các vật thể. 
 ```python
 # Plot the raw IQ data extracted from the data file
 plt.figure(figsize=(12, 12))
