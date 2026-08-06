@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ý nghĩa và ứng dụng của biến TIME"
+              "title": "Tóm tắt Sentinel-1 Level 0 Data Decoding Example"
             }
           },
           {
@@ -100,8 +100,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -211,20 +210,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8721bee936cf0b20",
+  "active": "1860e3d72e6619e4",
   "lastOpenFiles": [
-    "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/images",
     "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
+    "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SAR Learning Notes/Digital Processing of SAR - Cumming/Chương 1 Giới thiệu.md",
     "SNAP notes/Band Math/Dàn ý SDD.md",
     "SNAP notes/Band Math/images/Pasted image 20260806104614.png",
     "SNAP notes/Band Math/Giải thích họ hàm inrange().md",
     "SNAP notes/Band Math/Các bài test dành cho module band math.md",
     "SNAP notes/Band Math/Cơ chế thực hiện random_uniform().md",
-    "SNAP notes/Band Math/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
-    "SNAP notes/Band Math/images/Pasted image 20260806090115.png",
-    "SNAP notes/Band Math/images/Pasted image 20260806085858.png",
-    "SNAP notes/Band Math/images/Pasted image 20260805181828.png",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260806090115.png",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260806085858.png",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260805181828.png",
     "SNAP notes/Band Math/images",
     "SNAP notes/Band Math/Giải thích họ hàm distance().md",
     "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example",
@@ -245,7 +245,6 @@
     "2026-08-02.md",
     "SNAP notes/Band Math",
     "SAR Learning Notes/Digital Processing of SAR - Cumming/Cách dùng Codex x Deepseek.md",
-    "2026-08-01.md",
     "Note báo/Statistical Modeling of SAR Images A Survey/images/Pasted image 20260731163837.png",
     "Note báo/Statistical Modeling of SAR Images A Survey/images/Pasted image 20260731135548.png",
     "Note báo/Statistical Modeling of SAR Images A Survey/images/Pasted image 20260731112144.png",
