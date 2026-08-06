@@ -27,5 +27,10 @@ Những tính năng người dùng tương tác:
 	- Cấu hình thông tin băng ảnh: tên băng, mô tả về băng, tên đơn vị pixel của băng, sản phẩm đích chứa nó. 
 	- Cấu hình tính chất băng: băng là băng virtual hay non virtual, các pixel NaN/infinity được thế bởi giá trị nào?
 - Soạn thảo biểu thức toán học, chức năng này bao gồm:
-	- Bộ biên dịch cú pháp đầu vào (vùng nhập biểu thức) từ người dùng
-	- Các công cụ hỗ trợ thao tác, bao gồm: lưu thành file, load file, công cụ hỗ trợ nguồn dữ liệu sẵn để nhập vào, công cụ hỗ trợ nhập 
+	- Bộ biên dịch cú pháp đầu vào (vùng nhập biểu thức) từ người dùng, cùng thanh hiển thị trạng thái hợp lệ. 
+	- Các công cụ hỗ trợ thao tác, bao gồm: 
+		- Lưu thành file, 
+		- Load file
+		- Công cụ hỗ trợ nhập nguồn dữ liệu
+		- Công cụ hỗ trợ nhập biểu thức
+		- Các công cụ khác: select all, clear all, redo, undo, history backward, history forward. 
