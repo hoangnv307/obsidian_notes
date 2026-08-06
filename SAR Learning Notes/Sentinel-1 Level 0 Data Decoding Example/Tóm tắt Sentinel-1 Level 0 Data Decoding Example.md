@@ -63,7 +63,7 @@ Tài liệu tham khảo:
 	- Swath Number
 	- Number of Quads
 Tổng cộng ma trận được trích có 46 cột, 50706 hàng tương ứng với số bản tin.
-- Ngoài ra, thông tin về quỹ đạo của vệ tinh còn được đính kèm vào các bản tin với tần số thấp hơn, vì vậy tác giả cần thêm một bước để trích xuất trường thông tin này:
+- Ngoài ra, thông tin về quỹ đạo của vệ tinh còn được đính kèm vào các bản tin với tần số thấp hơn, vì vậy tác giả cần thêm một bước để trích xuất trường thông tin này :
 	- X-axis position ECEF
 	- Y-axis position ECEF
 	- Z-axis position ECEF
