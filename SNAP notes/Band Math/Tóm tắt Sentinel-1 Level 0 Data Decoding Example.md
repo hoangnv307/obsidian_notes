@@ -349,3 +349,5 @@ assert radar_data.dtype == np.complex64
 ```
 
 ## 4.4 Range cell migration corection 
+- Vì chuyển động của bộ thu có liên quan đến rằng buộc giữa thông tin range và azimuth, các mục tiêu điểm sẽ có xu hướng trải dài theo hình vòng cung qua những range bins cũng như theo chiều azimuth. 
+- Vì vậy ta cần a
