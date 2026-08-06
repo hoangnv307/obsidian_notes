@@ -41,8 +41,8 @@ Tài liệu tham khảo:
 	- BAQ Block Length
 	- Range Decimation
 	- Rx Gain
-	- Tx Ramp Rate
-	- Tx Pulse Start Frequency
+	- Tx Ramp Rate: 
+	- Tx Pulse Start Frequency: $f_0$
 	- Tx Pulse Length
 	- Rank
 	- PRI
