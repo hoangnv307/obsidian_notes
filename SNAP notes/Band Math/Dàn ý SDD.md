@@ -4,4 +4,5 @@
 	2. Variable binding
 	3. Pixel-wise computation
 	4. Virtual band 
-	5. 
+	5. Tile-based processing
+	6. Các nút tính năng thao tác
