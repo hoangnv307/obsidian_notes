@@ -160,7 +160,7 @@ plt.show()
 	- Kích thước ảnh 
 	- Các tham số của xung truyền sử dụng để tổng hợp một xung replica Tx
 	- Sample rates theo chiều range và azimuth 
-	- Giá trị fastime $\tau$ tương ứng với mỗi rang sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
+	- Giá trị fastime $\tau$ tương ứng với mỗi range sample dọc theo một range line, và slant range tương ứng của closest approach $R_0$ for each of these range samples.
 	- Giá trị tần số theo trục range $f_\tau$ và aizmuth $f_\eta$  sau khi dữ liệu được chuyển qua miền tần số
 	- Vận tốc vệ tinh hiệu dụng ($V_r$), với $V_r \approx \sqrt{V_s Vg}$, với $V_s$ giá trị vector vận tốc vệ tinh định mức, $V_g$ là vận tốc búp sóng ăng ten trên mặt đất. Công thức này dựa trên báo [link](https://iopscience.iop.org/article/10.1088/1757-899X/1172/1/012012/pdf), lưu ý là $V_g$ và vì thế là $V_r$ sẽ thay đổi theo slant range. 
 Ý nghĩa một vài trường: 
