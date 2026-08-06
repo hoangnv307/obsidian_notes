@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tác  giả",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1860e3d72e6619e4",
+  "active": "8721bee936cf0b20",
   "lastOpenFiles": [
     "SNAP notes/Band Math/Các cú pháp Band Math hỗ trợ.md",
     "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
