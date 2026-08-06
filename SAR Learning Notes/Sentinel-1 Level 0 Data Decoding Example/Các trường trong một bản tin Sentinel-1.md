@@ -343,7 +343,7 @@ Số lượng mẫu radar được gom vào một block để tính tham số l�
 
 Trong mỗi block, thiết bị phân tích thống kê biên độ tín hiệu rồi chọn thang lượng tử hóa phù hợp. Vì vậy các block khác nhau có thể sử dụng threshold hoặc scale factor khác nhau.
 
-## Range Decimation
+## Range Decimation [[Chi tiết về Range Decimation]]
 
 Chọn bộ lọc và tỷ lệ decimation theo chiều range.
 
