@@ -23,4 +23,4 @@ Những tính năng người dùng tương tác:
 	- Ok/Cancel/Help
 - Biểu đồ ca chốt: 
 ![[Pasted image 20260806104614.png]]
-Cấu hình băng ảnh đích bao gồm 2 chức năng luôn được thực hiện
+- Cấu hình băng ảnh đích bao gồm 2 chức năng luôn được thực hiện
