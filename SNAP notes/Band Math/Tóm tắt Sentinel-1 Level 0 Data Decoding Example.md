@@ -359,4 +359,35 @@ với D là cosine của góc squint tức thời và $R_0$ là the range of clo
 $$
 RCMC \; filter = exp\left\{4i\pi\frac{f_\tau}{c}(RCMC\; shift)\right\}
 $$
-- Bộ lọc này cần được nhân với mọi range line trong d
+- Bộ lọc này cần được nhân với mọi range line trong dữ liệu.
+```python
+# Create frequency axis for RCMC (corresponding to original range samples only)
+range_freq_vals_hz_rcmc = np.linspace(-range_sample_freq/2, range_sample_freq/2, num=len_range_line)
+
+# Process RCMC filter in chunks to avoid storing full D array
+for start_idx, end_idx, D_chunk in compute_D_chunks(local_earth_rad_m, satellite_distance_from_center_m, space_velocities_mps, 
+                                                     slant_range_vec_m, az_freq_vals_hz, wavelength_m):
+    # Compute RCMC filter for this chunk (using frequency axis matching original range samples)
+    rcmc_shift_chunk_m = slant_range_vec_m[0] * (np.divide(1, D_chunk) - 1)
+    # rcmc_shift_chunk_m shape: (chunk_size, len_range_line)
+    # range_freq_vals_hz_rcmc shape: (len_range_line,)
+    # We need to broadcast: (len_range_line,) * (chunk_size, len_range_line) -> (chunk_size, len_range_line)
+    rcmc_filter_chunk = np.exp(4.0j * np.pi * range_freq_vals_hz_rcmc[np.newaxis, :] * rcmc_shift_chunk_m / c).astype(np.complex64)
+    
+    # Pad RCMC filter to match padded frequency domain size (fill with 1.0 for padded bins)
+    rcmc_filter_chunk_padded = np.ones((rcmc_filter_chunk.shape[0], range_fft_size), dtype=np.complex64)
+    rcmc_filter_chunk_padded[:, :len_range_line] = rcmc_filter_chunk
+    
+    # Apply RCMC filter to this chunk
+    radar_data[start_idx:end_idx, :] *= rcmc_filter_chunk_padded
+
+del D_chunk
+del rcmc_filter_chunk
+del rcmc_filter_chunk_padded
+del range_freq_vals_hz_rcmc
+gc.collect()
+
+assert radar_data.dtype == np.complex64
+```
+
+## 4.5 Convert to Range-Doppler domain
