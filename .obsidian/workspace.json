@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator"
+              "title": "Dàn ý SDD"
             }
           },
           {
@@ -33,34 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Các trường trong một bản tin Sentinel-1"
-            }
-          },
-          {
-            "id": "3815542faac4ffc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Các trường trong một bản tin Sentinel-1"
-            }
-          },
-          {
-            "id": "d2328f7a5adc9931",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chi tiết về Range Decimation"
             }
           }
         ]
@@ -138,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -200,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -230,8 +202,8 @@
   },
   "active": "1860e3d72e6619e4",
   "lastOpenFiles": [
-    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
     "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
+    "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
     "SAR Learning Notes/SARrawSim Synthetic Aperture Radar Raw Data Simulator",
     "Untitled",
     "SAR Learning Notes/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
