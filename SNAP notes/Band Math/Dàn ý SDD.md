@@ -9,4 +9,8 @@
 # Tạo biểu đồ ca sử dụng
 Những tính năng người dùng tương tác: 
 - Cửa sổ cấu hình băng ảnh được tạo
-	- Chọn tên, mô tả,
+	- Chọn tên, mô tả, đơn vị của pixel
+	- Chọn loại băng ảnh: Virtual/Nonvirtual 
+	- Lựa chọn thay thế các pixel có giá trị NaN/Infinity
+	- Trường nhập biểu thức
+- Trình soạn thảo biểu thức
