@@ -6,3 +6,7 @@
 	4. Virtual band 
 	5. Tile-based processing
 	6. Các nút tính năng thao tác
+# Tạo biểu đồ ca sử dụng
+Những tính năng người dùng tương tác: 
+- Cửa sổ cấu hình băng ảnh được tạo
+	- Chọn tên, mô tả,
