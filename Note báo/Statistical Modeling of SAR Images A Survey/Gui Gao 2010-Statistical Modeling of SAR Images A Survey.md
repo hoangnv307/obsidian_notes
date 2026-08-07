@@ -56,4 +56,5 @@
 - Product model có nguồn gốc từ speckle model. 
 - Quá trình phát triển các mô hình thống kê cụ thể từ mô hình speckle được shown ở hình 3: 
 ![[Pasted image 20260731163837.png]]
-- 
+
+![[Pasted image 20260807084146.png]]
