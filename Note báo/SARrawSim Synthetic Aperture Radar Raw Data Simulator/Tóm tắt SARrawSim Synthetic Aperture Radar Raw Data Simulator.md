@@ -16,4 +16,7 @@ với $f_0$ là tần số thấp nhất của xung, $k = B/\tau$ là chirp rate
 - Theo góc độ xử lý tín hiệu, tín hiệu phản xạ thu được dọc theo một đường range là kết quả của phép tích chập giữa tín hiệu truyền đi và đáp ứng xung của vùng mặt đất được chiếu sáng bởi antenna pattern. 
 - Vùng được chiếu sáng này được xác định bởi độ rộng búp sóng tại mức half-power beamwidth theo cả hai phương azimuth và phương elevation. 
 - Đáp ứng xung này, còn được gọi là hàm mục tiêu lý tưởng của địa hình (terrain's ideal target function [42]), biểu diễn một phân phối đặc tính phản xạ địa hình 2D liên tục. 
-- Tuy nhiên, với một địa hình lý tưởng, hàm này có thể được mô hình thành một bộ rời rạc các điểm tán xạ 
+- Tuy nhiên, với một địa hình lý tưởng, hàm này có thể được mô hình thành một bộ rời rạc các điểm tán xạ theo dạng sau:
+$$
+f_0(x,y) = \sum_n\sigma_n\delta(x-x_n)\delta()
+$$
