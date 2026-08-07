@@ -37,5 +37,7 @@ e(t) = \sum_m^N A_mexp\left[-j2\pi f_0 \Delta_m + j\pi k (t-\Delta_m)^2 \right] 
 $$
 >[!note]
 >Furthermore, for non-ideal terrain, given the coherent nature of SAR radiation and its interaction with the terrain’s roughness, the echo is a linear coherent superposition of the individual scattered waves from a set of sub-scatterers within a pixel. Consequently, from pulse to pulse, this superposition results in signal-dependent noise known as speckle, which is multiplicative in nature.
+>For man-made targets, speckle is less pronounced, and the scattering
+process can be considered deterministic. For simulation purposes, manmade targets in the optical region can be effectively modeled using asymptotic methods such as the ray tracing algorithm [43]. ==However, a simpler model based on a set of point scatterers often suffices for precise simulations with reduced computational cost==
 
 
