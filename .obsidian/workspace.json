@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ý nghĩa của các đại lượng phản xạ radar"
+              "title": "Dàn ý SDD"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
+                "file": "SNAP notes/Band Math/Dàn ý SDD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,10 +202,10 @@
   },
   "active": "1860e3d72e6619e4",
   "lastOpenFiles": [
+    "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "SNAP notes/Cơ sở lý thuyết Affine Transform.md",
     "SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
-    "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SNAP notes/Các câu hỏi cần giải thích.md",
     "Note báo/Statistical Modeling of SAR Images A Survey/Gui Gao 2010-Statistical Modeling of SAR Images A Survey.md",
     "SNAP notes/Analysis Tools",
