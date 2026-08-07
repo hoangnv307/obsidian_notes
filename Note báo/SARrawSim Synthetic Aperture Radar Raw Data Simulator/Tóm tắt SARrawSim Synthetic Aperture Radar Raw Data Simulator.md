@@ -8,5 +8,6 @@ $$
 $$
 với $p_{RF}(t)$ là tín hiệu RF chirp ở dạng số phức, có thể biểu diễn bằng: 
 $$
-p_{RF}(t) = rect(\frac{}{})
+p_{RF}(t) = rect\left(\frac{t}{\tau}\right)exp(j2\pi f_0t+j\pi k t^2), \tag{2}
 $$
+với $f_0$ là tần số thấp nhất của xung, $k = B/\tau$ là chirp rate, $B$ là độ rộng băng thông.
