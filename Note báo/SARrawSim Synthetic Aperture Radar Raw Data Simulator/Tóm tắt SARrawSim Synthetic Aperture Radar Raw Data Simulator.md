@@ -18,5 +18,5 @@ với $f_0$ là tần số thấp nhất của xung, $k = B/\tau$ là chirp rate
 - Đáp ứng xung này, còn được gọi là hàm mục tiêu lý tưởng của địa hình (terrain's ideal target function [42]), biểu diễn một phân phối đặc tính phản xạ địa hình 2D liên tục. 
 - Tuy nhiên, với một địa hình lý tưởng, hàm này có thể được mô hình thành một bộ rời rạc các điểm tán xạ theo dạng sau:
 $$
-f_0(x,y) = \sum_n\sigma_n\delta(x-x_n)\delta()
+f_0(x,y) = \sum_n\sigma_n\delta(x-x_n)\delta(y-y_n), \tag{3}
 $$
