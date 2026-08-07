@@ -21,7 +21,7 @@ $$
 f_0(x,y) = \sum_n\sigma_n\delta(x-x_n)\delta(y-y_n), \tag{3}
 $$
 với $\sigma_n$ là radar cross section (RCS) của điểm tán xạ tại vị trí $(x_n, y_n)$ trên mặt đất.
-- Để đơn giản, ta chỉ xét một mục tiêu điểm trên hệ tọa độ $(u_0, r_0)$ trên slant-plane:
+- Để đơn giản, ta chỉ xét một mục tiêu điểm trên tọa độ $(u_0, r_0)$ trên slant-plane:
 $$
 f_0(u,r) = \sigma_0 \delta(u-u_0)\delta(r - r_0), \tag{4}
 $$
