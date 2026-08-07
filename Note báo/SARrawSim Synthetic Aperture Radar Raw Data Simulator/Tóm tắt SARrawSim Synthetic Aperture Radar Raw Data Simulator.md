@@ -42,3 +42,4 @@ process can be considered deterministic. For simulation purposes, manmade target
 - Để đơn giản, sử dụng point targets để biểu diễn các hình học tự nhiên và mô hình multiplicative speckle noise với phân phối Gaussian cho ảnh phức và phân phối Rayleight cho ảnh biên độ. 
 ## 2.2 Kiến trúc và chức năng của phần mềm 
 
+![[Pasted image 20260807175444.png|329]]
