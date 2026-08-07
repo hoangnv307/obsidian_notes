@@ -25,4 +25,9 @@ với $\sigma_n$ là radar cross section (RCS) của điểm tán xạ tại v�
 $$
 f_0(u,r) = \sigma_0 \delta(u-u_0)\delta(r - r_0), \tag{4}
 $$
+với $\sigma_0$ là RCS của mục tiêu được chọn. 
+- Tín hiệu base-band analytical được tạo bằng cách trộn tín hiệu phả xạ và tín hiệu mang, được biểu diễn dưới dạng: 
+$$
+e(t) = A_0exp\left[-j2\pi f_0 \Delta + j\pi k (t-\Delta)^2 \right] + n(t), \tag{5}
+$$
 
