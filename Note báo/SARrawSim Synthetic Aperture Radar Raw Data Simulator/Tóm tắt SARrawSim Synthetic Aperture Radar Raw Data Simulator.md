@@ -11,3 +11,4 @@ $$
 p_{RF}(t) = rect\left(\frac{t}{\tau}\right)exp(j2\pi f_0t+j\pi k t^2), \tag{2}
 $$
 với $f_0$ là tần số thấp nhất của xung, $k = B/\tau$ là chirp rate, $B$ là độ rộng băng thông.
+- Sau khi truyền một xung từ một vị trí $u$, radar lấy mẫu tín hiện truyền về từ mặt đất với fasst time rate $T_S$, trong khoảng thời 
