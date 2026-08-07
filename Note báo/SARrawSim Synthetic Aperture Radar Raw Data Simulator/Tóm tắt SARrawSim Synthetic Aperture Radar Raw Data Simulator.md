@@ -35,4 +35,7 @@ với $A_0$ là hằng số phụ thuộc vào độ phản xạ của mục ti�
 $$
 e(t) = \sum_m^N A_mexp\left[-j2\pi f_0 \Delta_m + j\pi k (t-\Delta_m)^2 \right] + n(t), \tag{6}
 $$
+>[!note]
+>Furthermore, for non-ideal terrain, given the coherent nature of SAR radiation and its interaction with the terrain’s roughness, the echo is a linear coherent superposition of the individual scattered waves from a set of sub-scatterers within a pixel. Consequently, from pulse to pulse, this superposition results in signal-dependent noise known as speckle, which is multiplicative in nature.
+
 
