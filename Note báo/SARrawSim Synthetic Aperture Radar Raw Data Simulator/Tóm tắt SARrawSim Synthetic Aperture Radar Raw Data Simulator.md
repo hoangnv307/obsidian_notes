@@ -33,5 +33,6 @@ $$
 với $A_0$ là hằng số phụ thuộc vào độ phản xạ của mục tiêu $\sigma_0$, $\Delta  = \frac{2R}{c}$ là delay 2 chiều của tín hiệu tới mục tiêu và phản xạ về, với $R = \sqrt{(u-u_0)^2+r_0^2}$ , $n(t)$ là white noise, dùng để mô phỏng nhiễu nhiệt. 
 - Phương trình tổng quát từ (5) cho trường hợp N mục tiêu điểm là:
 $$
-
+e(t) = \sum_m^N A_mexp\left[-j2\pi f_0 \Delta_m + j\pi k (t-\Delta_m)^2 \right] + n(t), \tag{6}
 $$
+
