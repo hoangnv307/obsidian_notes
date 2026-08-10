@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNAP notes/Radiometric Calibration.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "citeturn200377view1turn175553search1",
+                "query": "\\[",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,7 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1860e3d72e6619e4",
+  "active": "8721bee936cf0b20",
   "lastOpenFiles": [
     "Note báo/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
     "SNAP notes/Radiometric Calibration.md",

@@ -90,21 +90,21 @@ SNAP đọc noise LUT trong annotation theo từng:
 
 Sau đó nội suy LUT để có mức nhiễu tại từng pixel:
 
-\[
+$$
 P_{\text{clean}} = P_{\text{input}} - N
-\]
+$$
 
 Trong đó:
 
-- Với GRD amplitude: \(P_{\text{input}}=DN^2\).
+- Với GRD amplitude: $\(P_{\text{input}}=DN^2\).$
 - Với SLC phức: \(P_{\text{input}}=I^2+Q^2\).
 - \(N\) là noise power nội suy từ noise LUT.
 
 SNAP cho phép Thermal Noise Removal chạy cả trước lẫn sau Calibration. Nếu đầu vào đã calibrated, noise được đổi sang cùng thang đo:
 
-\[
+$$
 N_{\text{calibrated}}=\frac{N}{L^2}
-\]
+$$
 
 Tuy nhiên graph chuẩn `Sentinel1SLCtoGRD` của SNAP dùng thứ tự:
 
@@ -168,12 +168,12 @@ Các vector được ánh xạ theo polarization và sub-swath. Xem [Sentinel1Ca
 
 Sau đó thực hiện nội suy song tuyến tính:
 
-\[
+$$
 L(x,y) =
 (1-\mu_y)\left[(1-\mu_x)L_{00}+\mu_xL_{01}\right]
 +
 \mu_y\left[(1-\mu_x)L_{10}+\mu_xL_{11}\right]
-\]
+$$
 
 Nhờ vậy hệ số calibration thay đổi liên tục theo cả range và azimuth, thay vì dùng một hằng số cho toàn ảnh.
 
@@ -181,7 +181,7 @@ Nhờ vậy hệ số calibration thay đổi liên tục theo cả range và az
 
 SNAP chuẩn hóa dữ liệu đầu vào thành intensity/power:
 
-\[
+$$
 P =
 \begin{cases}
 DN^2, & \text{amplitude}\\
@@ -189,13 +189,13 @@ I^2+Q^2, & \text{SLC phức}\\
 DN, & \text{intensity}\\
 10^{DN_{dB}/10}, & \text{intensity dB}
 \end{cases}
-\]
+$$
 
 Sau đó áp dụng LUT được chọn:
 
-\[
+$$
 C_t = \frac{P}{L_t^2}
-\]
+$$
 
 Trong đó \(t\) là `Sigma0`, `Beta0`, `Gamma0` hoặc `DN`.
 
@@ -203,9 +203,9 @@ Phần cài đặt nằm tại [Sentinel1Calibrator.java](</home/hoangnv307/code
 
 Nếu chuyển từ một band đã calibrated sang loại khác, SNAP hoàn tác LUT cũ rồi áp dụng LUT mới:
 
-\[
+$$
 C_t=C_s\frac{L_s^2}{L_t^2}
-\]
+$$
 
 ### 8. Xử lý SLC phức
 
@@ -266,9 +266,9 @@ Nên giữ dữ liệu ở thang tuyến tính trong các bước:
 
 Chỉ chuyển sang dB ở cuối:
 
-\[
+$$
 C_{dB}=10\log_{10}(C_{\text{linear}})
-\]
+$$
 
 Giao diện Calibration của SNAP thực tế ẩn lựa chọn “Save in dB” đối với Sentinel‑1, thể hiện chủ ý xử lý Sentinel‑1 ở dạng intensity tuyến tính. Xem [CalibrationOpUI.java](</home/hoangnv307/code/snap/microwave-toolbox/sar-op-calibration-ui/src/main/java/eu/esa/sar/calibration/gpf/ui/CalibrationOpUI.java:205>).
 
