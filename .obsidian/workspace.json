@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1860e3d72e6619e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Radiometric Correction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Radiometric Correction"
-            }
-          },
-          {
-            "id": "7d189386d58f3fe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "457d7a77d71627a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNAP notes/Radiometric Calibrate action.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Radiometric Calibrate action"
-            }
-          },
-          {
             "id": "b20d1533aa2c5136",
             "type": "leaf",
             "state": {
@@ -62,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Tóm tắt Sentinel-1 Level 0 Data Decoding Example"
             }
-          },
-          {
-            "id": "a41a00ad520ebb28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Các trường trong một bản tin Sentinel-1"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
