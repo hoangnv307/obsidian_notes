@@ -9,7 +9,7 @@ Dựa đúng theo tài liệu **Sentinel-1 Level 1 Detailed Algorithm Definition
 ## 1. Pre-processing dữ liệu L0 — Section 4. 
 IPF trước hết phân tích raw data, thực hiện internal calibration, kiểm tra header downlink và xây dựng terrain height function. Raw-data analysis sử dụng một phần dữ liệu đã BAQ-decoded để đánh giá thống kê I/Q; với Sentinel-1, do demodulation được thực hiện trong miền số nên I/Q gain imbalance và I/Q non-orthogonality về nguyên tắc không cần như các SAR thế hệ cũ, còn I/Q bias vẫn được xem xét. Internal calibration sử dụng các calibration packet để dựng lại chirp replica, xác định internal delay, tính PG product để bù drift pha/biên độ của thiết bị và xử lý các noise measurements. Header validation kiểm tra các trường như packet counters, BAQ mode, range decimation, PRI, SWST, SWL… đồng thời phát hiện missing lines. Cuối cùng DEM cùng orbit/geometry được dùng để tạo terrain-height function theo azimuth.
     
-    Một điểm quan trọng là echo raw của Sentinel-1 thường được mã hóa **FDBAQ**; bước decoding chuyển dữ liệu nén này trở lại các mẫu I/Q phức trước khi xử lý tín hiệu. Tài liệu phân biệt Bypass, BAQ 3/4/5-bit và FDBAQ; echo data thông thường dùng FDBAQ.
+Một điểm quan trọng là echo raw của Sentinel-1 thường được mã hóa **FDBAQ**; bước decoding chuyển dữ liệu nén này trở lại các mẫu I/Q phức trước khi xử lý tín hiệu. Tài liệu phân biệt Bypass, BAQ 3/4/5-bit và FDBAQ; echo data thông thường dùng FDBAQ.
     
     Có thể hình dung đầu ra của giai đoạn này là:
     
