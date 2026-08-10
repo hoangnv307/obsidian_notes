@@ -85,4 +85,12 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 - Ký hiệu: PRICT
 
 ### 3.2.5 Radar Configuration Support Service
-- 
+- Cung cấp báo cáo của các tham số cấu hình radar có liên quan đến dữ liệu đo (User Data) ở trong packet.
+![[Pasted image 20260810162106.png|468]]
+#### 3.2.5.1 Error Flag
+- Ký hiệu: ERRFLG
+
+#### 3.2.5.2 BAQ Mode
+- Ký hiệu: BAQMOD
+
+#### 3.2.5.3 BAQ Block Length
