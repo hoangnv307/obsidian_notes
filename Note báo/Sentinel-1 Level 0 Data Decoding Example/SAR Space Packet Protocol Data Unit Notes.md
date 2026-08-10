@@ -19,3 +19,4 @@ Một số chuẩn
 
 Trường này bao gồm 6 octets như ở Table 3.2-2:
 ![[Pasted image 20260810150831.png]]
+- Coarse Time: Biểu diễn mốc thời gian của Space Packet ở đơn vị số nguyên lần giây. 
