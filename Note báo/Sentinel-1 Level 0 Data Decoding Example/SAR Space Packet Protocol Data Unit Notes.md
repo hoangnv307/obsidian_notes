@@ -100,3 +100,7 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 >[!description]
 The Range Decimation indicates the used LowPass filter and down-sampling ratio for decimation of the radar data in the sampling window according to the needed mode bandwidth. The resulting Sampling Frequency after decimation applies to that of the SAR user data in the Space Packet
 - Giá trị:Thay đổi giữa các swath nhưng constant trong một swath.
+![[Pasted image 20260810163016.png|520]]
+
+#### 3.2.5.5 Rx Gain 
+- Ký hiệu: RXG
