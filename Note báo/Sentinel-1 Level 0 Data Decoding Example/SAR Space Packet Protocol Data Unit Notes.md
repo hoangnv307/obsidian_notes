@@ -59,3 +59,5 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 - Ký hiệu: ICID
 
 ### 3.2.3 Sub-commutated Ancillary Data Service
+- Dịch vụ này cung cấp dữ liệu phụ trợ của tàu vũ trụ, bao gồm dữ liệu PVT (Position-Velocity-Time) của tàu vũ trụ và dữ liệu tư thế, được nhận định kỳ từ platform. Có nghĩa là 
+- Do không đủ chỗ để truyền toàn bộ telemetry phụ trong mọi packet, Sentinel-1 truyền luân phiên từng word telemetry qua nhiều packet.

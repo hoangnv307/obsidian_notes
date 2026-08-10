@@ -35,8 +35,7 @@
               "title": "Các trường trong một bản tin Sentinel-1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/SAR Space Packet Protocol Data Unit Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/SAR Space Packet Protocol Data Unit Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/SAR Space Packet Protocol Data Unit Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c81528b0709fc2ca",
+  "active": "826d4929523a5fef",
   "lastOpenFiles": [
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/SAR Space Packet Protocol Data Unit Notes.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260810153633.png",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260810153403.png",
@@ -215,7 +215,6 @@
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260810144944.png",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260810144709.png",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
-    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Thông tin về quỹ đạo vệ tinh Sentinel-1 được đóng gói trong bản tin.md",
     "SNAP notes/Analysis Tools/Hiểu rõ các công cụ Analyzer trong SNAP.md",
