@@ -24,7 +24,7 @@ Terrain Flattening (nếu địa hình dốc và cần định lượng)
   ↓
 Terrain Correction
   ↓
-Chuyển sang dB nếu cần
+Chuyển sang dB nếu cần 
 ```
 
 ### Với Sentinel‑1 TOPS SLC
