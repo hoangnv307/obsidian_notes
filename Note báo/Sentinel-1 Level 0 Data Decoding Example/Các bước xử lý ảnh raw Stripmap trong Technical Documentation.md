@@ -10,22 +10,17 @@ Dựa đúng theo tài liệu **Sentinel-1 Level 1 Detailed Algorithm Definition
 IPF trước hết phân tích raw data, thực hiện internal calibration, kiểm tra header downlink và xây dựng terrain height function. Raw-data analysis sử dụng một phần dữ liệu đã BAQ-decoded để đánh giá thống kê I/Q; với Sentinel-1, do demodulation được thực hiện trong miền số nên I/Q gain imbalance và I/Q non-orthogonality về nguyên tắc không cần như các SAR thế hệ cũ, còn I/Q bias vẫn được xem xét. Internal calibration sử dụng các calibration packet để dựng lại chirp replica, xác định internal delay, tính PG product để bù drift pha/biên độ của thiết bị và xử lý các noise measurements. Header validation kiểm tra các trường như packet counters, BAQ mode, range decimation, PRI, SWST, SWL… đồng thời phát hiện missing lines. Cuối cùng DEM cùng orbit/geometry được dùng để tạo terrain-height function theo azimuth.
     
 Một điểm quan trọng là echo raw của Sentinel-1 thường được mã hóa **FDBAQ**; bước decoding chuyển dữ liệu nén này trở lại các mẫu I/Q phức trước khi xử lý tín hiệu. Tài liệu phân biệt Bypass, BAQ 3/4/5-bit và FDBAQ; echo data thông thường dùng FDBAQ.
-    
-    Có thể hình dung đầu ra của giai đoạn này là:
-    
-    **L0 ISP packets → signal data + calibration parameters + orbit/attitude + terrain/metadata**
-    
-2. **Ước lượng Doppler Centroid — Section 5.** Sentinel-1 không chỉ lấy một con số Doppler centroid cố định. Đầu tiên IPF tính **absolute DC từ orbit và attitude** dựa trên hình học satellite–target. Sau đó dữ liệu được decode, raw-data corrected, bù instrument drift và range-compressed để thực hiện **Fine DC Estimation** từ chính echo data. Với Stripmap, bước TOPSAR DCE pre-conditioning được bỏ qua; IPF đi thẳng vào **Correlation Doppler Centroid Estimator (CDCE)**, dùng tương quan giữa các mẫu azimuth liên tiếp.
-    
-    Fine Doppler thu được bị giới hạn modulo PRF, nên tiếp theo IPF **unwrap Doppler theo range**, sử dụng absolute DC từ geometry để xác định ambiguity number, rồi kết hợp hai nguồn thành **absolute Doppler centroid**. Với single-swath Stripmap, các DC estimate cuối cùng được fit bằng **đa thức bậc hai theo range**; RMS residual của phép fit được dùng làm chỉ tiêu chất lượng DC.
-    
-    Như vậy output quan trọng của stage này là một hàm dạng:
-    
-    $f_{DC}(\tau)=c_0+c_1\tau+c_2\tau^2$
-    
-    cho từng azimuth processing block, chứ không phải chỉ một $f_{DC}$ duy nhất cho toàn ảnh.
-    
-3. **Range processing để bắt đầu tạo SLC — Section 6.1.** Đây là lúc xử lý image formation thực sự bắt đầu. IPF tạo **Range Reference Function (RRF)** từ chirp replica đã hiệu chuẩn hoặc nominal chirp. RRF về bản chất là matched filter cho tín hiệu chirp phát. Sau đó đối với từng range line, processor thực hiện raw data decoding → raw-data correction → instrument drift compensation. RFI mitigation cũng có thể được bật tùy cấu hình.
+Có thể hình dung đầu ra của giai đoạn này là:  
+**L0 ISP packets → signal data + calibration parameters + orbit/attitude + terrain/metadata**
+## 2. Ước lượng Doppler Centroid — Section 5.
+- Sentinel-1 không chỉ lấy một con số Doppler centroid cố định. Đầu tiên IPF tính **absolute DC từ orbit và attitude** dựa trên hình học satellite–target. Sau đó dữ liệu được decode, raw-data corrected, bù instrument drift và range-compressed để thực hiện **Fine DC Estimation** từ chính echo data. Với Stripmap, bước TOPSAR DCE pre-conditioning được bỏ qua; IPF đi thẳng vào **Correlation Doppler Centroid Estimator (CDCE)**, dùng tương quan giữa các mẫu azimuth liên tiếp.   
+- Fine Doppler thu được bị giới hạn modulo PRF, nên tiếp theo IPF **unwrap Doppler theo range**, sử dụng absolute DC từ geometry để xác định ambiguity number, rồi kết hợp hai nguồn thành **absolute Doppler centroid**. Với single-swath Stripmap, các DC estimate cuối cùng được fit bằng **đa thức bậc hai theo range**; RMS residual của phép fit được dùng làm chỉ tiêu chất lượng DC.
+Như vậy output quan trọng của stage này là một hàm dạng:
+   $f_{DC}(\tau)=c_0+c_1\tau+c_2\tau^2$   
+cho từng azimuth processing block, chứ không phải chỉ một $f_{DC}$ duy nhất cho toàn ảnh.
+   
+## 3. Range processing để bắt đầu tạo SLC — Section 6.1. 
+Đây là lúc xử lý image formation thực sự bắt đầu. IPF tạo **Range Reference Function (RRF)** từ chirp replica đã hiệu chuẩn hoặc nominal chirp. RRF về bản chất là matched filter cho tín hiệu chirp phát. Sau đó đối với từng range line, processor thực hiện raw data decoding → raw-data correction → instrument drift compensation. RFI mitigation cũng có thể được bật tùy cấu hình.
     
     Tiếp đó mỗi range line được **range compressed** bằng FFT: zero-pad → range FFT → nhân với RRF → range IFFT → bỏ phần filter transient. Sau compression, IPF áp dụng **range-dependent gain correction**, gồm Elevation Antenna Pattern correction và Range Spreading Loss correction. SWST bias cũng được hiệu chỉnh. Tài liệu còn xử lý riêng trường hợp SWST/SWL thay đổi giữa các pulse bằng cách căn chỉnh các range line và chèn black-fill thích hợp.
     
