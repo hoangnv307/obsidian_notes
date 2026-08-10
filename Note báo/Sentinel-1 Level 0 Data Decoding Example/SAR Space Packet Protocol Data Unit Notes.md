@@ -26,3 +26,13 @@ Trường này bao gồm 6 octets như ở Table 3.2-2:
 - Data ở trong trường này không đổi trong quá trình datatake. 
 ![[Pasted image 20260810152243.png|496]]
 - ECC = Event Control Code. 
+#### 3.2.2.1 Sync Marker
+>[!description]
+>The Sync Marker represents a bit pattern to support (re-)synchronisation of packet data on Space Packet layer level (e.g. in case of corruptions or disruptions in a continuous stream of Space Packets)
+
+- Ký hiệu: SYNC
+#### 3.2.2.2 Data Take ID
+>[!description]
+>The Data Take ID is supposed to support ground operations to track the E2E life cycle of a data take from the planning, commanding up to the downlinking and reception of the related Space Packets of the data take. The Data Take ID will be uplinked as part of the “Perform Measurement” and “Perform Test” TC. Selection of the Data Take ID is under ground control
+- Ký hiệu: DTID
+#### 3.2.2.3 ECC Number
