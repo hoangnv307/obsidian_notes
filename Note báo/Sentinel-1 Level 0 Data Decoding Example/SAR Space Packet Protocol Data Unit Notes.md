@@ -13,3 +13,9 @@ Một số chuẩn
 - Theo chuẩn [SD 01], PSH bao gồm 1 Time Code Field và một Ancillary Data Field.
 - PSH cung cấp thông tin của một số `Services` được shown ở Table 3.2-1. Mỗi  trường Service chiếm 1 số nguyên lần octets. 
 ![[Pasted image 20260810150335.png]]
+### 3.2.1 Datation Service (Dịch vụ đánh dấu thời gian)
+>[!note]
+>The time stamp value is a sample of the local instrument time at a specific event within the PRI where the packet data has been acquired.
+
+Trường này bao gồm 6 octets như ở Table 3.2-2:
+![[Pasted image 20260810150831.png]]
