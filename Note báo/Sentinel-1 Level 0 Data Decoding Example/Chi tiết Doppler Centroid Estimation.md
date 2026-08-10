@@ -130,7 +130,7 @@ $$
 
 Tài liệu định nghĩa **Doppler Frequency Function - DFF**:
 
-# $$  
+$$ 
 \boxed{  
 f(r,\boldsymbol{\varphi})
 
@@ -197,7 +197,7 @@ $$
 
 Tức:
 
-# $$  
+$$ 
 \text{ground target}
 
 ## \text{satellite position}
@@ -258,7 +258,7 @@ $$
 
 với vector normalized ellipsoid:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf g_s(r,\boldsymbol{\varphi})
 
@@ -293,7 +293,7 @@ chính là phương trình ellipsoid.
 
 Target vector được viết:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf g(r,\boldsymbol{\varphi})
 
@@ -312,7 +312,7 @@ Như vậy (5-3)...(5-8) tạo thành một **hệ phương trình phi tuyến**
 
 Attitude của spacecraft được đưa vào qua:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf u_0(\boldsymbol{\varphi})
 
@@ -347,7 +347,7 @@ liên quan tới hệ tọa độ orbit.
 
 Tài liệu phân biệt relative velocity $\mathbf v$ với absolute velocity $\mathbf v_a$:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf v_a
 
@@ -372,7 +372,7 @@ $$
 
 Orbit matrix được định nghĩa:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf L_0(\mathbf p,\mathbf v_a)
 
@@ -409,7 +409,7 @@ trong đó $e$ là eccentricity của Earth spheroid.
 
 Sau đó:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf b
 
@@ -436,7 +436,7 @@ Kết quả là một hệ basis định nghĩa orientation liên quan tới qu�
 
 Sentinel-1 sử dụng roll $\varphi$, pitch $\theta$, yaw $\Psi$:
 
-# $$  
+$$ 
 \boxed{  
 \mathbf L(\boldsymbol{\varphi})
 
@@ -538,7 +538,7 @@ Trước CDCE, đối với từng range line IPF thực hiện:
 
 Tài liệu có:
 
-# $$  
+$$ 
 d(\eta)
 
 \exp  
@@ -599,7 +599,7 @@ Sentinel-1 khai thác chính phase increment đó.
 
 Tài liệu tính Average Cross Correlation Coefficient ở lag 1:
 
-# $$  
+$$ 
 \boxed{  
 c(\eta)
 
@@ -643,7 +643,7 @@ $$
 
 thì:
 
-# $$  
+$$ 
 s^*(\eta)s(\eta+\Delta\eta)
 
 A(\eta)A(\eta+\Delta\eta)  
@@ -652,7 +652,7 @@ $$
 
 Do đó phase của correlation chứa thông tin về:
 
-# $$  
+$$ 
 \Delta\phi
 
 \phi(\eta+\Delta\eta)-\phi(\eta)  
@@ -677,7 +677,7 @@ Sau khi có ACCC vector, IPF:
 - lấy phase của complex ACCC:
     
 
-# $$  
+$$ 
 \phi_{\mathrm{accc}}
 
 \angle C_{\mathrm{ACCC}}  
@@ -691,7 +691,7 @@ $$
 
 Từ phase $\phi_{\mathrm{accc}}$:
 
-# $$  
+$$ 
 \boxed{  
 f_{\eta c}
 
@@ -723,7 +723,7 @@ Vì vậy estimator này **không biết Doppler absolute nằm ở PRF ambiguit
 
 Ví dụ về mặt cấu trúc:
 
-# $$  
+$$ 
 f_{DC}^{absolute}
 
 M\cdot PRF  
@@ -828,7 +828,7 @@ Lưu ý đây là mô hình dùng trong **unwrapping**, chưa phải quadratic D
 
 Fine DC được normalize theo PRF:
 
-# $$  
+$$ 
 \boxed{  
 F(\nu)
 
@@ -856,7 +856,7 @@ $$
 
 Khi $f$ lệch đi $PRF$:
 
-# $$  
+$$ 
 e^{j2\pi(f+PRF)/PRF}
 
 e^{j2\pi f/PRF}  
@@ -870,7 +870,7 @@ nên ambiguity do integer multiples of PRF biến mất trong representation nà
 
 Nếu mỗi estimate có weighting $w(\tau)$:
 
-# $$  
+$$ 
 \boxed{  
 F(\nu)
 
@@ -897,7 +897,7 @@ Estimate kém chất lượng có thể được down-weight.
 
 Tài liệu định nghĩa normalized frequency tại peak:
 
-# $$  
+$$ 
 \boxed{  
 \hat\nu
 
@@ -915,7 +915,7 @@ Từ vị trí peak đó có thể suy ra slope $a$.
 
 # 26. Phương trình (5-24) - Tìm $a$ và $b$
 
-# $$  
+$$ 
 \boxed{  
 \hat a
 
@@ -925,7 +925,7 @@ $$
 
 và:
 
-# $$  
+$$ 
 \boxed{  
 b
 
@@ -942,7 +942,7 @@ Trong đó $T_S$ là range sampling interval **của các fine DC estimates**, t
 
 Sau khi loại linear trend:
 
-# $$  
+$$ 
 \boxed{  
 res(kT_S)
 
@@ -977,7 +977,7 @@ $$
 
 # 28. Phương trình (5-26) - Reconstruct unwrapped DC
 
-# $$  
+$$ 
 \boxed{  
 \hat f_{\eta c}(kT_S)
 
@@ -990,7 +990,7 @@ $$
 
 Như vậy:
 
-# $$  
+$$ 
 \text{Unwrapped DC}
 
 \text{linear trend}  
@@ -1010,7 +1010,7 @@ Section 5.3.2 viết lại thuật toán dưới dạng discrete implementation.
 
 Tạo vector:
 
-# $$  
+$$ 
 \boxed{  
 u_i
 
@@ -1040,7 +1040,7 @@ Sau đó IPF:
 
 # 30. Phương trình (5-28) - Residual discrete
 
-# $$  
+$$ 
 \boxed{  
 res_i
 
@@ -1062,7 +1062,7 @@ $$
 
 # 31. Phương trình (5-29) - Fine DC unwrapped vector
 
-# $$  
+$$ 
 \boxed{  
 \hat f_i
 
@@ -1130,7 +1130,7 @@ Tài liệu ở đoạn này viết toán tử bằng dấu ngoặc vuông như 
 4. Tính delta giữa unwrapped data FDC và geometry FDC:
     
 
-# $$  
+$$ 
 \Delta f_{DC}(\tau)
 
 ## f_{DC,data}(\tau)
@@ -1147,7 +1147,7 @@ Tài liệu không đánh số phương trình riêng cho sáu phép này; chún
 
 Điểm này rất đáng chú ý: Sentinel-1 không đơn thuần làm:
 
-# $$  
+$$ 
 f_{\text{absolute}}
 
 A\cdot PRF+f_{\text{fine}}  
@@ -1182,7 +1182,7 @@ Với data DC, quá trình fitting cũng phát hiện và loại bỏ outliers.
 
 Vì vậy output cuối cho một azimuth block Stripmap có dạng:
 
-# $$  
+$$ 
 \boxed{  
 f_{DC}(\tau)
 
@@ -1198,7 +1198,7 @@ hoặc cùng dạng nhưng sử dụng range variable được định nghĩa tr
 
 Tài liệu có:
 
-# $$  
+$$ 
 \boxed{  
 p_s(x)
 
