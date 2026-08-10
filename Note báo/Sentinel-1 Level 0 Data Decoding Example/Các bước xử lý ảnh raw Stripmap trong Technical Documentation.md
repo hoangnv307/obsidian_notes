@@ -23,7 +23,9 @@ cho từng azimuth processing block, chứ không phải chỉ một $f_{DC}$ du
 Đây là lúc xử lý image formation thực sự bắt đầu. IPF tạo **Range Reference Function (RRF)** từ chirp replica đã hiệu chuẩn hoặc nominal chirp. RRF về bản chất là matched filter cho tín hiệu chirp phát. Sau đó đối với từng range line, processor thực hiện raw data decoding → raw-data correction → instrument drift compensation. RFI mitigation cũng có thể được bật tùy cấu hình.  
 Tiếp đó mỗi range line được **range compressed** bằng FFT: zero-pad → range FFT → nhân với RRF → range IFFT → bỏ phần filter transient. Sau compression, IPF áp dụng **range-dependent gain correction**, gồm Elevation Antenna Pattern correction và Range Spreading Loss correction. SWST bias cũng được hiệu chỉnh. Tài liệu còn xử lý riêng trường hợp SWST/SWL thay đổi giữa các pulse bằng cách căn chỉnh các range line và chèn black-fill thích hợp.
 Về mặt miền tín hiệu:
-   $s(\tau,\eta)\xrightarrow{\text{range compression}}s_{RC}(\tau,\eta)$   
+$$
+   s(\tau,\eta)\xrightarrow{\text{range compression}}s_{RC}(\tau,\eta)
+$$
 Lúc này target đã được focus theo **range**, nhưng vẫn chưa được focus theo azimuth.
    
 ## 4. Azimuth pre-processing — Section 6.2. 
