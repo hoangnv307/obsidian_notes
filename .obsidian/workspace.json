@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "SNAP notes/Radiometric Calibrate action.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -246,8 +246,8 @@
   "active": "aa8cbd23f0626e61",
   "lastOpenFiles": [
     "SNAP notes/Radiometric Calibrate action.md",
-    "SNAP notes/Radiometric Terrain Flattening.md",
     "SNAP notes/Untitled 1.md",
+    "SNAP notes/Radiometric Terrain Flattening.md",
     "SNAP notes/Untitled.md",
     "SNAP notes/Radiometric Correction.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
