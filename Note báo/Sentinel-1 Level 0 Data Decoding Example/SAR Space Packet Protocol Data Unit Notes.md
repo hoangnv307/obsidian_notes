@@ -78,4 +78,11 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 ### 3.2.4 Counter Service
 - Dịch vụ này bao gồm 2 bộ đếm: Space Packet Count và PRI Count![[Pasted image 20260810161201.png|584]]
 #### 3.2.4.1 Space Packet Count
-- Đếm số Space Packets kể tư
+- Đếm số Space Packets kể từ thời điểm bắt đầu của data takes.
+- Ký hiệu: SPCT
+#### 3.2.4.2 Mode PRI Count
+- Đếm số PRIs thực tế được tạo bởi Instrument từ thời điểm bắt đầu data take. 
+- Ký hiệu: PRICT
+
+### 3.2.5 Radar Configuration Support Service
+- 
