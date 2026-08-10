@@ -94,3 +94,9 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 - Ký hiệu: BAQMOD
 
 #### 3.2.5.3 BAQ Block Length
+- Ký hiệu: BAQBL
+
+#### 3.2.5.4 Range Decimation
+>[!description]
+The Range Decimation indicates the used LowPass filter and down-sampling ratio for decimation of the radar data in the sampling window according to the needed mode bandwidth. The resulting Sampling Frequency after decimation applies to that of the SAR user data in the Space Packet
+- Giá trị:Thay đổi giữa các swath nhưng constant trong một swath.
