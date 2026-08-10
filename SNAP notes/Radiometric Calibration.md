@@ -48,7 +48,27 @@ Terrain Correction
   ↓
 Chuyển sang dB
 ```
+### Luồng cho Sentinel‑1 Stripmap SLC
 
+```text
+Đọc SM SLC
+  ↓
+Apply Orbit File
+  ↓
+Thermal Noise Removal
+  ↓
+Radiometric Calibration
+  ↓
+Multilook — nếu cần chuyển sang ảnh detected/backscatter
+  ↓
+Speckle Filter — tùy mục đích
+  ↓
+Terrain Flattening — nếu địa hình dốc
+  ↓
+Terrain Correction 
+  ↓
+Chuyển sang dB
+```
 Điểm quan trọng từ code: calibration của TOPS SLC phức phải được thực hiện trước Deburst; SNAP chủ động báo lỗi nếu thứ tự ngược lại. Xem [Sentinel1Calibrator.java](</home/hoangnv307/code/snap/microwave-toolbox/sar-op-calibration/src/main/java/eu/esa/sar/calibration/gpf/calibrators/Sentinel1Calibrator.java:90>).
 
 ## Các bước chi tiết
