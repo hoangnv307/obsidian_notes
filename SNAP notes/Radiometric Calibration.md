@@ -1,7 +1,7 @@
 Theo luồng hiện tại của SNAP Microwave Toolbox (`2d44359ae`, ngày 02/07/2026), radiometric correction cho Sentinel‑1 nên được hiểu thành hai phần:
 
 1. Làm sạch các sai lệch bức xạ: border noise và thermal noise.
-2. Radiometric calibration: chuyển DN thành \(\sigma^0\), \(\beta^0\) hoặc \(\gamma^0\).
+2. Radiometric calibration: chuyển DN thành $\sigma^0$, $\beta^0$ hoặc $\gamma^0$.
 
 ## Luồng khuyến nghị
 
@@ -96,9 +96,9 @@ $$
 
 Trong đó:
 
-- Với GRD amplitude: $\(P_{\text{input}}=DN^2\).$
-- Với SLC phức: \(P_{\text{input}}=I^2+Q^2\).
-- \(N\) là noise power nội suy từ noise LUT.
+- Với GRD amplitude: $P_{\text{input}}=DN^2$.
+- Với SLC phức: $P_{\text{input}}=I^2+Q^2$.
+- $N$ là noise power nội suy từ noise LUT.
 
 SNAP cho phép Thermal Noise Removal chạy cả trước lẫn sau Calibration. Nếu đầu vào đã calibrated, noise được đổi sang cùng thang đo:
 
@@ -118,8 +118,8 @@ Một số lưu ý:
 
 - Không chạy lại nếu metadata cho biết thermal noise đã được loại bỏ.
 - Với slice, thermal noise cần được loại trước Slice Assembly.
-- `clipNegativeValues=true` mặc định thay kết quả âm bằng \(10^{-5}\).
-- Nếu sau đó sẽ multilook, lọc không gian hoặc tổng hợp thời gian, nên cân nhắc `clipNegativeValues=false`; clip trước khi lấy trung bình có thể gây positive bias.
+- ==`clipNegativeValues=true` mặc định thay kết quả âm bằng $10^{-5}$.==
+- Nếu sau đó sẽ multilook, lọc không gian hoặc tổng hợp thời gian, nên cân nhắc `clipNegativeValues=false`; clip trước khi lấy trung bìnhs có thể gây positive bias.
 
 ### 4. Chọn polarization và loại kết quả calibration
 
@@ -197,7 +197,7 @@ $$
 C_t = \frac{P}{L_t^2}
 $$
 
-Trong đó \(t\) là `Sigma0`, `Beta0`, `Gamma0` hoặc `DN`.
+Trong đó $t$ là `Sigma0`, `Beta0`, `Gamma0` hoặc `DN`.
 
 Phần cài đặt nằm tại [Sentinel1Calibrator.java](</home/hoangnv307/code/snap/microwave-toolbox/sar-op-calibration/src/main/java/eu/esa/sar/calibration/gpf/calibrators/Sentinel1Calibrator.java:327>).
 
@@ -213,7 +213,7 @@ Mặc định Calibration biến cặp I/Q thành intensity calibrated.
 
 Nếu chọn lưu complex output, SNAP:
 
-1. Tính \(I^2+Q^2\).
+1. Tính $I^2+Q^2$.
 2. Calibrate công suất.
 3. Lấy căn bậc hai.
 4. Gắn lại thành phần pha chuẩn hóa của I hoặc Q.
