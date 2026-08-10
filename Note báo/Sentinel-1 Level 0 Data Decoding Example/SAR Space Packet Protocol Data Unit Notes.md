@@ -21,3 +21,8 @@ Trường này bao gồm 6 octets như ở Table 3.2-2:
 ![[Pasted image 20260810150831.png]]
 - Coarse Time: Biểu diễn mốc thời gian của Space Packet ở đơn vị số nguyên lần giây. Nominal time base is GPS time. Kí hiệu là ==TCOAR==.
 - Fine Time: Biểu diễn subsecond của mốc thời gian Space Packet. Kí hiệu là ==TFINE==
+
+### 3.2.2 Fixed Ancillary Data Field
+- Data ở trong trường này không đổi trong quá trình datatake. 
+![[Pasted image 20260810152243.png|496]]
+- ECC = Event Control Code. 
