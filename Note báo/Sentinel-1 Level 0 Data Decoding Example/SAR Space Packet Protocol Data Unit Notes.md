@@ -67,4 +67,7 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 ![[Pasted image 20260810155622.png|590]]
 
 ![[Pasted image 20260810160400.png]]
-với ![[Pasted image 20260810160425.png]]
+ - Mỗi Service field trong Sub-commutation Service có cấu trúc sau: 
+![[Pasted image 20260810160759.png|590]]
+#### 3.2.3.1 Sub-commutated Ancillary Data Word Index
+- Ký hiệu: ADWIDX
