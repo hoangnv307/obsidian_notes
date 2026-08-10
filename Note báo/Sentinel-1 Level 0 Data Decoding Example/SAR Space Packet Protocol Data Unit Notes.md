@@ -71,3 +71,11 @@ The Instrument Configuration ID is intended to support ground operations. It ide
 ![[Pasted image 20260810160759.png|590]]
 #### 3.2.3.1 Sub-commutated Ancillary Data Word Index
 - Ký hiệu: ADWIDX
+
+#### 3.2.3.2 Sub-commutated Ancillary Data Word
+- Ký hiệu: ADW
+
+### 3.2.4 Counter Service
+- Dịch vụ này bao gồm 2 bộ đếm: Space Packet Count và PRI Count![[Pasted image 20260810161201.png|584]]
+#### 3.2.4.1 Space Packet Count
+- Đếm số Space Packets kể tư
