@@ -32,24 +32,25 @@ $s_{RC}(\tau,\eta)\xrightarrow{\mathcal{F}_\eta}S_{RC}(\tau,f_\eta)$
 
 Tức dữ liệu chuyển từ miền **range-time / azimuth-time** sang **range-time / azimuth-frequency**, hay range-Doppler domain. Điểm rất quan trọng: **Stripmap dừng ở đây và đi thẳng sang Range-Doppler Algorithm**; nó không thực hiện Azimuth Frequency UFR vì UFR là TOPSAR-only. Figure 6-1 trong PDF thể hiện nhánh này rất rõ.
 
-### 4. **Secondary Range Compression — SRC, Section 6.3.1.
-** Range compression ban đầu chưa hoàn toàn chính xác khi Doppler/squint không bằng zero, do range FM thực tế còn phụ thuộc Doppler. Vì vậy Sentinel-1 áp dụng **Secondary Range Compression** trong range-Doppler domain. Processing được thực hiện theo các range segment để có thể coi các tham số range-varying gần như không đổi trong từng segment. Các thao tác chính là range FFT → tạo SRC filter → nhân SRC filter → range IFFT.
+### 5. Secondary Range Compression — SRC, Section 6.3.1.
+- Range compression ban đầu chưa hoàn toàn chính xác khi Doppler/squint không bằng zero, do range FM thực tế còn phụ thuộc Doppler. Vì vậy Sentinel-1 áp dụng **Secondary Range Compression** trong range-Doppler domain. Processing được thực hiện theo các range segment để có thể coi các tham số range-varying gần như không đổi trong từng segment. Các thao tác chính là range FFT → tạo SRC filter → nhân SRC filter → range IFFT.
 
-5. **Range Cell Migration Correction — RCMC, Section 6.3.2.** Trong quá trình vệ tinh bay qua target, slant range tới target thay đổi, nên năng lượng của cùng một target không nằm trong một range bin cố định mà chạy qua nhiều range cell theo azimuth. IPF thực hiện **RCMC** để đưa năng lượng của target trở lại đúng range cell trước khi azimuth focusing.
+## 6. Range Cell Migration Correction — RCMC, Section 6.3.2.
+Trong quá trình vệ tinh bay qua target, slant range tới target thay đổi, nên năng lượng của cùng một target không nằm trong một range bin cố định mà chạy qua nhiều range cell theo azimuth. IPF thực hiện **RCMC** để đưa năng lượng của target trở lại đúng range cell trước khi azimuth focusing.
 
 Đây là một trong ba thành phần cốt lõi của Range-Doppler Algorithm mà tài liệu nêu rõ:
 
 **SRC → RCMC → Azimuth Compression.**
 
-4. **Azimuth compression — Section 6.3.4.** Sau RCMC, processor tạo azimuth matched filter dựa trên các thông tin như Doppler centroid $f_{DC}$, azimuth FM rate $K_a$, effective radar velocity và range. Sau khi nhân matched filter trong miền Doppler, IPF thực hiện azimuth IFFT để đưa dữ liệu trở về miền azimuth time.
-
+## 7. Azimuth compression — Section 6.3.4. 
+Sau RCMC, processor tạo azimuth matched filter dựa trên các thông tin như Doppler centroid $f_{DC}$, azimuth FM rate $K_a$, effective radar velocity và range. Sau khi nhân matched filter trong miền Doppler, IPF thực hiện azimuth IFFT để đưa dữ liệu trở về miền azimuth time.
 Có thể biểu diễn khái quát:
-
 $S_{RCMC}(\tau,f_\eta),H_{az}(\tau,f_\eta)\xrightarrow{\mathcal{F}^{-1}_\eta}s_{SLC}(\tau,\eta)$
 
 Tới đây target đã được **focus cả range lẫn azimuth**. Đây chính là **internal SLC image**. Với Stripmap, không có Azimuth Time UFR sau đó vì Section 6.4 là TOPSAR-only. Tài liệu cũng có riêng Section 9.12 và 9.13 để xác định overlap và chiều dài azimuth block cho Stripmap.
 
-4. **L1 post-processing — Section 7.** Internal SLC chưa nhất thiết là file L1 cuối cùng. Post-processing quyết định tạo **L1 SLC** hay **L1 GRD**. Figure 7-2 mô tả luồng này gồm range post-processing → azimuth post-processing → output processing.
+## 8. **L1 post-processing — Section 7.** 
+Internal SLC chưa nhất thiết là file L1 cuối cùng. Post-processing quyết định tạo **L1 SLC** hay **L1 GRD**. Figure 7-2 mô tả luồng này gồm range post-processing → azimuth post-processing → output processing.
 
 Ở **range post-processing**, processor FFT theo range, extract spectral look, áp Hamming window rồi IFFT. Nếu output là **SLC thì số range look được đặt bằng 1**. Nếu cần GRD, processor còn xây dựng GR/SR LUT và thực hiện **slant-range → ground-range interpolation** bằng sinc interpolator ở pixel spacing yêu cầu.
 
@@ -61,7 +62,7 @@ rồi cộng các azimuth looks và range looks để tạo ảnh multi-look.
 
 Với GRD, thermal-noise vector có thể được nội suy theo azimuth rồi **trừ khỏi power-detected image**. Thermal Noise Removal là GRD-only. Cuối cùng output processing thực hiện square-root extraction đối với GRD khi cấu hình yêu cầu, application scaling và chuyển sang kiểu pixel đầu ra, thông thường 16-bit cho SLC/GRD.
 
-
+# Tóm lại
 Tóm lại, nếu bỏ hết các bước quản lý file/metadata và chỉ nhìn **image formation core**, Stripmap Sentinel-1 thực hiện chuỗi:
 
 **FDBAQ decode → raw correction/calibration → range compression → Doppler centroid estimation → azimuth FFT → SRC → RCMC → azimuth matched filtering/compression → focused SLC**
