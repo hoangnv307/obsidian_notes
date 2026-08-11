@@ -78,6 +78,20 @@
             }
           },
           {
+            "id": "f864745f59e2506e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
             "id": "81ba1429f4b42ac7",
             "type": "leaf",
             "state": {
@@ -92,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -229,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Doppler Centroid là gì.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -257,10 +271,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e85789777963023a",
+  "active": "f864745f59e2506e",
   "lastOpenFiles": [
-    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết Doppler Centroid Estimation.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Doppler Centroid là gì.md",
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Untitled.md",
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết Doppler Centroid Estimation.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các bước xử lý ảnh raw Stripmap trong Technical Documentation.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
@@ -300,7 +315,6 @@
     "SNAP notes/Ý nghĩa của các đại lượng phản xạ radar.md",
     "SNAP notes/SNAP TIFF to Display Pixel Pipeline.md",
     "SNAP notes/Cơ sở lý thuyết Affine Transform.md",
-    "SNAP notes/Scheme, Palette trong SNAP và ý nghĩa của chúng.md",
     "SNAP notes/Analysis Tools",
     "Note báo/SARrawSim Synthetic Aperture Radar Raw Data Simulator",
     "Untitled",
