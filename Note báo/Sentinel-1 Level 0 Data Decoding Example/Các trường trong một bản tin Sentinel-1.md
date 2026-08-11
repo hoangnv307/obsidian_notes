@@ -320,16 +320,15 @@ Xác định phương pháp lượng tử hóa và nén mẫu radar.
 
 Các chế độ Sentinel-1A/B bao gồm:
 
-| Mã | Chế độ |
-|---:|---|
-| 0 | Bypass, không BAQ |
-| 3 | BAQ 3 bit |
-| 4 | BAQ 4 bit |
-| 5 | BAQ 5 bit |
-| 12 | FDBAQ Mode 0 |
-| 13 | FDBAQ Mode 1 |
-| 14 | FDBAQ Mode 2 |
-
+|  Mã | Chế độ            |
+| --: | ----------------- |
+|   0 | Bypass, không BAQ |
+|   3 | BAQ 3 bit         |
+|   4 | BAQ 4 bit         |
+|   5 | BAQ 5 bit         |
+|  12 | FDBAQ Mode 0      |
+|  13 | FDBAQ Mode 1      |
+|  14 | FDBAQ Mode 2      |
 Trong đó:
 
 - BAQ: Block Adaptive Quantization;
