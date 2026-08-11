@@ -189,7 +189,7 @@ Quan hệ hình học:
 $$  
 \boxed{  
 \mathbf g(r,\boldsymbol{\varphi})
-
+=
 \mathbf p-r\mathbf r_0(r,\boldsymbol{\varphi})  
 }  
 \tag{5-3}  
@@ -199,7 +199,7 @@ Tức:
 
 $$ 
 \text{ground target}
-
+=
  \text{satellite position}
 
 \text{slant-range vector}  
@@ -439,21 +439,21 @@ Sentinel-1 sử dụng roll $\varphi$, pitch $\theta$, yaw $\Psi$:
 $$ 
 \boxed{  
 \mathbf L(\boldsymbol{\varphi})
-
+=
 \begin{bmatrix}  
-\cos\Psi&-\sin\Psi&0\  
-\sin\Psi&\cos\Psi&0\  
+\cos\Psi&-\sin\Psi&0\\  
+\sin\Psi&\cos\Psi&0\\  
 0&0&1  
 \end{bmatrix}  
 \begin{bmatrix}  
-\cos\theta&0&\sin\theta\  
-0&1&0\  
+\cos\theta&0&\sin\theta\\  
+0&1&0\\  
 -\sin\theta&0&\cos\theta  
 \end{bmatrix}  
 \begin{bmatrix}  
-1&0&0\  
-0&\cos\varphi&-\sin\varphi\  
-0&\sin\varphi&\cos\varphi  
+1&0&0\\  
+0&\cos\varphi&-\sin\varphi\\
+0&\sin\varphi&\cos\varphi\\  
 \end{bmatrix}  
 }  
 \tag{5-15}  

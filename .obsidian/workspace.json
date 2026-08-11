@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết Doppler Centroid Estimation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5026054382324
+    "width": 419.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "36810270d83fd168",
@@ -243,7 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 460.5
   },
   "left-ribbon": {
     "hiddenItems": {
