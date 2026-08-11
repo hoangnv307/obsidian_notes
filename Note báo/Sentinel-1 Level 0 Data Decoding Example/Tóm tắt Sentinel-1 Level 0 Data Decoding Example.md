@@ -6,7 +6,6 @@ Tài liệu tham khảo:
 # 1. Imports và setup 
 - Sản phẩm được xét trong bài, chế độ stripmap:
 `sao_paulo/s1a-s6-raw-s-vv-20251226t214356-20251226t214427-062491-07d496.dat`
-
 - Lưu lại đường dẫn tới file .dat (file chứa các gói bản tin gửi xuống mặt đất)
 # 2. Extract File Metadata
 - Một packet thông thường sẽ ba gồm đầu ra của radar instrument tương ứng của một radar echo. 
