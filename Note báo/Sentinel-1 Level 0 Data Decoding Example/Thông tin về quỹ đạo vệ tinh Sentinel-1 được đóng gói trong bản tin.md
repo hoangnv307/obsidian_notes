@@ -1,7 +1,4 @@
 
-
-
-
 Các trường này là **metadata quỹ đạo (Orbit)** và **tư thế (Attitude)** được đóng gói trong mỗi **Sentinel-1 Space Packet Protocol Data Unit (SPDU)**. Chúng được sử dụng để xử lý Level-0 → Level-1, đặc biệt là **geolocation**, **Doppler estimation**, **motion compensation** và **SAR focusing**.
 
 Dưới đây là giải thích chi tiết từng trường.
