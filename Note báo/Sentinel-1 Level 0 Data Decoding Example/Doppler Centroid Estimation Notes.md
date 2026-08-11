@@ -7,3 +7,4 @@ slant_range_time	5561845.040818287	float64	ns	Slant Range Time
 slant_range_time	5561845.040818287	float64	ns	Slant Range Time	
 zero_doppler_time	04-MAY-2025 17:24:58.827750	uint32			
 zero_doppler_time	04-MAY-2025 17:24:52.046621	uint32			
+feq(slant_range_time, 5561845.040818287)
