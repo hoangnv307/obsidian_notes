@@ -134,8 +134,7 @@ Tài liệu định nghĩa **Doppler Frequency Function - DFF**:
 $$ 
 \boxed{  
 f(r,\boldsymbol{\varphi})
-
--\frac{2}{\lambda}  
+= \frac{2}{\lambda}  
 \mathbf v\cdot  
 \mathbf r_0(r,\boldsymbol{\varphi})  
 }  
@@ -201,7 +200,7 @@ Tức:
 $$ 
 \text{ground target}
 
-## \text{satellite position}
+ \text{satellite position}
 
 \text{slant-range vector}  
 $$
