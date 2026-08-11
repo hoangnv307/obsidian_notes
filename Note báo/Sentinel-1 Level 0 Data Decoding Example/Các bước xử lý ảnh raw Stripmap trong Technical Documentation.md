@@ -13,7 +13,7 @@ Một điểm quan trọng là echo raw của Sentinel-1 thường được mã 
 Có thể hình dung đầu ra của giai đoạn này là:  
 **L0 ISP packets → signal data + calibration parameters + orbit/attitude + terrain/metadata**
 ## 2. Ước lượng Doppler Centroid — Section 5.
-[[Chi tiết Doppler Centroid Estimation]]
+[[Chi tiết Doppler Centroid Estimation]]]
 - Sentinel-1 không chỉ lấy một con số Doppler centroid cố định. Đầu tiên IPF tính **absolute DC từ orbit và attitude** dựa trên hình học satellite–target. Sau đó dữ liệu được decode, raw-data corrected, bù instrument drift và range-compressed để thực hiện **Fine DC Estimation** từ chính echo data. Với Stripmap, bước TOPSAR DCE pre-conditioning được bỏ qua; IPF đi thẳng vào **Correlation Doppler Centroid Estimator (CDCE)**, dùng tương quan giữa các mẫu azimuth liên tiếp.
 - Fine Doppler thu được bị giới hạn modulo PRF, nên tiếp theo IPF **unwrap Doppler theo range**, sử dụng absolute DC từ geometry để xác định ambiguity number, rồi kết hợp hai nguồn thành **absolute Doppler centroid**. Với single-swath Stripmap, các DC estimate cuối cùng được fit bằng **đa thức bậc hai theo range**; RMS residual của phép fit được dùng làm chỉ tiêu chất lượng DC.
 - Như vậy output quan trọng của stage này là một hàm dạng:

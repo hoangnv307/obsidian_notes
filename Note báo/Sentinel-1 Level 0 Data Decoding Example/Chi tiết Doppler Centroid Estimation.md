@@ -1,3 +1,4 @@
+#AI 
 Được. Tôi đã đối chiếu trực tiếp **Section 5 - Doppler Centroid Estimation Algorithms, từ trang 5-1 đến 5-13** của file _Sentinel-1 Level 1 Detailed Algorithm Definition, Issue 2/5_. Nếu xét **đúng pipeline Stripmap**, thì gần như toàn bộ Section 5 được sử dụng, **ngoại trừ phương trình (5-17) và phần (5-31), vì hai phần này dành riêng cho TOPSAR/multi-swath**.
 
 Điểm quan trọng nhất trước khi đi vào từng phương trình là Sentinel-1 **không đơn giản lấy Doppler centroid bằng một phép ước lượng duy nhất từ raw echo**. IPF kết hợp hai nguồn:
