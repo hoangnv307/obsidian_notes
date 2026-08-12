@@ -99,4 +99,5 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 		- Tính delta của unwrapped FDC từ data và FDC từ geometry. 
 		- Thực hiện polynomial fit cho delta FDC
 		- Cộng các hệ số đa thức delta FDC cho các hệ số geometry FDC để tính the data FDC polynomial cho azimuth block này. 
-- 
+## 1.2 Secondary Range Compression (SRC)
+- Bước này nhận đầu vào là 1 azimuth block trên miền 
