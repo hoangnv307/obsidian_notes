@@ -8,7 +8,9 @@ từ đó so sánh độ cải thiện của chất lượng ảnh.
 
 # 1. Cơ sở lý thuyết
 ## 1.1 Doppler Centroid Estimation
-Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 6 bước chính như sau: 
+- Nhìn chung, quá trình xử lý DCE  có thể biểu diễn như ở [Hình 5-1]
+![[Pasted image 20260812152509.png]]
+- Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 6 bước chính như sau: 
 1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh) [Section 5.1]
 2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô [Section 5.2]. 
 3. Đo lường chất lượng ước lượng DC [Section 5.5.1]
