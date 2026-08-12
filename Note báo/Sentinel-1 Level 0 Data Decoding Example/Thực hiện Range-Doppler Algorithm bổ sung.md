@@ -90,5 +90,8 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 	- Tìm hàm bậc 2 fitting $\tilde{p}(.)$, cho tần số DC tuyệt đối từ Orbit và Attitude, $(r_i, \tilde{f_i}), i=0,1,2,...,n-1$. Least-square fit cũng được sử dụng trong trường hợp này.
 ### 1.1.5 Absolute DC Estimation
 - Các giá trị ước lượng ADC được tính từ các ước lượng unwrapped FDC [Section 5.3.2] và the ambiguity lấy từ ADC tính từ orbit và attitude [Section 5.1] 
-	- Tính the ambiguity A từ tần số ADC tính từ orbit và attitude, của first range block, $\tilde{f_0}$:
-![[Pasted image 20260812191237.png|544]]
+	- Tính the ambiguity A từ tần số ADC tính từ orbit và attitude, của first range block, $\tilde{f_0}$: 
+	![[Pasted image 20260812191237.png|549]]
+	- Với mỗi azimuth block, thực hiện các phép tính sau: 
+		- Giải quấn FDC tính được từ data [Section 5.2 và 5.3]
+		- Bù teh
