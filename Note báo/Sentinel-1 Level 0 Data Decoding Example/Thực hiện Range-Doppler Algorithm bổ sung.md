@@ -70,4 +70,5 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 - Tập hợp này có thể biểu diễn bằng một bộ các cặp giá trị fast time $\tau$ và tần số FDC:
 ![[Pasted image 20260812170944.png|449]]
 ### 1.1.3 Giải quấn các ước lượng FDC
-- Với mỗi azimuth block, các 
+- Với mỗi azimuth block, các ước lượng FDC phải được giải quấn theo chiều range, bằng cách loại bỏ các bước nhảy lớn hơn PRF/2 trên các giá trị ước lượng liên tục. 
+- Để cho ra kết quả tốt nhất, các ước lượng từ các khối nếu quá nhiễu hoặc biased (dựa trên kết quả từ bước trước) phải được 
