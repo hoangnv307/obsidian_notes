@@ -66,4 +66,8 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 3. Tính giá trị góc của mỗi ACCC được cho từ bước 2, $\phi_{accc}$.
 4. Tính tần số FDC cho mỗi  $\phi_{accc}$ lấy từ bước 3 (hay tính tần số DC tương ứng với mỗi range block):
 ![[Pasted image 20260812170443.png|435]] 
-- Đầu ra tương ứng với mỗi 
+- Đầu ra tương ứng với mỗi azimuth block đầu vào, sẽ là một tập các giá trị ước lượng FDC, mỗi giá trị tương ứng với slant range ở tâm của một range block. 
+- Tập hợp này có thể biểu diễn bằng một bộ các cặp giá trị fast time $\tau$ và tần số FDC:
+![[Pasted image 20260812170944.png|449]]
+### 1.1.3 Giải quấn các ước lượng FDC
+- Với mỗi azimuth block, các 
