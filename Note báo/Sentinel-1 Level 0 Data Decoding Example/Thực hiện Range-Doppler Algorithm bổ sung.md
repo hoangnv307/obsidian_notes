@@ -11,4 +11,5 @@ từ đó so sánh độ cải thiện của chất lượng ảnh.
 Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 3 bước chính như sau: 
 1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh)
 2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô. 
-3. Tìm DC tuyệt đối từ FDC và  
+3. Tìm Absolute Doppler Centroid từ FDC + DC từ geometry. 
+4. Fitting để tìm hàm Doppler Centroid cho azimuth block
