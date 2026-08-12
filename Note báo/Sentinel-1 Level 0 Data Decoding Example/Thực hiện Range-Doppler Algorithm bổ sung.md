@@ -11,12 +11,12 @@ từ đó so sánh độ cải thiện của chất lượng ảnh.
 - Nhìn chung, quá trình xử lý DCE  có thể biểu diễn như ở [Hình 5-1]
 ![[Pasted image 20260812152509.png]]
 - Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 6 bước chính như sau: 
-1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh) [Section 5.1]
-2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô [Section 5.2]. 
-3. Đo lường chất lượng ước lượng DC [Section 5.5.1]
-4. Giải quấn ước lượng Fine DC [Section 5.3]
-5. Polynomial Fitting [Section 5.5] 
-6. Absolute DC estimation [Section 5.4]
+	1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh) [Section 5.1]
+	2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô [Section 5.2]. 
+	3. Đo lường chất lượng ước lượng DC [Section 5.5.1]
+	4. Giải quấn ước lượng Fine DC [Section 5.3]
+	5. Polynomial Fitting [Section 5.5] 
+	6. Absolute DC estimation [Section 5.4]
  ![[Pasted image 20260812151042.png|528]]
  
 ==Câu hỏi==: Có được DC polynomial từ bước này rồi, vậy sử dụng polynomial này ở đâu?
@@ -28,3 +28,5 @@ $$
 
 
 ### 1.1.1 Absolute DC Calculation (từ thông tin quỹ đạo và tư thế)
+- Các bước để tính Absolute DC từ  thông tin quỹ đạo: 
+	1. 
