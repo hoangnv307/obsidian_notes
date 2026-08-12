@@ -75,4 +75,8 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 - IPF sử dụng một thuật toán cải tiến được đề xuất và mô tả trong [R-11]
 - Algorithm overview: Đọc tài liệu hãng.
 - Triển khai thuật toán: Đầu vào thuật toán sẽ là kết quả của (5-20) của azimuth block hiện tại: 
-	1. Tính vector $\vec{u}$:
+	1. Tính vector $\vec{u}$: ![[Pasted image 20260812172515.png]]
+	2. Zero-pad vector 
+$$
+	
+$$
