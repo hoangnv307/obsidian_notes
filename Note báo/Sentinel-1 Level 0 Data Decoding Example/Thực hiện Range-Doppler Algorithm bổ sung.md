@@ -87,4 +87,6 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 - Polymial fitting được thực hiện 2 lần: Một lần với tần số DC được tính từ orbit và attitude [Section 5.1] và một lần với tần số DC được ước lượng từ dữ liệu [Section 5.4].
 - Bước này thực thi trên từng azimuth block và phụ thuộc vào dạng dữ liệu đó là single-swath hay multi-swath, ở đây là đang xét Stripmap nên xét trường hợp single-swath:
 	- Polynomial fitting for single-swath: Tìm hệ số của đa thức bậc 2 $p(x) = c_{0} + c_{1}x + c_{2}x^2$  that fits dữ liệu ước lượng tần số absolute DC frequency, $p(r_i)$ to $g_i$. Đây là least-squares polynomial fit, quá trình dectect và eliminates outlying DC estimates được đề cập trong [Section 5.5.1]
-	- Tìm hàm bậc 2 fitting $\tilde{p}(.)$, cho tần số DC tuyệt đối từ Orbit và Attitude, 
+	- Tìm hàm bậc 2 fitting $\tilde{p}(.)$, cho tần số DC tuyệt đối từ Orbit và Attitude, $(r_i, \tilde{f_i}), i=0,1,2,...,n-1$. Least-square fit cũng được sử dụng trong trường hợp này.
+### 1.1.5 Absolute DC Estimation
+- 
