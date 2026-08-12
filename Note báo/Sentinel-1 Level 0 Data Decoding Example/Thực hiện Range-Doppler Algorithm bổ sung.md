@@ -41,4 +41,6 @@ với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
 ![[Pasted image 20260812162730.png|485]]
 - $\vec{u_0}(\vec{\varphi})$  là vector đơn vị, vuông góc với $\vec{r_0}(r,\vec{\varphi})$, mô tả hướng di chuyển của vệ tinh: 
 ![[Pasted image 20260812162935.png|444]]
-- Ma trận $\vec{L_0}(\vec{p},\vec{v_a})$ là ma trận quỹ đạo và có thể được tính từ vector vị trí $\vec{p}$  và vận tốc tuye 
+1. Ma trận $\vec{L_0}(\vec{p},\vec{v_a})$ là ma trận quỹ đạo và có thể được tính từ vector vị trí $\vec{p}$  và vận tốc tuyệt đối của vệ tinh $\vec{v_a}$:
+![[Pasted image 20260812163600.png|379]]
+2. 
