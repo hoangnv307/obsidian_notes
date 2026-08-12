@@ -6,10 +6,11 @@ Bản demo này sẽ thực hiện bổ sung 2 bước thành phần vào luồn
 2. Secondary Range Compression
 từ đó so sánh độ cải thiện của chất lượng ảnh.
 
-# Cơ sở lý thuyết
-## Doppler Centroid Estimation
-Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 3 bước chính như sau: 
+# 1. Cơ sở lý thuyết
+## 1.1 Doppler Centroid Estimation
+Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 4 bước chính như sau: 
 1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh)
 2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô. 
 3. Tìm Absolute Doppler Centroid từ FDC + DC từ geometry. 
-4. Fitting để tìm hàm Doppler Centroid cho azimuth block
+4. Fitting để tìm hàm Doppler Centroid cho azimuth block.
+
