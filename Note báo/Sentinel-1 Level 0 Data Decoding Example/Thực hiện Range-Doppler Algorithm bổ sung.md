@@ -71,4 +71,8 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 ![[Pasted image 20260812170944.png|449]]
 ### 1.1.3 Giải quấn các ước lượng FDC
 - Với mỗi azimuth block, các ước lượng FDC phải được giải quấn theo chiều range, bằng cách loại bỏ các bước nhảy lớn hơn PRF/2 trên các giá trị ước lượng liên tục. 
-- Để cho ra kết quả tốt nhất, các ước lượng từ các khối nếu quá nhiễu hoặc biased (dựa trên kết quả từ bước trước) phải được 
+- Để cho ra kết quả tốt nhất, các ước lượng từ các khối nếu quá nhiễu hoặc biased (dựa trên kết quả từ bước trước) phải được loại bỏ hoặc gán trọng số thấp hơn trong quá trình giải quấn. 
+- IPF sử dụng một thuật toán cải tiến được đề xuất và mô tả trong [R-11]
+- Algorithm overview: Đọc tài liệu hãng.
+- Triển khai thuật toán: Đầu vào thuật toán sẽ là kết quả của (5-20) của azimuth block hiện tại: 
+	1. Tính vector $\vec{u}$:
