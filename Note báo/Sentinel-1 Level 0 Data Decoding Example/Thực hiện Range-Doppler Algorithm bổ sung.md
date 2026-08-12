@@ -54,3 +54,9 @@ với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
 - Để giải điều chế, dữ liệu phải được thực hiện các thao tác sau, các thao tác được thực hiện trên từng range line một trong azimuth block: 
 ![[Pasted image 20260812164853.png|420]]
 - Với Mode Stripmap, tính FDC cần thực hiện Correlation DC Estimator (CDCE) [Section 5.2.2]
+Lưu ý rằng FDC estimation được ước lượng trên dữ liệu range compressed, vì thế được tính trên miền range-time-azimuth-time.
+#### 1.1.2.1 Correlation DC Estimator (CDCE)
+- Thuật toán này tính được FDC từ Average Cross Correlation Coefficient (ACCC)
+- Algorithm Overview: Đọc [R-2], [R-5 Section 12.4.2], [R-10]
+- Các bước thực thi thuật toán: 
+	1. Tính ACCC trên mỗi azimuth line: 
