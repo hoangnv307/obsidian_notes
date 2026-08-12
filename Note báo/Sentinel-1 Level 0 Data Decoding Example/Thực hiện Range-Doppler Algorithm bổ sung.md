@@ -28,4 +28,5 @@ $$
 
 
 ### 1.1.1 Absolute DC Calculation (từ thông tin quỹ đạo và tư thế)
-- Bước đầu là xác định absolute DC từ hình học của vệ tinh-trái đất 
+- Bước đầu là xác định absolute DC từ hình học của vệ tinh-trái đất sử dụng dữ liệu Orbit và Attitude. 
+- Các thông tin về vị trí và vận tốc vệ tinh (satellite ephemeris), được biểu diễn bằng các vector trạng thái, thường được ước lượng bởi hệ thống GPS 
