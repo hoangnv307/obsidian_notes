@@ -8,11 +8,13 @@ từ đó so sánh độ cải thiện của chất lượng ảnh.
 
 # 1. Cơ sở lý thuyết
 ## 1.1 Doppler Centroid Estimation
-Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 4 bước chính như sau: 
-1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh)
-2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô. 
-3. Tìm Absolute Doppler Centroid từ FDC + DC từ geometry. 
-4. Fitting để tìm Doppler Centroid polynomial cho azimuth block.
+Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nhìn chung có thể được chia làm 6 bước chính như sau: 
+1. Tính giá trị Doppler Centroid tuyệt đối (từ thông tin quỹ đạo và tư thế của vệ tinh) [Section 5.1]
+2. Tính ước lượng Fine Doppler Centroid từ dữ liệu thô [Section 5.2]. 
+3. Đo lường chất lượng ước lượng DC [Section 5.5.1]
+4. Giải quấn ước lượng Fine DC [Section 5.3]
+5. Polynomial Fitting [Section 5.5] 
+6. 
 ==Câu hỏi==: Có được DC polynomial từ bước này rồi, vậy sử dụng polynomial này ở đâu?
 ==Trả lời:== Trong bước tạo azimuth filter:
 $$
@@ -21,4 +23,4 @@ $$
 ==Câu hỏi==: Thử kiểm tra 8.2.1 Stripmap Case xem có liên quan gì đến cách chia range/azimuth block không?
 
 
-### 1.1.1 
+### 1.1.1 Absolute DC Calculation (từ thông tin quỹ đạo và tư thế)
