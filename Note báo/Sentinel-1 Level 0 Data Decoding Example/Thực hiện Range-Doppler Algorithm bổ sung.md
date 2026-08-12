@@ -77,6 +77,11 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 - Triển khai thuật toán: Đầu vào thuật toán sẽ là kết quả của (5-20) của azimuth block hiện tại: 
 	1. Tính vector $\vec{u}$: ![[Pasted image 20260812172515.png]]
 	2. Zero-pad vector $\vec{u}$ tới độ dài của FFT
-	3. Ước lượng thành phần tuyến tính của tần số DC (là một hàm của fasst time) bằng cách tính hệ số $a$ và $b$ dựa trên phương trình (5-24):![[Pasted image 20260812173016.png]]
+	3. Lấy FFT của vector đã được zero-padded. 
+	4. Ước lượng thành phần tuyến tính của tần số DC (là một hàm của fasst time) bằng cách tính hệ số $a$ và $b$ dựa trên phương trình (5-24):![[Pasted image 20260812173016.png]]
 		![[Pasted image 20260812173104.png|469]]
-	
+		![[Pasted image 20260812180742.png|552]]
+	5. Tính residual vector:![[Pasted image 20260812181011.png]]
+	6. Tính vector tần số unwrapped DC:![[Pasted image 20260812181047.png]]
+### 1.1.4 Polynomial Fitting 
+- Polymial fitting được thực hiện 2 lần: 1 với tần số DC được tính từ orbit và attitude [5]
