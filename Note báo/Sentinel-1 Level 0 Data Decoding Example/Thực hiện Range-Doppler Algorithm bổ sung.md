@@ -15,4 +15,5 @@ Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nh
 4. Fitting để tìm Doppler Centroid polynomial cho azimuth block.
 ==Câu hỏi: Có được DC polynomial từ bước này rồi, vậy sử dụng polynomial này ở đâu?==
 
-Câu hỏi: Thử kiểm tra 8.2.1 Stripmap Case xem
+==Câu hỏi: Thử kiểm tra 8.2.1 Stripmap Case xem có liên quan gì đến cách chia range/azimuth block không?==
+
