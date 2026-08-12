@@ -89,4 +89,6 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 	- Polynomial fitting for single-swath: Tìm hệ số của đa thức bậc 2 $p(x) = c_{0} + c_{1}x + c_{2}x^2$  that fits dữ liệu ước lượng tần số absolute DC frequency, $p(r_i)$ to $g_i$. Đây là least-squares polynomial fit, quá trình dectect và eliminates outlying DC estimates được đề cập trong [Section 5.5.1]
 	- Tìm hàm bậc 2 fitting $\tilde{p}(.)$, cho tần số DC tuyệt đối từ Orbit và Attitude, $(r_i, \tilde{f_i}), i=0,1,2,...,n-1$. Least-square fit cũng được sử dụng trong trường hợp này.
 ### 1.1.5 Absolute DC Estimation
-- Các giá trị ước lượng ADC được tính từ các ước lượng unwrapped FDC [Section 5.3.2] và the ambiguity lấy từ ADC tính từ orbit và attitude [Section 5.1]  
+- Các giá trị ước lượng ADC được tính từ các ước lượng unwrapped FDC [Section 5.3.2] và the ambiguity lấy từ ADC tính từ orbit và attitude [Section 5.1] 
+	- Tính the ambiguity A từ tần số ADC tính từ orbit và attitude, của first range block, $\tilde{f_0}$:
+![[Pasted image 20260812191237.png|544]]
