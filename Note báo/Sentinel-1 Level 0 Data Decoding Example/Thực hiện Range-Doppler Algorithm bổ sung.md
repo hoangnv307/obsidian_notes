@@ -63,4 +63,7 @@ Lưu ý rằng FDC estimation được ước lượng trên dữ liệu range c
 ![[Pasted image 20260812165648.png|502]]
 Lưu ý rằng bước trên có thể được thực hiện song song cho toàn azimuth lines.
 2. Chia ACCC vector thành các vector con cho mỗi range blocks, sau đó tính trung bình với mỗi vector con đó. Sau bước này sẽ thu được giá trị ACCC được trung bình theo range theo mỗi range block. 
-3. Tính giá trị góc của mỗi 
+3. Tính giá trị góc của mỗi ACCC được cho từ bước 2, $\phi_{accc}$.
+4. Tính tần số FDC cho mỗi  $\phi_{accc}$ lấy từ bước 3 (hay tính tần số DC tương ứng với mỗi range block):
+![[Pasted image 20260812170443.png|435]] 
+- Đầu ra tương ứng với mỗi 
