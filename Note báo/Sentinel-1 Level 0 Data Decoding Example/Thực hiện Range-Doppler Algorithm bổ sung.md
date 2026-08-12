@@ -100,4 +100,6 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 		- Thực hiện polynomial fit cho delta FDC
 		- Cộng các hệ số đa thức delta FDC cho các hệ số geometry FDC để tính the data FDC polynomial cho azimuth block này. 
 ## 1.2 Secondary Range Compression (SRC)
-- Bước này nhận đầu vào là 1 azimuth block trên miền 
+- Bước này nhận đầu vào là 1 azimuth block trên miền range time + azimuth frequency, và là đầu ra của bước Azimuth FFT (đối với chế độ Stripmap) [Section 6.2.2].
+- Thuật toán SRC được triển khai trên từng range line trên lần lượt các đoạn range (range segment-to-segment basis):
+- Các bước chính 
