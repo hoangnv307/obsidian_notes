@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tóm tắt Sentinel-1 Level 0 Data Decoding Example"
+              "title": "Chi tiết về Range Decimation"
+            }
+          },
+          {
+            "id": "3c8eb910f800b309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Giải thích Correlation Doppler Centroid Estimator (CDCE).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Giải thích Correlation Doppler Centroid Estimator (CDCE)"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +133,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+                "file": "Note báo/Sentinel-1 Level 0 Data Decoding Example/Giải thích Correlation Doppler Centroid Estimator (CDCE).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,21 +244,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfe9d0bf352318c8",
+  "active": "3c8eb910f800b309",
   "lastOpenFiles": [
-    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Giải thích Correlation Doppler Centroid Estimator (CDCE).md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Tóm tắt Sentinel-1 Level 0 Data Decoding Example.md",
+    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các trường trong một bản tin Sentinel-1.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Doppler Centroid Estimation Notes.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Thông tin về quỹ đạo vệ tinh Sentinel-1 được đóng gói trong bản tin.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Giải thích cách thức hình thành nên Doppler Spectrum.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/SAR Space Packet Protocol Data Unit Notes.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Doppler Spectrum vs Doppler History.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260811101324.png",
-    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết về Range Decimation.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Chi tiết Doppler Centroid Estimation.md",
     "SNAP notes/Band Math/Ý nghĩa và ứng dụng của biến TIME.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/images/Pasted image 20260811093826.png",
-    "Note báo/Sentinel-1 Level 0 Data Decoding Example/Untitled.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Các bước xử lý ảnh raw Stripmap trong Technical Documentation.md",
     "Note báo/SARrawSim Synthetic Aperture Radar Raw Data Simulator/Tóm tắt SARrawSim Synthetic Aperture Radar Raw Data Simulator.md",
     "Note báo/Sentinel-1 Level 0 Data Decoding Example/Doppler Centroid là gì.md",
