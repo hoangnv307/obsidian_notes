@@ -50,4 +50,7 @@ với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
 ![[Pasted image 20260812164138.png|527]]
 
 ### 1.1.2 Fine DC Estimation 
-- Doppler sampling rate = PRF, nên sẽ giới hạn tần số Doppler đo được. Vì vậy tín hiệu nhận được chỉ quan sát được trong dải PRF/2 tới 
+- Doppler sampling rate = PRF, nên sẽ giới hạn tần số Doppler đo được. Vì vậy tín hiệu nhận được chỉ quan sát được trong dải -PRF/2 tới +PRF/2. 
+- Để giải điều chế, dữ liệu phải được thực hiện các thao tác sau, các thao tác được thực hiện trên từng range line một trong azimuth block: 
+![[Pasted image 20260812164853.png|420]]
+- Với Mode Stripmap, tính FDC cần thực hiện Correlation DC Estimator (CDCE) [Section 5.2.2]
