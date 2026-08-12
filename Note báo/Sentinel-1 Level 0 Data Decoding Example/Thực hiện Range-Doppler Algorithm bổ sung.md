@@ -32,4 +32,8 @@ $$
 - Các thông tin về vị trí và vận tốc vệ tinh (satellite ephemeris), được biểu diễn bằng các vector trạng thái, thường được ước lượng bởi hệ thống GPS on-board.
 >[!note]
 >Đọc [R-9] Section 2 để biết về định nghĩa attitude angles
-- Với một vị trí quỹ đạo xác định (fixed satellite ephemeris), tần số Doppler là một hàm của $r$ và $\mathbf{\varphi}$ 
+- Với một vị trí quỹ đạo xác định (fixed satellite ephemeris), tần số Doppler là một hàm của $r$ và $\vec{\varphi}$, được gọi là Doppler Frequency Function (DFF):
+![[Pasted image 20260812162349.png]]
+với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
+![[Pasted image 20260812162448.png|391]]
+- Vector đơn vị $\vec{r_0}(r,\vec{\varphi})$ có thể được tính từ hệ phi tuyết sau
