@@ -102,4 +102,9 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 ## 1.2 Secondary Range Compression (SRC)
 - Bước này nhận đầu vào là 1 azimuth block trên miền range time + azimuth frequency, và là đầu ra của bước Azimuth FFT (đối với chế độ Stripmap) [Section 6.2.2].
 - Thuật toán SRC được triển khai trên từng range line trên lần lượt các đoạn range (range segment-to-segment basis):
-- Các bước chính 
+- Các bước chính của SRC bao gồm: 
+	1. Range forward FFT the current segment.
+	2. Tạo bộ lọc SRC cho current segment, được đề cập ở [Section 6.3.1.1]
+	3. Áp dụng bộ lọc SRC cho range line segment.
+	4. Range inverse FFT. 
+1. 
