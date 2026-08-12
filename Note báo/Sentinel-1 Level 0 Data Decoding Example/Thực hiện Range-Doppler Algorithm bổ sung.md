@@ -33,7 +33,12 @@ $$
 >[!note]
 >Đọc [R-9] Section 2 để biết về định nghĩa attitude angles
 - Với một vị trí quỹ đạo xác định (fixed satellite ephemeris), tần số Doppler là một hàm của $r$ và $\vec{\varphi}$, được gọi là Doppler Frequency Function (DFF):
-![[Pasted image 20260812162349.png]]
+![[Pasted image 20260812162349.png|415]]
 với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
 ![[Pasted image 20260812162448.png|391]]
-- Vector đơn vị $\vec{r_0}(r,\vec{\varphi})$ có thể được tính từ hệ phi tuyết sau
+- Vector đơn vị $\vec{r_0}(r,\vec{\varphi})$ là nghiệm được tính từ hệ phi tuyến sau:
+![[Pasted image 20260812162647.png|455]]
+![[Pasted image 20260812162730.png|485]]
+- $\vec{u_0}(\vec{\varphi})$  là vector đơn vị, vuông góc với $\vec{r_0}(r,\vec{\varphi})$, mô tả hướng di chuyển của vệ tinh: 
+![[Pasted image 20260812162935.png|444]]
+- Ma trận $\vec{L_0}(\vec{p},\vec{v_a})$ là ma trận quỹ đạo và có thể được tính từ vector vị trí $\vec{p}$  và vận tốc tuye 
