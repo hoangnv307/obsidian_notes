@@ -16,7 +16,8 @@ Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nh
 ==Câu hỏi==: Có được DC polynomial từ bước này rồi, vậy sử dụng polynomial này ở đâu?
 ==Trả lời:== Trong bước tạo azimuth filter:
 $$
-H_az(f_\eta) = W(f_\eta-f\eta_c)exp\left(j\frac{4\pi R_0D(f_\eta,V_r)f_0}c{} \right)
+H_az(f_\eta) = W(f_\eta-f\eta_c)exp\left(j\frac{4\pi R_0D(f_\eta,V_r)f_0}c{} \right) = W(f_\eta-f\eta_c)exp\left(j\frac{4\pi RD^2(f_\eta,V_r)f_0}c{} \right) 
 $$
 ==Câu hỏi==: Thử kiểm tra 8.2.1 Stripmap Case xem có liên quan gì đến cách chia range/azimuth block không?
+
 
