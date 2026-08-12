@@ -21,3 +21,4 @@ $$
 ==Câu hỏi==: Thử kiểm tra 8.2.1 Stripmap Case xem có liên quan gì đến cách chia range/azimuth block không?
 
 
+### 1.1.1 
