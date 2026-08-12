@@ -43,4 +43,7 @@ với $\vec{r_0}(r,\vec{\varphi})$ là unit view vector
 ![[Pasted image 20260812162935.png|444]]
 1. Ma trận $\vec{L_0}(\vec{p},\vec{v_a})$ là ma trận quỹ đạo và có thể được tính từ vector vị trí $\vec{p}$  và vận tốc tuyệt đối của vệ tinh $\vec{v_a}$:
 ![[Pasted image 20260812163600.png|379]]
-2. 
+2. Ma trận $\vec{L}(\vec{\varphi})$ trong phương trình (5-9) là ma trận tư thế và có thể được tính từ góc tư thế roll, pitch, yaw ($\varphi, \theta, \psi$):
+![[Pasted image 20260812163853.png|449]]
+- ==Các phép tính trên sẽ được thực hiện trên slant range tương ứng với tâm của mỗi n range blocks.== 
+- Kết quả là một bộ các cặp giá trị slant range và tần số Doppler Centroid tuyệt đối:
