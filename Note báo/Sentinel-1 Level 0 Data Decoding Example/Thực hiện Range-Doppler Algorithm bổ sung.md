@@ -78,5 +78,5 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 	1. Tính vector $\vec{u}$: ![[Pasted image 20260812172515.png]]
 	2. Zero-pad vector $\vec{u}$ tới độ dài của FFT
 	3. Ước lượng thành phần tuyến tính của tần số DC (là một hàm của fasst time) bằng cách tính hệ số $a$ và $b$ dựa trên phương trình (5-24):![[Pasted image 20260812173016.png]]
-		![[Pasted image 20260812173104.png|538]]
+		![[Pasted image 20260812173104.png|469]]
 	
