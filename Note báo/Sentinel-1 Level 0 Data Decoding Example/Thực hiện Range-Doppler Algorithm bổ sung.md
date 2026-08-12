@@ -60,3 +60,7 @@ Lưu ý rằng FDC estimation được ước lượng trên dữ liệu range c
 - Algorithm Overview: Đọc [R-2], [R-5 Section 12.4.2], [R-10]
 - Các bước thực thi thuật toán: 
 	1. Tính ACCC trên mỗi azimuth line: 
+![[Pasted image 20260812165648.png|502]]
+Lưu ý rằng bước trên có thể được thực hiện song song cho toàn azimuth lines.
+2. Chia ACCC vector thành các vector con cho mỗi range blocks, sau đó tính trung bình với mỗi vector con đó. Sau bước này sẽ thu được giá trị ACCC được trung bình theo range theo mỗi range block. 
+3. Tính giá trị góc của mỗi 
