@@ -115,19 +115,27 @@ Hai phần sau đó được kết hợp để giải quyết Doppler ambiguity 
 
 Bởi vì dữ liệu radar được sampling theo azimuth với sampling frequency bằng PRF. Do đó CDCE chỉ quan sát được Doppler trong baseband:
 
+$$
 (-PRF/2 \le f_{\text{fine}} < +PRF/2).
+$$
 
 Ví dụ Doppler thật có thể là:
 
+$$
 (f_{DC}=2430\text{ Hz})
+$$
 
 với:
 
+$$
 (PRF=2000\text{ Hz}).
+$$
 
 CDCE không thể phân biệt trực tiếp 2430 Hz với:
 
+$$
 (2430-2000=430\text{ Hz}).
+$$
 
 Nó chỉ nhìn thấy:
 
@@ -135,7 +143,9 @@ Nó chỉ nhìn thấy:
 
 Geometry estimate giúp xác định Doppler ambiguity number (M), rồi:
 
-(f_{DC}^{absolute}=f_{DC}^{fine}+M\cdot PRF).
+$$
+f_{DC}^{absolute}=f_{DC}^{fine}+M\cdot PRF.
+$$
 
 Đây là lý do **CDCE một mình chưa đủ để có Absolute DC**.
 
@@ -149,7 +159,9 @@ trước khi CDCE chạy.
 
 [Inference] Vì CDCE đo **phase difference**, nếu instrument tạo ra phase drift:
 
-(\Delta\phi_{measured}=\Delta\phi_{Doppler}+\Delta\phi_{instrument}),
+$$
+\Delta\phi_{measured}=\Delta\phi_{Doppler}+\Delta\phi_{instrument},
+$$
 
 thì CDCE có thể coi phase drift của instrument là Doppler. Do đó drift compensation đặc biệt quan trọng trước phase-based estimator.
 
