@@ -98,4 +98,5 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 		- Tính FDC từ geomtry để tạo một aray các điểm FDC dọc theo range.
 		- Tính delta của unwrapped FDC từ data và FDC từ geometry. 
 		- Thực hiện polynomial fit cho delta FDC
-		- Cộng các hệ số đa thức delta FDC cho các hệ số geometry FDC để tính the data FDC polynomial 
+		- Cộng các hệ số đa thức delta FDC cho các hệ số geometry FDC để tính the data FDC polynomial cho azimuth block này. 
+- 
