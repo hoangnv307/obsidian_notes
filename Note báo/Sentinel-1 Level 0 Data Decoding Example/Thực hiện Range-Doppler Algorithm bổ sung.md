@@ -28,7 +28,7 @@ $$
 
 
 ### 1.1.1 Absolute DC Calculation (từ thông tin quỹ đạo và tư thế)
-- Các bước để tính Absolute DC từ  thông tin quỹ đạo: 
+- Các bước để tính Absolute DC từ thông tin quỹ đạo: 
 
 - Kết quả sẽ thu được một bộ các cặp slant range và absolute DC frequency:
 $$
