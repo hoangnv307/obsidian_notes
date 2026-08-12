@@ -14,7 +14,9 @@ Các bước thực hiện thuật toán DCE được thực hiện bởi ESA nh
 3. Đo lường chất lượng ước lượng DC [Section 5.5.1]
 4. Giải quấn ước lượng Fine DC [Section 5.3]
 5. Polynomial Fitting [Section 5.5] 
-6. 
+6. Absolute DC estimation [Section 5.4]
+ ![[Pasted image 20260812151042.png|528]]
+ 
 ==Câu hỏi==: Có được DC polynomial từ bước này rồi, vậy sử dụng polynomial này ở đâu?
 ==Trả lời:== Trong bước tạo azimuth filter:
 $$
