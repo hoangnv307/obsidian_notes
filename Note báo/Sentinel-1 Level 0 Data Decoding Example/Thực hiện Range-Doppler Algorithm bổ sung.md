@@ -109,4 +109,4 @@ Lưu ý rằng bước trên có thể được thực hiện song song cho toà
 	4. Range inverse FFT. 
 ### 1.2.1 SRC Filter
 - Từ biểu diễn range-Doppler của tín hiệu của một mục tiêu điểm trước khi range compression (xem ví dụ ở [R-5, Section 6.4]), ta có thể thấy được range compression với một matched filter được định nghĩa bởi range chirp FM rate $K_r$, không hoàn toàn focus được the data. Đặc biệt trong trường hợp higher squint angles. 
-- 
+- Trong trường hợp này, bởi vì sự coupling giữa range-azimuth, FM rate của range matched-filter trong miền range-Doppler nên có giá trị $K_m$ thay vì giá trị gốc $K_r$
